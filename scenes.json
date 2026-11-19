@@ -1,0 +1,14 @@
+[
+ {"line": 1,  "image": "photos/photo1_916.png", "move": "zoom_in", "focus_y": 1150},
+ {"line": 2,  "image": "photos/photo2_916.png", "move": "zoom_in", "focus_y": 1150},
+ {"line": 3,  "image": "PLACEHOLDER:quiet 1930s lab, Subbarow at work", "move": "pan_right"},
+ {"line": 4,  "image": "PLACEHOLDER:lab, medicine vials, Subbarow", "move": "zoom_in"},
+ {"line": 5,  "image": "photos/photo1_916.png", "move": "zoom_out", "focus_y": 1150},
+ {"line": 6,  "image": "PLACEHOLDER:old Andhra village, poor family home", "move": "pan_left"},
+ {"line": 7,  "image": "PLACEHOLDER:ship sailing to America", "move": "pan_right"},
+ {"line": 8,  "image": "PLACEHOLDER:night hospital corridor, Harvard-like building", "move": "zoom_in"},
+ {"line": 9,  "image": "PLACEHOLDER:old university building like Harvard", "move": "pan_up"},
+ {"line": 10, "image": "PLACEHOLDER:hand writing at night, Subbarow in quiet lab", "move": "zoom_in"},
+ {"line": 11, "image": "photos/photo3_916.png", "move": "zoom_in", "focus_y": 900},
+ {"line": 12, "image": "photos/photo2_916.png", "move": "zoom_in", "focus_y": 1150}
+]
