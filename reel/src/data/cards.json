@@ -1,18 +1,19 @@
 {
-  "_help": "One entry per card. Wrap words in **double asterisks** to highlight them. 'media' is a file in ../media_processed. 'durationSec' is optional (overrides the automatic ~1s per 3 words, 2.5-4s). After changing text length, re-run: python3 tools/prepare_media.py, then npm run render.",
+  "_help": "One entry per card. Wrap words in **double asterisks** for the gold highlight. 'media' = file in ../media_processed. 'text_pos': 'top' | 'middle' | 'bottom' (keep faces/bodies clear). 'focus': [x, y] 0-1 point the push-in zooms toward. 'fx': 'punch' (snap zoom) | 'flash' (white flash) | 'big' (white flash + huge single-line text) pattern interrupts. 'loop': true makes the card zoom back out to match the first frame. 'durationSec' optional override (auto: 1.5-2.2s by word count, hook 2.5s). After editing, run: python3 tools/prepare_media.py, then npm run render.",
   "cards": [
-    {"text": "**How do you pull a bow with no arms?**", "media": "card01.mp4"},
-    {"text": "She uses her **feet**. And her **shoulder**.", "media": "card02.mp4"},
-    {"text": "**Loidhar, Kishtwar, J&K. 2007.** Sheetal Devi is born.", "media": "card03.mp4"},
-    {"text": "She has **phocomelia**, a rare condition. She has **no arms**.", "media": "card04.mp4"},
-    {"text": "She learned to shoot with her **legs and feet**.", "media": "card05.mp4"},
-    {"text": "With coach **Kuldeep Vedwan**, she trained until it became **second nature**.", "media": "card06.png"},
-    {"text": "**2023:** she wins **two golds** at the **Asian Para Games**.", "media": "card07.png"},
-    {"text": "She finishes the year as **world No. 1**.", "media": "card08.png"},
-    {"text": "**2024:** she wins **bronze** at the **Paris Paralympics**.", "media": "card09.png"},
-    {"text": "**2025:** she wins the **World Championship gold** in Gwangju.", "media": "card10.png"},
-    {"text": "She becomes the **first armless woman** to win a world title.", "media": "card11.png"},
-    {"text": "The question was never **\"how?\"**", "media": "card12.png"},
-    {"text": "It was **\"why not?\"**", "media": "card13.mp4"}
+    {"text": "**How do you pull a bow with no arms?**", "media": "card01.mp4", "text_pos": "bottom", "focus": [0.35, 0.28]},
+    {"text": "She uses her **feet**. And her **shoulder**.", "media": "card02.mp4", "text_pos": "top", "focus": [0.45, 0.45]},
+    {"text": "**Kishtwar, J&K. 2007.** Sheetal Devi is born.", "media": "card03.mp4", "text_pos": "bottom", "focus": [0.55, 0.3]},
+    {"text": "She has **phocomelia**. **No arms.**", "media": "card04.mp4", "text_pos": "bottom", "focus": [0.5, 0.3], "fx": "punch"},
+    {"text": "She learned to shoot with her **legs and feet**.", "media": "card05.mp4", "text_pos": "top", "focus": [0.45, 0.35]},
+    {"text": "Coach **Kuldeep Vedwan** trained her.", "media": "card06.png", "text_pos": "bottom", "focus": [0.45, 0.3]},
+    {"text": "Then the **world noticed**.", "media": "card07.png", "text_pos": "middle", "focus": [0.6, 0.2], "fx": "big"},
+    {"text": "**2023:** **two golds** at the **Asian Para Games**.", "media": "card08.png", "text_pos": "bottom", "focus": [0.5, 0.3]},
+    {"text": "**World No. 1** by year-end.", "media": "card09.png", "text_pos": "top", "focus": [0.55, 0.55]},
+    {"text": "**2024:** **bronze** at the **Paris Paralympics**.", "media": "card10.png", "text_pos": "bottom", "focus": [0.45, 0.35], "fx": "punch"},
+    {"text": "**2025:** **World Championship gold**.", "media": "card11.png", "text_pos": "bottom", "focus": [0.75, 0.3]},
+    {"text": "The **first armless woman** to win a world title.", "media": "card12.png", "text_pos": "bottom", "focus": [0.65, 0.25]},
+    {"text": "The question was never **\"how?\"**", "media": "card13.mp4", "text_pos": "bottom", "focus": [0.3, 0.45], "fx": "flash"},
+    {"text": "It was **\"why not?\"**", "media": "card14.png", "text_pos": "bottom", "focus": [0.35, 0.28], "loop": true}
   ]
 }

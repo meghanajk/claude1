@@ -1,4 +1,4 @@
-# Sheetal Devi reel (silent, 1080x1920, 30fps)
+# Sheetal Devi reel (silent, 1080x1920, 30fps, ~28s, loops seamlessly)
 
 - Script / text: `src/data/cards.json` (one card per line, `**word**` = highlight).
 - Media mapping & crops: `../tools/media_sources.json`; originals in `../media/sources`.

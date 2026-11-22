@@ -21,19 +21,18 @@ OUT = ROOT / "media_processed"
 OUT.mkdir(exist_ok=True)
 
 # Must match reel/src/timing.ts
-HOOK_EXTRA, LAST_EXTRA, TRANSITION = 0.8, 0.6, 0.2
+HOOK_SEC, LAST_SEC, TRANSITION = 2.5, 2.2, 0.0
 
 
 def card_seconds(i, card):
     if card.get("durationSec"):
         return float(card["durationSec"])
-    words = len(card["text"].replace("**", "").split())
-    d = min(4.0, max(2.5, words / 3))
     if i == 0:
-        d += HOOK_EXTRA
+        return HOOK_SEC
     if i == len(CARDS) - 1:
-        d += LAST_EXTRA
-    return d
+        return LAST_SEC
+    words = len(card["text"].replace("**", "").split())
+    return round(min(2.2, max(1.5, 1.2 + 0.12 * words)), 2)
 
 
 # Optional AI super-resolution for stills (Real-ESRGAN x4plus via tools/ai_upscale.py).
@@ -78,6 +77,12 @@ def main():
         spec = SRC["cards"].get(cid)
         if not spec:
             missing.append(cid)
+            continue
+        if "reuse" in spec:  # loop card: frozen first frame of another processed card
+            other = next(OUT.glob(spec["reuse"] + ".*"))
+            run(["ffmpeg", "-v", "error", "-y", "-i", str(other), "-frames:v", "1",
+                 "-vf", "scale=1080:1920:flags=lanczos", str(OUT / f"{cid}.png")])
+            print(f"{cid}: {card_seconds(i, card):.2f}s  <- first frame of {spec['reuse']}")
             continue
         src = ROOT / SRC["sources"][spec["src"]]
         dur = card_seconds(i, card) + TRANSITION + 0.2
