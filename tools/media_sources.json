@@ -1,0 +1,26 @@
+{
+  "_help": "Where each card's raw media comes from. Screenshot crops are [x, y, w, h] 9:16 boxes in the 720x1600 screenshot. Video crops are [x, y, w, h] in the decoded frame (keeps subject centred, excludes letterbox, burned-in titles, score bug and watermark). speed < 1 slows a short clip down.",
+  "sources": {
+    "s1": "media/sources/screenshot_1.jpg",
+    "s2": "media/sources/screenshot_2.jpg",
+    "s3": "media/sources/screenshot_3.jpg",
+    "s4": "media/sources/screenshot_4.jpg",
+    "v2": "media/sources/clip_archery.mp4",
+    "v3": "media/sources/clip_award.mp4"
+  },
+  "cards": {
+    "card01": {"src": "v2", "start": 8.5, "crop": [162, 420, 290, 517], "end": 11.7, "speed": 0.75},
+    "card02": {"src": "s3", "box": [374, 780, 190, 338]},
+    "card03": {"src": "v3", "start": 4.0, "end": 5.95, "speed": 0.62, "crop": [157, 252, 406, 722]},
+    "card04": {"src": "v3", "start": 8.0, "crop": [80, 252, 406, 722]},
+    "card05": {"src": "v3", "start": 0.0, "crop": [110, 252, 406, 722]},
+    "card06": {"src": "s2", "box": [100, 160, 226, 402]},
+    "card07": {"src": "s3", "box": [60, 282, 232, 412]},
+    "card08": {"src": "s4", "box": [368, 680, 198, 352]},
+    "card09": {"src": "s1", "box": [72, 246, 216, 384]},
+    "card10": {"src": "s1", "box": [90, 1155, 170, 302]},
+    "card11": {"src": "s1", "box": [404, 827, 264, 468]},
+    "card12": {"src": "s4", "box": [32, 334, 280, 498]},
+    "card13": {"src": "v3", "start": 47.8, "end": 50.55, "speed": 0.78, "crop": [22, 252, 406, 722]}
+  }
+}

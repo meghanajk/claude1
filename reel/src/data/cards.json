@@ -1,0 +1,18 @@
+{
+  "_help": "One entry per card. Wrap words in **double asterisks** to highlight them. 'media' is a file in ../media_processed. 'durationSec' is optional (overrides the automatic ~1s per 3 words, 2.5-4s). After changing text length, re-run: python3 tools/prepare_media.py, then npm run render.",
+  "cards": [
+    {"text": "**How do you pull a bow with no arms?**", "media": "card01.mp4"},
+    {"text": "She uses her **feet**. And her **shoulder**.", "media": "card02.png"},
+    {"text": "**Loidhar, Kishtwar, J&K. 2007.** Sheetal Devi is born.", "media": "card03.mp4"},
+    {"text": "She has **phocomelia**, a rare condition. She has **no arms**.", "media": "card04.mp4"},
+    {"text": "She learned to shoot with her **legs and feet**.", "media": "card05.mp4"},
+    {"text": "With coach **Kuldeep Vedwan**, she trained until it became **second nature**.", "media": "card06.png"},
+    {"text": "**2023:** she wins **two golds** at the **Asian Para Games**.", "media": "card07.png"},
+    {"text": "She finishes the year as **world No. 1**.", "media": "card08.png"},
+    {"text": "**2024:** she wins **bronze** at the **Paris Paralympics**.", "media": "card09.png"},
+    {"text": "**2025:** she wins the **World Championship gold** in Gwangju.", "media": "card10.png"},
+    {"text": "She becomes the **first armless woman** to win a world title.", "media": "card11.png"},
+    {"text": "The question was never **\"how?\"**", "media": "card12.png"},
+    {"text": "It was **\"why not?\"**", "media": "card13.mp4"}
+  ]
+}
