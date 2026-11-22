@@ -1,53 +1,70 @@
-import React from 'react';
+import React, {useLayoutEffect, useRef, useState} from 'react';
 import {
   AbsoluteFill,
   Easing,
   Img,
   OffthreadVideo,
+  continueRender,
+  delayRender,
   interpolate,
-  spring,
   staticFile,
   useCurrentFrame,
-  useVideoConfig,
 } from 'remotion';
-import {groupTokens, parseCard} from './parse';
+import {MAX_UNBROKEN_HIGHLIGHT, parseCard} from './parse';
+import {
+  FONT,
+  HIGHLIGHT,
+  HIGHLIGHT_TEXT,
+  HOOK_TEXT_SIZE,
+  TEXT_LEFT,
+  TEXT_MAX_WIDTH,
+  TEXT_SIZE,
+  TEXT_TOP,
+  TRANSITION,
+} from './style';
 
-const FONT = "'Montserrat', sans-serif";
-const GOLD = '#FFC51A';
-const SAFE_X = 90; // side safe margin (px)
+const TEXT_MAX_WIDTH_INNER = TEXT_MAX_WIDTH - 42;
+const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 
-type Props = {
-  text: string;
-  index: number;
+// One card's picture: slow Ken Burns zoom, blur dissolve in from the right, blur out.
+export const Media: React.FC<{
   media: string | null;
   duration: number;
-  badge: {label: string; name: string};
-};
-
-const Background: React.FC<{media: string | null; duration: number}> = ({media, duration}) => {
+  transitionIn: boolean;
+  transitionOut: boolean;
+}> = ({media, duration, transitionIn, transitionOut}) => {
   const frame = useCurrentFrame();
-  const fadeIn = interpolate(frame, [0, 6], [0, 1], {extrapolateRight: 'clamp'});
-  if (!media) {
-    return (
-      <AbsoluteFill
-        style={{background: 'radial-gradient(circle at 50% 35%, #1b2433 0%, #07090d 75%)'}}
-      />
-    );
-  }
-  const isVideo = /\.(mp4|mov|webm|m4v)$/i.test(media);
-  // Slow Ken Burns zoom on stills, a very light push on videos.
-  const scale = interpolate(frame, [0, duration], isVideo ? [1, 1.03] : [1.02, 1.12], {
-    easing: Easing.inOut(Easing.quad),
-  });
+  const T = TRANSITION;
+  const pIn = transitionIn ? interpolate(frame, [0, T], [0, 1], {...clamp, easing: Easing.inOut(Easing.cubic)}) : 1;
+  const pOut = transitionOut
+    ? interpolate(frame, [duration - T, duration], [0, 1], {...clamp, easing: Easing.out(Easing.quad)})
+    : 0;
+  const blur = (1 - pIn) * 24 + pOut * 30;
+  const zoom = interpolate(frame, [0, duration], [1.0, 1.08]) + pOut * 0.04;
+  // soft wipe: the incoming picture is revealed from the right edge
+  const edge = pIn * 140 - 40;
+  const mask = transitionIn && pIn < 1
+    ? `linear-gradient(to left, #000 ${edge}%, transparent ${edge + 40}%)`
+    : undefined;
+
   const style: React.CSSProperties = {
     width: '100%',
     height: '100%',
     objectFit: 'cover',
-    transform: `scale(${scale})`,
+    transform: `scale(${zoom})`,
   };
+  const isVideo = !!media && /\.(mp4|mov|webm|m4v)$/i.test(media);
   return (
-    <AbsoluteFill style={{opacity: fadeIn}}>
-      {isVideo ? (
+    <AbsoluteFill
+      style={{
+        filter: blur > 0.2 ? `blur(${blur}px)` : undefined,
+        WebkitMaskImage: mask,
+        maskImage: mask,
+      }}
+    >
+      {!media ? (
+        <AbsoluteFill style={{background: 'radial-gradient(circle at 50% 35%, #1b2433 0%, #050608 75%)'}} />
+      ) : isVideo ? (
         <OffthreadVideo src={staticFile(media)} muted style={style} />
       ) : (
         <Img src={staticFile(media)} style={style} />
@@ -56,126 +73,104 @@ const Background: React.FC<{media: string | null; duration: number}> = ({media, 
   );
 };
 
-const Badge: React.FC<{label: string; name: string}> = ({label, name}) => (
+// Black caption box; highlighted phrases sit on a gradient bar with black text.
+// The bar is one inline span, so each wrapped line gets its own full gradient (as in the reference).
+export const Caption: React.FC<{text: string; hook: boolean}> = ({text, hook}) => {
+  const ref = useRef<HTMLDivElement>(null);
+  const [width, setWidth] = useState<number | null>(null);
+  const [handle] = useState(() => delayRender('measure caption'));
+
+  // Lines are balanced (no lone last word); then the black box is shrunk to the widest line.
+  useLayoutEffect(() => {
+    document.fonts.ready.then(() => {
+      const el = ref.current;
+      if (el) {
+        const scale = el.getBoundingClientRect().width / el.offsetWidth || 1;
+        const range = document.createRange();
+        range.selectNodeContents(el);
+        const rects = Array.from(range.getClientRects());
+        if (rects.length) {
+          const left = Math.min(...rects.map((r) => r.left));
+          const right = Math.max(...rects.map((r) => r.right));
+          setWidth(Math.ceil((right - left) / scale) + 10); // + room for the bar padding
+        }
+      }
+      continueRender(handle);
+    });
+  }, [handle, text]);
+
+  return (
+    <div
+      style={{
+        position: 'absolute',
+        left: TEXT_LEFT,
+        top: TEXT_TOP,
+        background: '#000',
+        padding: '16px 22px 18px 20px',
+      }}
+    >
+      <div
+        ref={ref}
+        style={{
+          width: width ?? TEXT_MAX_WIDTH_INNER,
+          fontFamily: FONT,
+          fontWeight: 800,
+          fontSize: hook ? HOOK_TEXT_SIZE : TEXT_SIZE,
+          lineHeight: 1.16,
+          letterSpacing: '-0.015em',
+          wordSpacing: '0.06em',
+          textWrap: 'balance',
+          color: '#fff',
+        }}
+      >
+        {parseCard(text).map((c, i) =>
+          c.highlight ? (
+            <span
+              key={i}
+              style={{
+                background: HIGHLIGHT,
+                color: HIGHLIGHT_TEXT,
+                padding: '0.03em 0.1em 0.05em',
+                borderRadius: 3,
+                boxDecorationBreak: 'clone',
+                WebkitBoxDecorationBreak: 'clone',
+                whiteSpace: c.text.trim().length <= MAX_UNBROKEN_HIGHLIGHT ? 'nowrap' : 'normal',
+              }}
+            >
+              {c.text}
+            </span>
+          ) : (
+            <span key={i}>{c.text}</span>
+          ),
+        )}
+      </div>
+    </div>
+  );
+};
+
+// "Story: Bill Gates" pill, top right, as in the reference.
+export const Badge: React.FC<{label: string; name: string}> = ({label, name}) => (
   <div
     style={{
       position: 'absolute',
-      top: 150,
-      right: SAFE_X,
+      top: 52,
+      right: 60,
       display: 'flex',
       alignItems: 'center',
       gap: 10,
       background: '#000',
-      padding: '10px 14px',
-      borderRadius: 8,
+      padding: '8px 10px 8px 16px',
+      borderRadius: 12,
       fontFamily: FONT,
       fontWeight: 800,
-      fontSize: 32,
+      fontSize: 40,
+      letterSpacing: '-0.02em',
       color: '#fff',
     }}
   >
     <span>{label}</span>
-    <span style={{background: GOLD, color: '#111', padding: '2px 10px', borderRadius: 5}}>
+    <span style={{background: HIGHLIGHT, color: HIGHLIGHT_TEXT, padding: '2px 10px 3px', borderRadius: 6}}>
       {name}
     </span>
   </div>
 );
-
-export const Card: React.FC<Props> = ({text, index, media, duration, badge}) => {
-  const frame = useCurrentFrame();
-  const {fps} = useVideoConfig();
-  const hook = index === 0;
-  const tokens = parseCard(text);
-  const groups = groupTokens(tokens);
-
-  // Soft fade + slide in, quick fade out.
-  const inP = interpolate(frame, [2, 14], [0, 1], {
-    easing: Easing.out(Easing.cubic),
-    extrapolateLeft: 'clamp',
-    extrapolateRight: 'clamp',
-  });
-  const out = interpolate(frame, [duration - 6, duration - 1], [1, 0], {
-    extrapolateLeft: 'clamp',
-    extrapolateRight: 'clamp',
-  });
-  const fontSize = hook ? 80 : 68;
-
-  let hl = 0; // highlight counter for staggered scale-ins
-  return (
-    <AbsoluteFill>
-      <Background media={media} duration={duration} />
-      {/* subtle dark gradient so text is always readable */}
-      <AbsoluteFill
-        style={{
-          background:
-            'linear-gradient(180deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.55) 70%, rgba(0,0,0,0.85) 100%)',
-        }}
-      />
-      <Badge {...badge} />
-      <div
-        style={{
-          position: 'absolute',
-          left: SAFE_X,
-          right: SAFE_X,
-          top: hook ? 1020 : 1080,
-          display: 'flex',
-          justifyContent: 'flex-start',
-          opacity: inP * out,
-          transform: `translateY(${(1 - inP) * 50}px)`,
-        }}
-      >
-        <div
-          style={{
-            background: 'rgba(0,0,0,0.9)',
-            padding: hook ? '30px 34px 34px' : '24px 30px 28px',
-            borderRadius: 6,
-            fontFamily: FONT,
-            fontWeight: hook ? 900 : 800,
-            fontSize,
-            lineHeight: 1.28,
-            color: '#fff',
-            letterSpacing: -0.5,
-          }}
-        >
-          {groups.map((group, g) => (
-            <React.Fragment key={g}>
-              <span style={{whiteSpace: 'nowrap'}}>
-              {group.map((t, gi) => { const tok = tokens[t]; return (
-              <React.Fragment key={t}>
-                {tok.segments.map((seg, s) => {
-                  if (!seg.highlight) return <span key={s}>{seg.text}</span>;
-                  const delay = 8 + hl++ * 2;
-                  const pop = spring({frame: frame - delay, fps, config: {damping: 12, stiffness: 180}});
-                  const isLastSeg = s === tok.segments.length - 1;
-                  return (
-                    <span
-                      key={s}
-                      style={{
-                        display: 'inline-block',
-                        background: GOLD,
-                        color: '#111',
-                        fontSize: '1.08em',
-                        // inside a multi-word highlight the gap is gold too, so the bar reads as one
-                        padding: isLastSeg && tok.spaceHighlighted ? '0 0.2em 0 0.14em' : '0 0.14em',
-                        marginRight: isLastSeg && tok.spaceHighlighted ? '-0.04em' : 0,
-                        borderRadius: 4,
-                        transform: `scale(${interpolate(pop, [0, 1], [0.6, 1])})`,
-                        opacity: interpolate(pop, [0, 0.4], [0, 1], {extrapolateRight: 'clamp'}),
-                        transformOrigin: '50% 60%',
-                      }}
-                    >
-                      {seg.text}
-                    </span>
-                  );
-                })}
-              {gi < group.length - 1 ? (tok.spaceHighlighted ? '' : ' ') : null}
-              </React.Fragment>); })}
-              </span>
-              {tokens[group[group.length - 1]].spaceHighlighted ? '\u200b' : ' '}
-            </React.Fragment>
-          ))}
-        </div>
-      </div>
-    </AbsoluteFill>
-  );
-};

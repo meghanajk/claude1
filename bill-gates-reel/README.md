@@ -2,6 +2,14 @@
 
 Final video: `out/bill-gates-reel.mp4`
 
+## Look (matched to the reference video)
+Full-screen picture with a slow zoom, a soft blur-dissolve transition between cards (the
+next picture wipes in from the right), a black caption box that hugs balanced lines of
+Plus Jakarta Sans ExtraBold, highlights on gradient bars with black text, captions that
+cut instantly at each transition, and a "Story:" pill top right. Sizes, colours and the
+transition length are in `src/style.ts` (the reference's saffron-white-green bar colours
+are noted there if you want them instead of gold).
+
 ## Edit the text
 All on-screen text is in **`src/script.json`** (one string per card). Wrap words in
 `**double asterisks**` to highlight them in gold. Card length is worked out from the word
@@ -24,7 +32,7 @@ npm run studio                                                    # live preview
   (`scripts/process_media.py`): 9:16 smart crop on the face, light denoise, 4x super-resolution
   (EDSR model for stills, FSRCNN for video frames, `models/`) when the upscale is above 2.5x, Lanczos to
   1080x1920, light sharpening, one shared cool/clean grade. Videos are trimmed to the card length
-  and have no audio. Per-card crop/start overrides live in `scripts/media_config.json`.
+  and have no audio (plus 0.6 s so they also cover the transition). Per-card crop/start overrides live in `scripts/media_config.json`.
   The EDSR model is not committed (38 MB); fetch it once with
   `curl -L -o models/EDSR_x4.pb https://raw.githubusercontent.com/Saafke/EDSR_Tensorflow/master/models/EDSR_x4.pb`.
   Needs Python 3 with `opencv-contrib-python-headless<5` and `ffmpeg`.

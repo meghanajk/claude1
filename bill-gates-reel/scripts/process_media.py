@@ -23,6 +23,7 @@ PRE = "hqdn3d=1.5:1.5:3:3"  # gentle noise / JPEG-artifact reduction before upsc
 POST = (f"scale={W}:{H}:flags=lanczos+accurate_rnd+full_chroma_int,"
         f"unsharp=5:5:0.45:5:5:0,{GRADE}")
 SR_THRESHOLD = 2.5  # above this upscale factor, run a 4x super-resolution model first
+TRANSITION_PAD = 0.6  # extra seconds so a clip also covers the blur transition into the next card
 MODELS = ROOT / "models"
 
 def make_sr(kind):
@@ -83,7 +84,7 @@ for i, text in enumerate(cards()):
     use_sr = W / cw > SR_THRESHOLD
     if is_video:
         dst = OUT / f"{name}.mp4"
-        dur = f"{card_seconds(text, i):.3f}"
+        dur = f"{card_seconds(text, i) + TRANSITION_PAD:.3f}"
         dec = ["ffmpeg", "-v", "error", "-ss", str(cfg.get("start", 0)), "-i", str(src), "-t", dur,
                "-vf", f"{crop},{PRE},fps=30", "-an", "-f", "rawvideo", "-pix_fmt", "bgr24", "-"]
         sw, sh = (cw * 4, ch * 4) if use_sr else (cw, ch)
