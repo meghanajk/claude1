@@ -3,3 +3,4 @@ out/stills/
 media_processed/.*_pre.png
 models/EDSR_x4.pb
 __pycache__/
+out/check2/

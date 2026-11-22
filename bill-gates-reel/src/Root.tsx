@@ -1,17 +1,7 @@
 import {Composition} from 'remotion';
 import {Reel} from './Reel';
-import {FPS, cardFrames} from './timing';
-import script from './script.json';
-
-const total = script.cards.reduce((sum, text, i) => sum + cardFrames(text, i), 0);
+import {FPS, TOTAL_FRAMES} from './timing';
 
 export const RemotionRoot = () => (
-  <Composition
-    id="BillGatesReel"
-    component={Reel}
-    durationInFrames={total}
-    fps={FPS}
-    width={1080}
-    height={1920}
-  />
+  <Composition id="BillGatesReel" component={Reel} durationInFrames={TOTAL_FRAMES} fps={FPS} width={1080} height={1920} />
 );

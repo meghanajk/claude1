@@ -1,24 +1,12 @@
 {
  "_comment": "Optional per-card overrides. region = [x, y, w, h] of the useful picture inside the source (excludes letterbox bars and burned-in titles). start = video start time in seconds. focus = [x, y] subject point (0-1) when face detection should be overridden. Super-resolution (EDSR stills / FSRCNN video frames) runs before the Lanczos resize when the upscale factor is above 2.5.",
- "card07": {
-  "region": [
-   10,
-   378,
-   706,
-   526
-  ],
-  "start": 7.5
- },
- "card11": {
-  "region": [
-   360,
-   350,
-   360,
-   640
-  ],
-  "start": 0.0
- },
  "card01": {
+  "focus": [
+   0.68,
+   0.35
+  ]
+ },
+ "card14": {
   "focus": [
    0.68,
    0.35
@@ -29,5 +17,40 @@
    0.42,
    0.3
   ]
+ },
+ "card08": {
+  "region": [
+   10,
+   378,
+   706,
+   474
+  ],
+  "start": 7.5,
+  "focus": [
+   0.53,
+   0.45
+  ]
+ },
+ "card09": {
+  "region": [
+   10,
+   378,
+   706,
+   474
+  ],
+  "start": 9.5,
+  "focus": [
+   0.53,
+   0.45
+  ]
+ },
+ "card13": {
+  "region": [
+   360,
+   350,
+   360,
+   640
+  ],
+  "start": 0.0
  }
 }

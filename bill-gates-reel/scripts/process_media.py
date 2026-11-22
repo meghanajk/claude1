@@ -23,7 +23,7 @@ PRE = "hqdn3d=1.5:1.5:3:3"  # gentle noise / JPEG-artifact reduction before upsc
 POST = (f"scale={W}:{H}:flags=lanczos+accurate_rnd+full_chroma_int,"
         f"unsharp=5:5:0.45:5:5:0,{GRADE}")
 SR_THRESHOLD = 2.5  # above this upscale factor, run a 4x super-resolution model first
-TRANSITION_PAD = 0.6  # extra seconds so a clip also covers the blur transition into the next card
+TRANSITION_PAD = 0.2  # small safety margin past the card end
 MODELS = ROOT / "models"
 
 def make_sr(kind):
