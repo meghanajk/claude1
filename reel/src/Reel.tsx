@@ -60,7 +60,7 @@ const parse = (text: string) =>
 const Caption: React.FC<{text: string; frames: number; hook: boolean}> = ({text, frames, hook}) => {
   const f = useCurrentFrame();
   const inP = interpolate(f, [0, 8], [0, 1], {easing: ease, extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
-  const outP = interpolate(f, [frames - 5, frames], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const outP = interpolate(f, [frames - 4, frames], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   const fontSize = hook ? 92 : 66;
   let hlIndex = 0;
   let wordIndex = 0;
@@ -144,8 +144,15 @@ const Caption: React.FC<{text: string; frames: number; hook: boolean}> = ({text,
   );
 };
 
-const CardScene: React.FC<{card: Card; index: number; frames: number}> = ({card, index, frames}) => {
+const CardScene: React.FC<{card: Card; index: number; frames: number; last: boolean}> = ({
+  card,
+  index,
+  frames,
+  last,
+}) => {
   const f = useCurrentFrame();
+  const capFrom = index === 0 ? 0 : TRANSITION - 2;
+  const capLen = frames - capFrom - (last ? 0 : TRANSITION);
   // Quick zoom-punch + fade in over the previous card (no blur).
   const first = index === 0;
   const punch = first ? 1 : interpolate(f, [0, TRANSITION + 4], [1.14, 1], {easing: ease, extrapolateRight: 'clamp'});
@@ -162,8 +169,9 @@ const CardScene: React.FC<{card: Card; index: number; frames: number}> = ({card,
             'linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.45) 72%, rgba(0,0,0,0.7) 100%)',
         }}
       />
-      <Sequence from={first ? 0 : TRANSITION - 2} durationInFrames={frames - (first ? 0 : TRANSITION - 2)}>
-        <Caption text={card.text} frames={frames - (first ? 0 : TRANSITION - 2)} hook={first} />
+      {/* caption lands after the media transition and is gone before the next one starts */}
+      <Sequence from={capFrom} durationInFrames={capLen}>
+        <Caption text={card.text} frames={capLen} hook={first} />
       </Sequence>
     </AbsoluteFill>
   );
@@ -177,7 +185,7 @@ export const Reel: React.FC = () => (
       const len = frames + (index === 0 ? 0 : TRANSITION);
       return (
         <Sequence key={index} from={start} durationInFrames={len}>
-          <CardScene card={card} index={index} frames={len} />
+          <CardScene card={card} index={index} frames={len} last={index === timeline.length - 1} />
         </Sequence>
       );
     })}

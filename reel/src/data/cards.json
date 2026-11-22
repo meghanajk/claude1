@@ -2,7 +2,7 @@
   "_help": "One entry per card. Wrap words in **double asterisks** to highlight them. 'media' is a file in ../media_processed. 'durationSec' is optional (overrides the automatic ~1s per 3 words, 2.5-4s). After changing text length, re-run: python3 tools/prepare_media.py, then npm run render.",
   "cards": [
     {"text": "**How do you pull a bow with no arms?**", "media": "card01.mp4"},
-    {"text": "She uses her **feet**. And her **shoulder**.", "media": "card02.png"},
+    {"text": "She uses her **feet**. And her **shoulder**.", "media": "card02.mp4"},
     {"text": "**Loidhar, Kishtwar, J&K. 2007.** Sheetal Devi is born.", "media": "card03.mp4"},
     {"text": "She has **phocomelia**, a rare condition. She has **no arms**.", "media": "card04.mp4"},
     {"text": "She learned to shoot with her **legs and feet**.", "media": "card05.mp4"},

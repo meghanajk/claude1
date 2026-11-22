@@ -1,5 +1,5 @@
 {
-  "_help": "Where each card's raw media comes from. Screenshot crops are [x, y, w, h] 9:16 boxes in the 720x1600 screenshot. Video crops are [x, y, w, h] in the decoded frame (keeps subject centred, excludes letterbox, burned-in titles, score bug and watermark). speed < 1 slows a short clip down.",
+  "_help": "Where each card's raw media comes from. Screenshot crops are [x, y, w, h] 9:16 boxes in the 720x1600 screenshot. Video crops are [x, y, w, h] in the decoded frame (keeps subject centred, excludes letterbox, burned-in titles, score bug and watermark). speed < 1 slows a short clip down. Stills are AI-upscaled (Real-ESRGAN x4plus) when SR_PYTHON/SR_MODEL are available; slowed clips use motion interpolation.",
   "sources": {
     "s1": "media/sources/screenshot_1.jpg",
     "s2": "media/sources/screenshot_2.jpg",
@@ -10,7 +10,7 @@
   },
   "cards": {
     "card01": {"src": "v2", "start": 8.5, "crop": [162, 420, 290, 517], "end": 11.7, "speed": 0.75},
-    "card02": {"src": "s3", "box": [374, 780, 190, 338]},
+    "card02": {"src": "v2", "start": 0.0, "end": 1.5, "speed": 0.52, "crop": [334, 342, 334, 594]},
     "card03": {"src": "v3", "start": 4.0, "end": 5.95, "speed": 0.62, "crop": [157, 252, 406, 722]},
     "card04": {"src": "v3", "start": 8.0, "crop": [80, 252, 406, 722]},
     "card05": {"src": "v3", "start": 0.0, "crop": [110, 252, 406, 722]},
