@@ -1,0 +1,21 @@
+{
+  "_help": "Per-card crop/trim settings used by scripts/process_media.py. Coordinates are pixels in the ORIGINAL file. srcCrop = [x, y, w, h] region to keep (strips phone UI from screenshots). focus = [x, y] subject/face centre: the largest 9:16 frame inside srcCrop is cut around it (no stretching, no blurred fill). start = video trim start (s). delogo = [x, y, w, h] small overlay to remove. If you replace a card file with a clean image, delete its srcCrop/focus and it will be centre-cropped.",
+  "card01": {"srcCrop": [0, 158, 720, 720], "focus": [420, 470]},
+  "card02": {"srcCrop": [0, 158, 356, 350], "focus": [150, 260]},
+  "card03": {"srcCrop": [0, 158, 720, 720], "focus": [360, 470]},
+  "card04": {"srcCrop": [0, 158, 720, 720], "focus": [320, 470]},
+  "card05": {"start": 3.72, "focus": [330, 400]},
+  "card06": {"start": 0.1, "focus": [330, 400]},
+  "card07": {"start": 6.52, "focus": [330, 400]},
+  "card08": {"srcCrop": [0, 158, 720, 720], "focus": [340, 470]},
+  "card09": {"srcCrop": [0, 158, 720, 720], "focus": [360, 470]},
+  "card10": {"srcCrop": [0, 158, 720, 942], "focus": [360, 600]},
+  "card11": {"srcCrop": [0, 158, 720, 900], "focus": [253, 600], "delogo": [26, 960, 74, 72]},
+  "card12": {"start": 0.0},
+  "card13": {"srcCrop": [24, 158, 672, 1005], "focus": [385, 650]},
+  "card14": {"srcCrop": [24, 158, 672, 1005], "focus": [400, 650]},
+  "card15": {"srcCrop": [0, 758, 240, 300], "focus": [110, 870], "delogo": [26, 960, 74, 72]},
+  "card16": {"srcCrop": [0, 458, 240, 300], "focus": [130, 560]},
+  "card17": {"start": 3.6},
+  "card18": {"srcCrop": [0, 158, 720, 900], "focus": [360, 560], "delogo": [26, 960, 74, 72]}
+}

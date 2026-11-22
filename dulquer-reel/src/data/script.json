@@ -1,0 +1,31 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "timing": {
+    "secondsPerWord": 0.3333,
+    "minSeconds": 2.5,
+    "maxSeconds": 3.5,
+    "hookSeconds": 3.5
+  },
+  "cards": [
+    "Nepotism? Watch what he did next.",
+    "**Kochi, 1986.** Dulquer is born to **Mammootty**.",
+    "A **legend's son**. A **ready-made path**.",
+    "But he **didn't take it**.",
+    "He went to the **USA** to study **business**.",
+    "He then worked a **regular job**, far from the spotlight.",
+    "Still, **acting kept pulling him back**.",
+    "**2012:** he debuts with **Second Show**.",
+    "The label arrived instantly: **\"Star kid.\"**",
+    "So he **stopped fighting the label** and let his work answer.",
+    "**Ustad Hotel.** **Bangalore Days.** **Charlie.**",
+    "**Charlie** won him a **Kerala State Award**.",
+    "Then he **crossed borders**.",
+    "**Tamil:** OK Kanmani.",
+    "**Telugu:** Mahanati, Sita Ramam.",
+    "**Hindi:** Karwaan, Chup.",
+    "Different **languages**. One **respect**.",
+    "**Name opens the door. Work keeps you inside.**"
+  ]
+}

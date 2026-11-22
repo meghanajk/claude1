@@ -1,0 +1,74 @@
+{
+  "card01": {
+    "file": "card01.jpg",
+    "type": "image"
+  },
+  "card02": {
+    "file": "card02.jpg",
+    "type": "image"
+  },
+  "card03": {
+    "file": "card03.jpg",
+    "type": "image"
+  },
+  "card04": {
+    "file": "card04.jpg",
+    "type": "image"
+  },
+  "card05": {
+    "file": "card05.mp4",
+    "type": "video"
+  },
+  "card06": {
+    "file": "card06.mp4",
+    "type": "video"
+  },
+  "card07": {
+    "file": "card07.mp4",
+    "type": "video"
+  },
+  "card08": {
+    "file": "card08.jpg",
+    "type": "image"
+  },
+  "card09": {
+    "file": "card09.jpg",
+    "type": "image"
+  },
+  "card10": {
+    "file": "card10.jpg",
+    "type": "image"
+  },
+  "card11": {
+    "file": "card11.jpg",
+    "type": "image"
+  },
+  "card12": {
+    "file": "card12.mp4",
+    "type": "video"
+  },
+  "card13": {
+    "file": "card13.jpg",
+    "type": "image"
+  },
+  "card14": {
+    "file": "card14.jpg",
+    "type": "image"
+  },
+  "card15": {
+    "file": "card15.jpg",
+    "type": "image"
+  },
+  "card16": {
+    "file": "card16.jpg",
+    "type": "image"
+  },
+  "card17": {
+    "file": "card17.mp4",
+    "type": "video"
+  },
+  "card18": {
+    "file": "card18.jpg",
+    "type": "image"
+  }
+}

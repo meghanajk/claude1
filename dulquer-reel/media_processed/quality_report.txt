@@ -1,0 +1,5 @@
+Missing media (dark background used): none
+Low-quality sources (consider replacing):
+  - card02 (card02.jpg): source detail only ~196px wide, enlarged 5.5x
+  - card15 (card15.jpg): source detail only ~168px wide, enlarged 6.4x
+  - card16 (card16.jpg): source detail only ~168px wide, enlarged 6.4x
