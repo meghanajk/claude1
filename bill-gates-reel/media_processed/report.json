@@ -1,0 +1,89 @@
+{
+ "processed": [
+  {
+   "card": "card01",
+   "source": "card01.png",
+   "crop": "178x318",
+   "upscale": 6.1,
+   "super_res": true
+  },
+  {
+   "card": "card02",
+   "source": "card02.png",
+   "crop": "182x326",
+   "upscale": 5.9,
+   "super_res": true
+  },
+  {
+   "card": "card03",
+   "source": "card03.png",
+   "crop": "122x216",
+   "upscale": 8.9,
+   "super_res": true
+  },
+  {
+   "card": "card04",
+   "source": "card04.png",
+   "crop": "102x180",
+   "upscale": 10.6,
+   "super_res": true
+  },
+  {
+   "card": "card05",
+   "source": "card05.png",
+   "crop": "274x488",
+   "upscale": 3.9,
+   "super_res": true
+  },
+  {
+   "card": "card06",
+   "source": "card06.png",
+   "crop": "216x384",
+   "upscale": 5.0,
+   "super_res": true
+  },
+  {
+   "card": "card07",
+   "source": "card07.mp4",
+   "crop": "296x526",
+   "upscale": 3.6,
+   "super_res": true
+  },
+  {
+   "card": "card08",
+   "source": "card08.png",
+   "crop": "126x226",
+   "upscale": 8.6,
+   "super_res": true
+  },
+  {
+   "card": "card09",
+   "source": "card09.png",
+   "crop": "258x458",
+   "upscale": 4.2,
+   "super_res": true
+  },
+  {
+   "card": "card10",
+   "source": "card10.png",
+   "crop": "148x264",
+   "upscale": 7.3,
+   "super_res": true
+  },
+  {
+   "card": "card11",
+   "source": "card11.mp4",
+   "crop": "360x640",
+   "upscale": 3.0,
+   "super_res": true
+  },
+  {
+   "card": "card12",
+   "source": "card12.png",
+   "crop": "480x854",
+   "upscale": 2.2,
+   "super_res": false
+  }
+ ],
+ "missing": []
+}
