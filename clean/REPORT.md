@@ -1,0 +1,25 @@
+# Media cleaning report (STEP 1)
+
+Overlay scan (`tools/detect_overlays.py`): looks for pixels that stay put with strong edges while footage changes. **No burned-in watermarks, channel logos, tickers, usernames, timestamps or subtitles were found in any of the three videos.** vid2 had black letterbox bars (rows 0-279 and 1000-1279), removed by cropping. Text in the screenshots (Google captions, source names, search bar, status bar) was removed by cropping each photo tile out on its own. Nothing needed inpainting except the pencil badge on the logo.
+
+Text that is part of the real scene (the Tamil wording on the rally stage banner in vid3, a blurred sign in vid1) is not an overlay and was left as filmed; the reel favours close-ups so it's rarely readable.
+
+| Source | Output | What was done |
+|---|---|---|
+| vid1_square.mp4 | `clean/vid1_film.mp4` | 9:16 crop (405x720 window) following Vijay, keyframed per shot and smoothed (no jitter, never slides across a cut); upscaled 405x720 -> 1080x1920 (Lanczos, x2.67); denoise (hqdn3d), light unsharp; grade: eq=contrast=1.06:saturation=1.05:brightness=0.01; original audio dropped (narration replaces it) |
+| vid2_short.mp4 | `clean/vid2_assembly.mp4` | removed black letterbox bars (kept rows 280-999); 9:16 crop (405x720 window) following Vijay, keyframed per shot and smoothed (no jitter, never slides across a cut); upscaled 405x720 -> 1080x1920 (Lanczos, x2.67); denoise (hqdn3d), light unsharp; grade: eq=contrast=1.08:saturation=1.08:gamma=0.95; original audio dropped (narration replaces it) |
+| vid3_long.mp4 | `clean/vid3_rally.mp4` | upscaled 720x1280 -> 1080x1920 (Lanczos, x1.50); denoise (hqdn3d), light unsharp; grade: eq=contrast=1.04:saturation=1.06; original audio dropped (narration replaces it) |
+| screenshot_search1.jpg tile (378, 281, 699, 679) | `clean/photo_confetti.png` | cut the photo tile out of the screenshot (inset past rounded corners; Google captions, source names, search bar and status bar all excluded); light NL-means denoise; EDSR x4 super-resolution (321x398 -> 1284x1592); face-centred 9:16 crop, resized to 1440x2560 (Ken Burns headroom); CLAHE local contrast (mild), light unsharp |
+| screenshot_search2.jpg tile (378, 220, 699, 724) | `clean/photo_greyshirt.png` | cut the photo tile out of the screenshot (inset past rounded corners; Google captions, source names, search bar and status bar all excluded); light NL-means denoise; EDSR x4 super-resolution (321x504 -> 1284x2016); face-centred 9:16 crop, resized to 1440x2560 (Ken Burns headroom); CLAHE local contrast (mild), light unsharp |
+| screenshot_search2.jpg tile (22, 660, 343, 1164) | `clean/photo_master.png` | cut the photo tile out of the screenshot (inset past rounded corners; Google captions, source names, search bar and status bar all excluded); light NL-means denoise; EDSR x4 super-resolution (321x504 -> 1284x2016); face-centred 9:16 crop, resized to 1440x2560 (Ken Burns headroom); CLAHE local contrast (mild), light unsharp |
+| screenshot_search2.jpg tile (378, 839, 699, 1286) | `clean/photo_sunglasses.png` | cut the photo tile out of the screenshot (inset past rounded corners; Google captions, source names, search bar and status bar all excluded); light NL-means denoise; EDSR x4 super-resolution (321x447 -> 1284x1788); face-centred 9:16 crop, resized to 1440x2560 (Ken Burns headroom); CLAHE local contrast (mild), light unsharp |
+| screenshot_search2.jpg tile (22, 220, 343, 546) | `clean/photo_jacket.png` | cut the photo tile out of the screenshot (inset past rounded corners; Google captions, source names, search bar and status bar all excluded); light NL-means denoise; EDSR x4 super-resolution (321x326 -> 1284x1304); face-centred 9:16 crop, resized to 1440x2560 (Ken Burns headroom); CLAHE local contrast (mild), light unsharp; source tile is small and square: 9:16 crop is tight; lowest quality of the set |
+| logo_screenshot.jpg (profile screen) | `clean/logo_badge.png` | cut the circular logo out of the phone screenshot (status bar, buttons, blurred wallpaper excluded); removed the pencil 'edit' badge: filled with the logo's cream tone + Telea inpaint on the seam; EDSR x4 super-resolution (480 -> 1920 px); flattened cream background to one clean tone; circular alpha mask (transparent outside) |
+
+## Skipped
+- **Fan-made posters** in screenshot_search1 ("Chief Minister of Tamil Nadu" poster, "CM Thalapathy Vijay" poster): the text is the main design element, both carry party colours/flags, and they're edited celebratory artwork, not photos. Not used, to keep the reel neutral and factual.
+- **Landscape thumbnails** (black-suit "Jana Nayagan" tile, rally-with-flowers tile) and the bottom teal tile (cut off by the screen edge): too small for a 9:16 crop (would need ~9x upscaling).
+
+## Quality notes
+- Photos come from ~320x500 px search thumbnails. EDSR x4 helps a lot, but they are still softer than the video. `photo_jacket` is the weakest (small square tile, tight crop).
+- vid1/vid2 are 720x720 sources: the 9:16 window is 405x720, upscaled x2.67, so they're softer than vid3 (x1.5).

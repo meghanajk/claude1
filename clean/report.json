@@ -1,0 +1,101 @@
+[
+ {
+  "file": "vid1_square.mp4",
+  "output": "clean/vid1_film.mp4",
+  "steps": [
+   "9:16 crop (405x720 window) following Vijay, keyframed per shot and smoothed (no jitter, never slides across a cut)",
+   "upscaled 405x720 -> 1080x1920 (Lanczos, x2.67)",
+   "denoise (hqdn3d), light unsharp",
+   "grade: eq=contrast=1.06:saturation=1.05:brightness=0.01",
+   "original audio dropped (narration replaces it)"
+  ]
+ },
+ {
+  "file": "vid2_short.mp4",
+  "output": "clean/vid2_assembly.mp4",
+  "steps": [
+   "removed black letterbox bars (kept rows 280-999)",
+   "9:16 crop (405x720 window) following Vijay, keyframed per shot and smoothed (no jitter, never slides across a cut)",
+   "upscaled 405x720 -> 1080x1920 (Lanczos, x2.67)",
+   "denoise (hqdn3d), light unsharp",
+   "grade: eq=contrast=1.08:saturation=1.08:gamma=0.95",
+   "original audio dropped (narration replaces it)"
+  ]
+ },
+ {
+  "file": "vid3_long.mp4",
+  "output": "clean/vid3_rally.mp4",
+  "steps": [
+   "upscaled 720x1280 -> 1080x1920 (Lanczos, x1.50)",
+   "denoise (hqdn3d), light unsharp",
+   "grade: eq=contrast=1.04:saturation=1.06",
+   "original audio dropped (narration replaces it)"
+  ]
+ },
+ {
+  "file": "screenshot_search1.jpg tile (378, 281, 699, 679)",
+  "output": "clean/photo_confetti.png",
+  "steps": [
+   "cut the photo tile out of the screenshot (inset past rounded corners; Google captions, source names, search bar and status bar all excluded)",
+   "light NL-means denoise",
+   "EDSR x4 super-resolution (321x398 -> 1284x1592)",
+   "face-centred 9:16 crop, resized to 1440x2560 (Ken Burns headroom)",
+   "CLAHE local contrast (mild), light unsharp"
+  ]
+ },
+ {
+  "file": "screenshot_search2.jpg tile (378, 220, 699, 724)",
+  "output": "clean/photo_greyshirt.png",
+  "steps": [
+   "cut the photo tile out of the screenshot (inset past rounded corners; Google captions, source names, search bar and status bar all excluded)",
+   "light NL-means denoise",
+   "EDSR x4 super-resolution (321x504 -> 1284x2016)",
+   "face-centred 9:16 crop, resized to 1440x2560 (Ken Burns headroom)",
+   "CLAHE local contrast (mild), light unsharp"
+  ]
+ },
+ {
+  "file": "screenshot_search2.jpg tile (22, 660, 343, 1164)",
+  "output": "clean/photo_master.png",
+  "steps": [
+   "cut the photo tile out of the screenshot (inset past rounded corners; Google captions, source names, search bar and status bar all excluded)",
+   "light NL-means denoise",
+   "EDSR x4 super-resolution (321x504 -> 1284x2016)",
+   "face-centred 9:16 crop, resized to 1440x2560 (Ken Burns headroom)",
+   "CLAHE local contrast (mild), light unsharp"
+  ]
+ },
+ {
+  "file": "screenshot_search2.jpg tile (378, 839, 699, 1286)",
+  "output": "clean/photo_sunglasses.png",
+  "steps": [
+   "cut the photo tile out of the screenshot (inset past rounded corners; Google captions, source names, search bar and status bar all excluded)",
+   "light NL-means denoise",
+   "EDSR x4 super-resolution (321x447 -> 1284x1788)",
+   "face-centred 9:16 crop, resized to 1440x2560 (Ken Burns headroom)",
+   "CLAHE local contrast (mild), light unsharp"
+  ]
+ },
+ {
+  "file": "screenshot_search2.jpg tile (22, 220, 343, 546)",
+  "output": "clean/photo_jacket.png",
+  "steps": [
+   "cut the photo tile out of the screenshot (inset past rounded corners; Google captions, source names, search bar and status bar all excluded)",
+   "light NL-means denoise",
+   "EDSR x4 super-resolution (321x326 -> 1284x1304)",
+   "face-centred 9:16 crop, resized to 1440x2560 (Ken Burns headroom)",
+   "CLAHE local contrast (mild), light unsharp",
+   "source tile is small and square: 9:16 crop is tight; lowest quality of the set"
+  ]
+ },
+ {
+  "file": "logo_screenshot.jpg (profile screen)",
+  "output": "clean/logo_badge.png",
+  "steps": [
+   "cut the circular logo out of the phone screenshot (status bar, buttons, blurred wallpaper excluded)",
+   "removed the pencil 'edit' badge: filled with the logo's cream tone + Telea inpaint on the seam",
+   "EDSR x4 super-resolution (480 -> 1920 px)",
+   "flattened cream background to one clean tone; circular alpha mask (transparent outside)"
+  ]
+ }
+]
