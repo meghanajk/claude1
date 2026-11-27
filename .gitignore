@@ -3,3 +3,4 @@ reference.mp4
 output/_beats/
 output/test/
 *.part.mp4
+__pycache__/
