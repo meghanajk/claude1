@@ -31,7 +31,7 @@ export const ShortFrame: React.FC<{tl: Timeline; audio: string; title: string; a
       {/* progress bar */}
       <div style={{position: 'absolute', top: 0, left: 0, height: 10, width: `${(frame / total) * 100}%`, background: accent, boxShadow: `0 0 18px ${accent}`}} />
       <Subtitles captions={tl.captions} variant="vertical" bottom={420} />
-      <SubscribePill at={subAt} x="50%" y="80%" scale={1.25} />
+      <SubscribePill at={subAt} x="50%" y="86%" scale={1.2} />
       <Flash at={0} dur={6} max={0.8} />
       <FilmLook vignette={0.7} grain={0.3} />
       {withAudio && <Audio src={staticFile(audio)} />}

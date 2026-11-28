@@ -26,11 +26,11 @@ export const Thumbnail: React.FC = () => {
         <PuppetStrings frame={0} bar={[hx + 40, 300]} rot={-8} targets={targets} color="rgba(255,255,255,0.9)" barColor={COLORS.red} barWidth={380} width={4} />
         <Stickman x={hx} y={hy} scale={s} pose={pose} variant="hero" frame={10} eyes="spiral" mouth="smile" />
       </Stage>
-      <div style={{position: 'absolute', right: 70, top: 150, width: 1050, textAlign: 'right'}}>
+      <div style={{position: 'absolute', right: 80, top: 150, width: 1150, textAlign: 'right'}}>
         <div style={{fontFamily: FONT_TITLE, fontSize: 150, lineHeight: 1.0, color: COLORS.white, WebkitTextStroke: '10px #000', paintOrder: 'stroke fill', textShadow: '0 10px 0 #000'}}>SOMEONE IS</div>
-        <div style={{fontFamily: FONT_TITLE, fontSize: 230, lineHeight: 0.95, color: COLORS.red, WebkitTextStroke: '12px #000', paintOrder: 'stroke fill', textShadow: `0 0 60px ${COLORS.red}, 0 10px 0 #000`}}>CONTROLLING</div>
+        <div style={{fontFamily: FONT_TITLE, fontSize: 200, lineHeight: 0.95, color: COLORS.red, WebkitTextStroke: '12px #000', paintOrder: 'stroke fill', textShadow: `0 0 60px ${COLORS.red}, 0 10px 0 #000`}}>CONTROLLING</div>
         <div style={{fontFamily: FONT_TITLE, fontSize: 170, lineHeight: 1.0, color: COLORS.yellow, WebkitTextStroke: '10px #000', paintOrder: 'stroke fill', textShadow: '0 10px 0 #000'}}>YOUR MIND?</div>
-        <div style={{display: 'inline-block', marginTop: 30, padding: '14px 30px', background: COLORS.blue, borderRadius: 14, fontFamily: FONT_UI, fontWeight: 900, fontSize: 46, color: '#06121f', letterSpacing: 2}}>THE PSYCHOLOGY OF MANIPULATION</div>
+        <div style={{display: 'inline-block', marginTop: 30, padding: '14px 30px', background: COLORS.blue, borderRadius: 14, fontFamily: FONT_UI, fontWeight: 900, fontSize: 44, color: '#06121f', letterSpacing: 2, whiteSpace: 'nowrap'}}>THE PSYCHOLOGY OF MANIPULATION</div>
       </div>
       <div style={{position: 'absolute', left: 50, bottom: 40, display: 'flex', alignItems: 'center', gap: 14}}>
         <Emblem size={90} />
