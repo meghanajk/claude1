@@ -1,0 +1,46 @@
+{
+ "key": "3cbeb57b0ac3",
+ "say": "Not because they couldn't see the answer.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Not",
+   "start": 0.1,
+   "end": 0.3375
+  },
+  {
+   "text": "because",
+   "start": 0.35,
+   "end": 0.6
+  },
+  {
+   "text": "they",
+   "start": 0.6125,
+   "end": 0.7125
+  },
+  {
+   "text": "couldn't",
+   "start": 0.725,
+   "end": 1.0125
+  },
+  {
+   "text": "see",
+   "start": 1.025,
+   "end": 1.225
+  },
+  {
+   "text": "the",
+   "start": 1.2375,
+   "end": 1.3125
+  },
+  {
+   "text": "answer",
+   "start": 1.325,
+   "end": 1.8375
+  }
+ ]
+}

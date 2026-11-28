@@ -1,0 +1,41 @@
+{
+ "key": "58ef47bc62f1",
+ "say": "And it happens in everyday life.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "And",
+   "start": 0.1,
+   "end": 0.275
+  },
+  {
+   "text": "it",
+   "start": 0.2875,
+   "end": 0.35
+  },
+  {
+   "text": "happens",
+   "start": 0.3625,
+   "end": 0.7125
+  },
+  {
+   "text": "in",
+   "start": 0.725,
+   "end": 0.8
+  },
+  {
+   "text": "everyday",
+   "start": 0.8125,
+   "end": 1.1375
+  },
+  {
+   "text": "life",
+   "start": 1.15,
+   "end": 1.5375
+  }
+ ]
+}

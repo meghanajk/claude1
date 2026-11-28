@@ -1,0 +1,31 @@
+{
+ "key": "ea1d389654aa",
+ "say": "It's just the crowd.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-8%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "It's",
+   "start": 0.1,
+   "end": 0.358166
+  },
+  {
+   "text": "just",
+   "start": 0.37175,
+   "end": 0.561958
+  },
+  {
+   "text": "the",
+   "start": 0.575541,
+   "end": 0.657082
+  },
+  {
+   "text": "crowd",
+   "start": 0.670666,
+   "end": 1.227749
+  }
+ ]
+}

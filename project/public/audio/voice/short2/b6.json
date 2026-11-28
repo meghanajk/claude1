@@ -1,0 +1,46 @@
+{
+ "key": "94d73321757b",
+ "say": "Psychologists call this the Illusory Truth Effect.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Psychologists",
+   "start": 0.1,
+   "end": 0.925
+  },
+  {
+   "text": "call",
+   "start": 0.9375,
+   "end": 1.2
+  },
+  {
+   "text": "this",
+   "start": 1.2125,
+   "end": 1.375
+  },
+  {
+   "text": "the",
+   "start": 1.3875,
+   "end": 1.4875
+  },
+  {
+   "text": "Illusory",
+   "start": 1.5,
+   "end": 2.0125
+  },
+  {
+   "text": "Truth",
+   "start": 2.025,
+   "end": 2.2625
+  },
+  {
+   "text": "Effect",
+   "start": 2.275,
+   "end": 2.7
+  }
+ ]
+}

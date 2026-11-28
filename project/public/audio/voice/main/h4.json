@@ -1,0 +1,51 @@
+{
+ "key": "67c392315156",
+ "say": "You might think all those decisions were yours.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-10%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "You",
+   "start": 0.1,
+   "end": 0.280541
+  },
+  {
+   "text": "might",
+   "start": 0.294458,
+   "end": 0.544458
+  },
+  {
+   "text": "think",
+   "start": 0.558333,
+   "end": 0.808333
+  },
+  {
+   "text": "all",
+   "start": 0.836125,
+   "end": 1.058333
+  },
+  {
+   "text": "those",
+   "start": 1.072208,
+   "end": 1.280541
+  },
+  {
+   "text": "decisions",
+   "start": 1.294458,
+   "end": 1.836124
+  },
+  {
+   "text": "were",
+   "start": 1.85,
+   "end": 1.988875
+  },
+  {
+   "text": "yours",
+   "start": 2.002791,
+   "end": 2.488916
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "key": "a5ac243e22d7",
+ "say": "Fear, guilt, insecurity and even excitement can influence how we make decisions.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Fear",
+   "start": 0.1,
+   "end": 0.5125
+  },
+  {
+   "text": "guilt",
+   "start": 0.85,
+   "end": 1.1375
+  },
+  {
+   "text": "insecurity",
+   "start": 1.475,
+   "end": 2.1875
+  },
+  {
+   "text": "and",
+   "start": 2.275,
+   "end": 2.4125
+  },
+  {
+   "text": "even",
+   "start": 2.4375,
+   "end": 2.6875
+  },
+  {
+   "text": "excitement",
+   "start": 2.7,
+   "end": 3.2
+  },
+  {
+   "text": "can",
+   "start": 3.2125,
+   "end": 3.35
+  },
+  {
+   "text": "influence",
+   "start": 3.3625,
+   "end": 3.9125
+  },
+  {
+   "text": "how",
+   "start": 3.925,
+   "end": 4.05
+  },
+  {
+   "text": "we",
+   "start": 4.0625,
+   "end": 4.1625
+  },
+  {
+   "text": "make",
+   "start": 4.175,
+   "end": 4.3625
+  },
+  {
+   "text": "decisions",
+   "start": 4.375,
+   "end": 5.0625
+  }
+ ]
+}

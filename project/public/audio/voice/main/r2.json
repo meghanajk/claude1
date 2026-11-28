@@ -1,0 +1,36 @@
+{
+ "key": "bdedc2b1bb12",
+ "say": "Not like a remote control.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Not",
+   "start": 0.1,
+   "end": 0.3375
+  },
+  {
+   "text": "like",
+   "start": 0.35,
+   "end": 0.5125
+  },
+  {
+   "text": "a",
+   "start": 0.525,
+   "end": 0.575
+  },
+  {
+   "text": "remote",
+   "start": 0.5875,
+   "end": 0.9375
+  },
+  {
+   "text": "control",
+   "start": 0.95,
+   "end": 1.4125
+  }
+ ]
+}

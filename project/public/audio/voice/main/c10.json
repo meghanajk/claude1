@@ -1,0 +1,61 @@
+{
+ "key": "03ca487fc2f1",
+ "say": "Sometimes, we don't follow something because we genuinely like it.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Sometimes",
+   "start": 0.1,
+   "end": 0.8625
+  },
+  {
+   "text": "we",
+   "start": 1.0375,
+   "end": 1.1375
+  },
+  {
+   "text": "don't",
+   "start": 1.15,
+   "end": 1.35
+  },
+  {
+   "text": "follow",
+   "start": 1.3625,
+   "end": 1.6625
+  },
+  {
+   "text": "something",
+   "start": 1.675,
+   "end": 2.0375
+  },
+  {
+   "text": "because",
+   "start": 2.05,
+   "end": 2.3
+  },
+  {
+   "text": "we",
+   "start": 2.3125,
+   "end": 2.425
+  },
+  {
+   "text": "genuinely",
+   "start": 2.4375,
+   "end": 2.9375
+  },
+  {
+   "text": "like",
+   "start": 2.95,
+   "end": 3.2375
+  },
+  {
+   "text": "it",
+   "start": 3.25,
+   "end": 3.3875
+  }
+ ]
+}

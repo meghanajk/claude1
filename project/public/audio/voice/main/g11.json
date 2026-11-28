@@ -1,0 +1,51 @@
+{
+ "key": "6bf2afffb53e",
+ "say": "It's the repeated pattern of manipulation that matters.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "It's",
+   "start": 0.1,
+   "end": 0.35
+  },
+  {
+   "text": "the",
+   "start": 0.3625,
+   "end": 0.45
+  },
+  {
+   "text": "repeated",
+   "start": 0.4625,
+   "end": 0.9125
+  },
+  {
+   "text": "pattern",
+   "start": 0.925,
+   "end": 1.375
+  },
+  {
+   "text": "of",
+   "start": 1.3875,
+   "end": 1.475
+  },
+  {
+   "text": "manipulation",
+   "start": 1.4875,
+   "end": 2.2
+  },
+  {
+   "text": "that",
+   "start": 2.2125,
+   "end": 2.3375
+  },
+  {
+   "text": "matters",
+   "start": 2.35,
+   "end": 2.8625
+  }
+ ]
+}

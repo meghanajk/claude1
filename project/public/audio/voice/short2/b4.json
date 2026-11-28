@@ -1,0 +1,61 @@
+{
+ "key": "82495c44d68f",
+ "say": "By the hundredth time, your brain processes it more easily.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "By",
+   "start": 0.1,
+   "end": 0.2625
+  },
+  {
+   "text": "the",
+   "start": 0.275,
+   "end": 0.3375
+  },
+  {
+   "text": "hundredth",
+   "start": 0.35,
+   "end": 0.6875
+  },
+  {
+   "text": "time",
+   "start": 0.7,
+   "end": 1.05
+  },
+  {
+   "text": "your",
+   "start": 1.325,
+   "end": 1.4125
+  },
+  {
+   "text": "brain",
+   "start": 1.425,
+   "end": 1.775
+  },
+  {
+   "text": "processes",
+   "start": 1.7875,
+   "end": 2.4125
+  },
+  {
+   "text": "it",
+   "start": 2.425,
+   "end": 2.4875
+  },
+  {
+   "text": "more",
+   "start": 2.5,
+   "end": 2.7125
+  },
+  {
+   "text": "easily",
+   "start": 2.725,
+   "end": 3.1625
+  }
+ ]
+}

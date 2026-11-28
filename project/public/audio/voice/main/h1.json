@@ -1,0 +1,91 @@
+{
+ "key": "f479d221963c",
+ "say": "Imagine someone could control your decisions without touching you, threatening you, or even speaking to you.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-8%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Imagine",
+   "start": 0.1,
+   "end": 0.657083
+  },
+  {
+   "text": "someone",
+   "start": 0.670666,
+   "end": 1.023916
+  },
+  {
+   "text": "could",
+   "start": 1.0375,
+   "end": 1.186958
+  },
+  {
+   "text": "control",
+   "start": 1.200541,
+   "end": 1.635332
+  },
+  {
+   "text": "your",
+   "start": 1.648916,
+   "end": 1.771207
+  },
+  {
+   "text": "decisions",
+   "start": 1.784791,
+   "end": 2.355457
+  },
+  {
+   "text": "without",
+   "start": 2.369041,
+   "end": 2.735874
+  },
+  {
+   "text": "touching",
+   "start": 2.749458,
+   "end": 3.143499
+  },
+  {
+   "text": "you",
+   "start": 3.157083,
+   "end": 3.360874
+  },
+  {
+   "text": "threatening",
+   "start": 3.754875,
+   "end": 4.1625
+  },
+  {
+   "text": "you",
+   "start": 4.176083,
+   "end": 4.379874
+  },
+  {
+   "text": "or",
+   "start": 4.705958,
+   "end": 4.841833
+  },
+  {
+   "text": "even",
+   "start": 4.869041,
+   "end": 5.072832
+  },
+  {
+   "text": "speaking",
+   "start": 5.086416,
+   "end": 5.561957
+  },
+  {
+   "text": "to",
+   "start": 5.575541,
+   "end": 5.657082
+  },
+  {
+   "text": "you",
+   "start": 5.670666,
+   "end": 5.888041
+  }
+ ]
+}

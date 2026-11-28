@@ -1,0 +1,56 @@
+{
+ "key": "50db7a95c7e8",
+ "say": "Imagine someone repeatedly denies things they said or did.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-5%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Imagine",
+   "start": 0.1,
+   "end": 0.652625
+  },
+  {
+   "text": "someone",
+   "start": 0.665791,
+   "end": 1.047374
+  },
+  {
+   "text": "repeatedly",
+   "start": 1.060541,
+   "end": 1.665791
+  },
+  {
+   "text": "denies",
+   "start": 1.678958,
+   "end": 2.192124
+  },
+  {
+   "text": "things",
+   "start": 2.20525,
+   "end": 2.45525
+  },
+  {
+   "text": "they",
+   "start": 2.468416,
+   "end": 2.586832
+  },
+  {
+   "text": "said",
+   "start": 2.6,
+   "end": 3.060541
+  },
+  {
+   "text": "or",
+   "start": 3.1,
+   "end": 3.218416
+  },
+  {
+   "text": "did",
+   "start": 3.231583,
+   "end": 3.599999
+  }
+ ]
+}

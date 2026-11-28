@@ -1,0 +1,36 @@
+{
+ "key": "4b3dd2a649b5",
+ "say": "Pause before making emotional decisions.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Pause",
+   "start": 0.1,
+   "end": 0.4375
+  },
+  {
+   "text": "before",
+   "start": 0.45,
+   "end": 0.8
+  },
+  {
+   "text": "making",
+   "start": 0.8125,
+   "end": 1.1375
+  },
+  {
+   "text": "emotional",
+   "start": 1.15,
+   "end": 1.65
+  },
+  {
+   "text": "decisions",
+   "start": 1.6625,
+   "end": 2.3375
+  }
+ ]
+}

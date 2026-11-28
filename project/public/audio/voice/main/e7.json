@@ -1,0 +1,31 @@
+{
+ "key": "593cc68d2897",
+ "say": "This is emotional manipulation.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "This",
+   "start": 0.1,
+   "end": 0.35
+  },
+  {
+   "text": "is",
+   "start": 0.3625,
+   "end": 0.4625
+  },
+  {
+   "text": "emotional",
+   "start": 0.475,
+   "end": 1.0875
+  },
+  {
+   "text": "manipulation",
+   "start": 1.1,
+   "end": 1.825
+  }
+ ]
+}

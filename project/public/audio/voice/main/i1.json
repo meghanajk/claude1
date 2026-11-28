@@ -1,0 +1,56 @@
+{
+ "key": "cd6e9742f0c0",
+ "say": "Now imagine hearing the same statement every single day.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Now",
+   "start": 0.1,
+   "end": 0.3625
+  },
+  {
+   "text": "imagine",
+   "start": 0.375,
+   "end": 0.8
+  },
+  {
+   "text": "hearing",
+   "start": 0.8125,
+   "end": 1.125
+  },
+  {
+   "text": "the",
+   "start": 1.1375,
+   "end": 1.225
+  },
+  {
+   "text": "same",
+   "start": 1.2375,
+   "end": 1.5375
+  },
+  {
+   "text": "statement",
+   "start": 1.55,
+   "end": 1.975
+  },
+  {
+   "text": "every",
+   "start": 2.0125,
+   "end": 2.2125
+  },
+  {
+   "text": "single",
+   "start": 2.225,
+   "end": 2.5375
+  },
+  {
+   "text": "day",
+   "start": 2.55,
+   "end": 2.8125
+  }
+ ]
+}

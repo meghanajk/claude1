@@ -1,0 +1,71 @@
+{
+ "key": "47e8d1fcd1f9",
+ "say": "But everyone else in the room was secretly working with the researcher.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "But",
+   "start": 0.1,
+   "end": 0.3125
+  },
+  {
+   "text": "everyone",
+   "start": 0.3625,
+   "end": 0.725
+  },
+  {
+   "text": "else",
+   "start": 0.7375,
+   "end": 0.9375
+  },
+  {
+   "text": "in",
+   "start": 0.95,
+   "end": 1.0125
+  },
+  {
+   "text": "the",
+   "start": 1.025,
+   "end": 1.125
+  },
+  {
+   "text": "room",
+   "start": 1.1375,
+   "end": 1.3875
+  },
+  {
+   "text": "was",
+   "start": 1.4,
+   "end": 1.55
+  },
+  {
+   "text": "secretly",
+   "start": 1.5625,
+   "end": 2.075
+  },
+  {
+   "text": "working",
+   "start": 2.0875,
+   "end": 2.525
+  },
+  {
+   "text": "with",
+   "start": 2.5375,
+   "end": 2.6375
+  },
+  {
+   "text": "the",
+   "start": 2.65,
+   "end": 2.7375
+  },
+  {
+   "text": "researcher",
+   "start": 2.75,
+   "end": 3.35
+  }
+ ]
+}

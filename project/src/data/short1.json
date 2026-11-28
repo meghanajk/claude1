@@ -1,0 +1,1553 @@
+{
+ "program": "short1",
+ "fps": 30,
+ "duration": 34.4,
+ "durationInFrames": 1032,
+ "title": "THE POWER OF THE CROWD",
+ "scenes": [
+  {
+   "id": "s1main",
+   "start": 0.0,
+   "music": "suspense",
+   "end": 34.4
+  }
+ ],
+ "lines": {
+  "a1": {
+   "id": "a1",
+   "scene": "s1main",
+   "text": "Would you give the wrong answer just because everyone else did?",
+   "start": 0.15,
+   "end": 2.7785208333333333,
+   "words": [
+    {
+     "text": "Would",
+     "start": 0.2,
+     "end": 0.4125,
+     "color": "white"
+    },
+    {
+     "text": "you",
+     "start": 0.425,
+     "end": 0.4875,
+     "color": "white"
+    },
+    {
+     "text": "give",
+     "start": 0.5,
+     "end": 0.6749999999999999,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 0.6875,
+     "end": 0.7625,
+     "color": "white"
+    },
+    {
+     "text": "wrong",
+     "start": 0.775,
+     "end": 1.075,
+     "color": "red"
+    },
+    {
+     "text": "answer",
+     "start": 1.0875000000000001,
+     "end": 1.3625,
+     "color": "white"
+    },
+    {
+     "text": "just",
+     "start": 1.375,
+     "end": 1.5750000000000002,
+     "color": "white"
+    },
+    {
+     "text": "because",
+     "start": 1.5875000000000001,
+     "end": 1.875,
+     "color": "white"
+    },
+    {
+     "text": "everyone",
+     "start": 1.8875000000000002,
+     "end": 2.2,
+     "color": "yellow"
+    },
+    {
+     "text": "else",
+     "start": 2.2125,
+     "end": 2.3875,
+     "color": "white"
+    },
+    {
+     "text": "did?",
+     "start": 2.4,
+     "end": 2.7,
+     "color": "white"
+    }
+   ]
+  },
+  "a2": {
+   "id": "a2",
+   "scene": "s1main",
+   "text": "In the 1950s, psychologist Solomon Asch ran a simple experiment.",
+   "start": 3.1785208333333332,
+   "end": 7.5659375,
+   "words": [
+    {
+     "text": "In",
+     "start": 3.2285208333333335,
+     "end": 3.431497023809524,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 3.431497023809524,
+     "end": 3.7021319444444445,
+     "color": "white"
+    },
+    {
+     "text": "1950s,",
+     "start": 3.7021319444444445,
+     "end": 4.108084325396826,
+     "color": "white"
+    },
+    {
+     "text": "psychologist",
+     "start": 4.108084325396826,
+     "end": 4.987647817460317,
+     "color": "white"
+    },
+    {
+     "text": "Solomon",
+     "start": 4.987647817460317,
+     "end": 5.528917658730158,
+     "color": "white"
+    },
+    {
+     "text": "Asch",
+     "start": 5.528917658730158,
+     "end": 5.86721130952381,
+     "color": "yellow"
+    },
+    {
+     "text": "ran",
+     "start": 5.86721130952381,
+     "end": 6.137846230158731,
+     "color": "white"
+    },
+    {
+     "text": "a",
+     "start": 6.137846230158731,
+     "end": 6.27316369047619,
+     "color": "white"
+    },
+    {
+     "text": "simple",
+     "start": 6.27316369047619,
+     "end": 6.746774801587302,
+     "color": "white"
+    },
+    {
+     "text": "experiment.",
+     "start": 6.746774801587302,
+     "end": 7.491020833333334,
+     "color": "yellow"
+    }
+   ]
+  },
+  "a3": {
+   "id": "a3",
+   "scene": "s1main",
+   "text": "Which line matches the reference line?",
+   "start": 7.865937499999999,
+   "end": 9.659895833333334,
+   "words": [
+    {
+     "text": "Which",
+     "start": 7.915937499999999,
+     "end": 8.1659375,
+     "color": "white"
+    },
+    {
+     "text": "line",
+     "start": 8.1784375,
+     "end": 8.4159375,
+     "color": "white"
+    },
+    {
+     "text": "matches",
+     "start": 8.4284375,
+     "end": 8.8034375,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 8.8159375,
+     "end": 8.8909375,
+     "color": "white"
+    },
+    {
+     "text": "reference",
+     "start": 8.903437499999999,
+     "end": 9.2909375,
+     "color": "yellow"
+    },
+    {
+     "text": "line?",
+     "start": 9.3034375,
+     "end": 9.6284375,
+     "color": "white"
+    }
+   ]
+  },
+  "a4": {
+   "id": "a4",
+   "scene": "s1main",
+   "text": "The answer was obvious.",
+   "start": 10.059895833333332,
+   "end": 11.533958333333333,
+   "words": [
+    {
+     "text": "The",
+     "start": 10.109895833333331,
+     "end": 10.297395833333331,
+     "color": "white"
+    },
+    {
+     "text": "answer",
+     "start": 10.309895833333332,
+     "end": 10.659895833333332,
+     "color": "white"
+    },
+    {
+     "text": "was",
+     "start": 10.672395833333331,
+     "end": 10.822395833333331,
+     "color": "white"
+    },
+    {
+     "text": "obvious.",
+     "start": 10.83489583333333,
+     "end": 11.45989583333333,
+     "color": "yellow"
+    }
+   ]
+  },
+  "a5": {
+   "id": "a5",
+   "scene": "s1main",
+   "text": "But everyone else in the room was secretly working with the researcher.",
+   "start": 11.833958333333332,
+   "end": 15.197999999999999,
+   "words": [
+    {
+     "text": "But",
+     "start": 11.88395833333333,
+     "end": 12.09645833333333,
+     "color": "white"
+    },
+    {
+     "text": "everyone",
+     "start": 12.146458333333332,
+     "end": 12.50895833333333,
+     "color": "yellow"
+    },
+    {
+     "text": "else",
+     "start": 12.521458333333332,
+     "end": 12.72145833333333,
+     "color": "white"
+    },
+    {
+     "text": "in",
+     "start": 12.73395833333333,
+     "end": 12.79645833333333,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 12.808958333333331,
+     "end": 12.90895833333333,
+     "color": "white"
+    },
+    {
+     "text": "room",
+     "start": 12.92145833333333,
+     "end": 13.17145833333333,
+     "color": "white"
+    },
+    {
+     "text": "was",
+     "start": 13.183958333333331,
+     "end": 13.333958333333332,
+     "color": "white"
+    },
+    {
+     "text": "secretly",
+     "start": 13.34645833333333,
+     "end": 13.85895833333333,
+     "color": "red"
+    },
+    {
+     "text": "working",
+     "start": 13.871458333333331,
+     "end": 14.308958333333331,
+     "color": "white"
+    },
+    {
+     "text": "with",
+     "start": 14.32145833333333,
+     "end": 14.42145833333333,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 14.433958333333331,
+     "end": 14.521458333333332,
+     "color": "white"
+    },
+    {
+     "text": "researcher.",
+     "start": 14.53395833333333,
+     "end": 15.13395833333333,
+     "color": "white"
+    }
+   ]
+  },
+  "a6": {
+   "id": "a6",
+   "scene": "s1main",
+   "text": "And one by one, they all gave the same wrong answer.",
+   "start": 15.497999999999998,
+   "end": 18.23775,
+   "words": [
+    {
+     "text": "And",
+     "start": 15.547999999999996,
+     "end": 15.760499999999997,
+     "color": "white"
+    },
+    {
+     "text": "one",
+     "start": 15.772999999999996,
+     "end": 15.922999999999996,
+     "color": "white"
+    },
+    {
+     "text": "by",
+     "start": 15.935499999999998,
+     "end": 16.085499999999996,
+     "color": "white"
+    },
+    {
+     "text": "one,",
+     "start": 16.097999999999995,
+     "end": 16.410499999999995,
+     "color": "white"
+    },
+    {
+     "text": "they",
+     "start": 16.597999999999995,
+     "end": 16.697999999999997,
+     "color": "white"
+    },
+    {
+     "text": "all",
+     "start": 16.710499999999996,
+     "end": 16.8605,
+     "color": "white"
+    },
+    {
+     "text": "gave",
+     "start": 16.872999999999998,
+     "end": 17.085499999999996,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 17.097999999999995,
+     "end": 17.147999999999996,
+     "color": "white"
+    },
+    {
+     "text": "same",
+     "start": 17.160499999999995,
+     "end": 17.472999999999995,
+     "color": "white"
+    },
+    {
+     "text": "wrong",
+     "start": 17.4855,
+     "end": 17.7355,
+     "color": "red"
+    },
+    {
+     "text": "answer.",
+     "start": 17.747999999999998,
+     "end": 18.173,
+     "color": "white"
+    }
+   ]
+  },
+  "a7": {
+   "id": "a7",
+   "scene": "s1main",
+   "text": "So what did the real participants do?",
+   "start": 18.73775,
+   "end": 20.600229166666665,
+   "words": [
+    {
+     "text": "So",
+     "start": 18.78775,
+     "end": 19.03775,
+     "color": "white"
+    },
+    {
+     "text": "what",
+     "start": 19.05025,
+     "end": 19.16275,
+     "color": "white"
+    },
+    {
+     "text": "did",
+     "start": 19.17525,
+     "end": 19.28775,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 19.30025,
+     "end": 19.375249999999998,
+     "color": "white"
+    },
+    {
+     "text": "real",
+     "start": 19.387749999999997,
+     "end": 19.61275,
+     "color": "white"
+    },
+    {
+     "text": "participants",
+     "start": 19.625249999999998,
+     "end": 20.212749999999996,
+     "color": "white"
+    },
+    {
+     "text": "do?",
+     "start": 20.22525,
+     "end": 20.500249999999998,
+     "color": "white"
+    }
+   ]
+  },
+  "a8": {
+   "id": "a8",
+   "scene": "s1main",
+   "text": "Many of them went along with the group at least once.",
+   "start": 21.100229166666665,
+   "end": 23.557729166666665,
+   "words": [
+    {
+     "text": "Many",
+     "start": 21.150229166666666,
+     "end": 21.487729166666664,
+     "color": "yellow"
+    },
+    {
+     "text": "of",
+     "start": 21.500229166666664,
+     "end": 21.575229166666663,
+     "color": "white"
+    },
+    {
+     "text": "them",
+     "start": 21.587729166666666,
+     "end": 21.700229166666663,
+     "color": "white"
+    },
+    {
+     "text": "went",
+     "start": 21.712729166666666,
+     "end": 21.850229166666665,
+     "color": "white"
+    },
+    {
+     "text": "along",
+     "start": 21.862729166666664,
+     "end": 22.212729166666666,
+     "color": "white"
+    },
+    {
+     "text": "with",
+     "start": 22.225229166666665,
+     "end": 22.337729166666666,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 22.350229166666665,
+     "end": 22.425229166666664,
+     "color": "white"
+    },
+    {
+     "text": "group",
+     "start": 22.437729166666664,
+     "end": 22.712729166666666,
+     "color": "yellow"
+    },
+    {
+     "text": "at",
+     "start": 22.725229166666665,
+     "end": 22.800229166666664,
+     "color": "white"
+    },
+    {
+     "text": "least",
+     "start": 22.812729166666664,
+     "end": 23.050229166666664,
+     "color": "white"
+    },
+    {
+     "text": "once.",
+     "start": 23.062729166666664,
+     "end": 23.475229166666665,
+     "color": "white"
+    }
+   ]
+  },
+  "a9": {
+   "id": "a9",
+   "scene": "s1main",
+   "text": "Not because they couldn't see the answer.",
+   "start": 23.857729166666665,
+   "end": 25.703541666666666,
+   "words": [
+    {
+     "text": "Not",
+     "start": 23.907729166666666,
+     "end": 24.145229166666663,
+     "color": "white"
+    },
+    {
+     "text": "because",
+     "start": 24.157729166666666,
+     "end": 24.407729166666666,
+     "color": "white"
+    },
+    {
+     "text": "they",
+     "start": 24.420229166666665,
+     "end": 24.520229166666663,
+     "color": "white"
+    },
+    {
+     "text": "couldn't",
+     "start": 24.532729166666666,
+     "end": 24.820229166666664,
+     "color": "white"
+    },
+    {
+     "text": "see",
+     "start": 24.832729166666663,
+     "end": 25.032729166666666,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 25.045229166666665,
+     "end": 25.120229166666665,
+     "color": "white"
+    },
+    {
+     "text": "answer.",
+     "start": 25.132729166666664,
+     "end": 25.645229166666663,
+     "color": "white"
+    }
+   ]
+  },
+  "a10": {
+   "id": "a10",
+   "scene": "s1main",
+   "text": "Because they didn't want to stand alone.",
+   "start": 25.903541666666666,
+   "end": 27.702479166666667,
+   "words": [
+    {
+     "text": "Because",
+     "start": 25.953541666666666,
+     "end": 26.291041666666665,
+     "color": "white"
+    },
+    {
+     "text": "they",
+     "start": 26.303541666666664,
+     "end": 26.403541666666666,
+     "color": "white"
+    },
+    {
+     "text": "didn't",
+     "start": 26.416041666666665,
+     "end": 26.678541666666664,
+     "color": "white"
+    },
+    {
+     "text": "want",
+     "start": 26.691041666666663,
+     "end": 26.828541666666666,
+     "color": "white"
+    },
+    {
+     "text": "to",
+     "start": 26.841041666666666,
+     "end": 26.878541666666663,
+     "color": "white"
+    },
+    {
+     "text": "stand",
+     "start": 26.891041666666666,
+     "end": 27.216041666666666,
+     "color": "white"
+    },
+    {
+     "text": "alone.",
+     "start": 27.228541666666665,
+     "end": 27.628541666666663,
+     "color": "red"
+    }
+   ]
+  },
+  "a11": {
+   "id": "a11",
+   "scene": "s1main",
+   "text": "Sometimes, the crowd isn't right.",
+   "start": 28.402479166666666,
+   "end": 30.622958333333333,
+   "words": [
+    {
+     "text": "Sometimes,",
+     "start": 28.452479166666667,
+     "end": 29.276937166666666,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 29.463104166666664,
+     "end": 29.569479166666664,
+     "color": "white"
+    },
+    {
+     "text": "crowd",
+     "start": 29.582812166666663,
+     "end": 29.928562166666666,
+     "color": "red"
+    },
+    {
+     "text": "isn't",
+     "start": 29.941854166666666,
+     "end": 30.181229166666665,
+     "color": "white"
+    },
+    {
+     "text": "right.",
+     "start": 30.194520166666663,
+     "end": 30.540270166666666,
+     "color": "yellow"
+    }
+   ]
+  },
+  "a12": {
+   "id": "a12",
+   "scene": "s1main",
+   "text": "It's just the crowd.",
+   "start": 30.922958333333334,
+   "end": 32.18895833333333,
+   "words": [
+    {
+     "text": "It's",
+     "start": 30.972958333333334,
+     "end": 31.231124333333334,
+     "color": "white"
+    },
+    {
+     "text": "just",
+     "start": 31.24470833333333,
+     "end": 31.434916333333334,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 31.448499333333334,
+     "end": 31.530040333333332,
+     "color": "white"
+    },
+    {
+     "text": "crowd.",
+     "start": 31.543624333333334,
+     "end": 32.10070733333333,
+     "color": "red"
+    }
+   ]
+  }
+ },
+ "lineOrder": [
+  "a1",
+  "a2",
+  "a3",
+  "a4",
+  "a5",
+  "a6",
+  "a7",
+  "a8",
+  "a9",
+  "a10",
+  "a11",
+  "a12"
+ ],
+ "beats": {
+  "hook": 0.15,
+  "wrongWord": 0.775,
+  "asch": 5.941,
+  "lines": 8.1784,
+  "obvious": 10.8349,
+  "secret": 13.3465,
+  "oneByOne": 15.773,
+  "realQ": 18.7377,
+  "many": 21.1502,
+  "alone": 27.2285,
+  "end": 28.4025,
+  "endHit": 30.923
+ },
+ "captions": [
+  {
+   "start": 0.2,
+   "end": 0.6749999999999999,
+   "words": [
+    {
+     "text": "Would",
+     "start": 0.2,
+     "end": 0.4125,
+     "color": "white"
+    },
+    {
+     "text": "you",
+     "start": 0.425,
+     "end": 0.4875,
+     "color": "white"
+    },
+    {
+     "text": "give",
+     "start": 0.5,
+     "end": 0.6749999999999999,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 0.6875,
+   "end": 1.3625,
+   "words": [
+    {
+     "text": "the",
+     "start": 0.6875,
+     "end": 0.7625,
+     "color": "white"
+    },
+    {
+     "text": "wrong",
+     "start": 0.775,
+     "end": 1.075,
+     "color": "red"
+    },
+    {
+     "text": "answer",
+     "start": 1.0875000000000001,
+     "end": 1.3625,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 1.375,
+   "end": 1.875,
+   "words": [
+    {
+     "text": "just",
+     "start": 1.375,
+     "end": 1.5750000000000002,
+     "color": "white"
+    },
+    {
+     "text": "because",
+     "start": 1.5875000000000001,
+     "end": 1.875,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 1.8875000000000002,
+   "end": 2.3875,
+   "words": [
+    {
+     "text": "everyone",
+     "start": 1.8875000000000002,
+     "end": 2.2,
+     "color": "yellow"
+    },
+    {
+     "text": "else",
+     "start": 2.2125,
+     "end": 2.3875,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 2.4,
+   "end": 3.1985208333333337,
+   "words": [
+    {
+     "text": "did?",
+     "start": 2.4,
+     "end": 2.7,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 3.2285208333333335,
+   "end": 4.108084325396826,
+   "words": [
+    {
+     "text": "In",
+     "start": 3.2285208333333335,
+     "end": 3.431497023809524,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 3.431497023809524,
+     "end": 3.7021319444444445,
+     "color": "white"
+    },
+    {
+     "text": "1950s,",
+     "start": 3.7021319444444445,
+     "end": 4.108084325396826,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 4.108084325396826,
+   "end": 4.987647817460317,
+   "words": [
+    {
+     "text": "psychologist",
+     "start": 4.108084325396826,
+     "end": 4.987647817460317,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 4.987647817460317,
+   "end": 6.137846230158731,
+   "words": [
+    {
+     "text": "Solomon",
+     "start": 4.987647817460317,
+     "end": 5.528917658730158,
+     "color": "white"
+    },
+    {
+     "text": "Asch",
+     "start": 5.528917658730158,
+     "end": 5.86721130952381,
+     "color": "yellow"
+    },
+    {
+     "text": "ran",
+     "start": 5.86721130952381,
+     "end": 6.137846230158731,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 6.137846230158731,
+   "end": 6.746774801587302,
+   "words": [
+    {
+     "text": "a",
+     "start": 6.137846230158731,
+     "end": 6.27316369047619,
+     "color": "white"
+    },
+    {
+     "text": "simple",
+     "start": 6.27316369047619,
+     "end": 6.746774801587302,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 6.746774801587302,
+   "end": 7.885937499999999,
+   "words": [
+    {
+     "text": "experiment.",
+     "start": 6.746774801587302,
+     "end": 7.491020833333334,
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "start": 7.915937499999999,
+   "end": 8.4159375,
+   "words": [
+    {
+     "text": "Which",
+     "start": 7.915937499999999,
+     "end": 8.1659375,
+     "color": "white"
+    },
+    {
+     "text": "line",
+     "start": 8.1784375,
+     "end": 8.4159375,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 8.4284375,
+   "end": 8.8909375,
+   "words": [
+    {
+     "text": "matches",
+     "start": 8.4284375,
+     "end": 8.8034375,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 8.8159375,
+     "end": 8.8909375,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 8.903437499999999,
+   "end": 10.079895833333332,
+   "words": [
+    {
+     "text": "reference",
+     "start": 8.903437499999999,
+     "end": 9.2909375,
+     "color": "yellow"
+    },
+    {
+     "text": "line?",
+     "start": 9.3034375,
+     "end": 9.6284375,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 10.109895833333331,
+   "end": 10.822395833333331,
+   "words": [
+    {
+     "text": "The",
+     "start": 10.109895833333331,
+     "end": 10.297395833333331,
+     "color": "white"
+    },
+    {
+     "text": "answer",
+     "start": 10.309895833333332,
+     "end": 10.659895833333332,
+     "color": "white"
+    },
+    {
+     "text": "was",
+     "start": 10.672395833333331,
+     "end": 10.822395833333331,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 10.83489583333333,
+   "end": 11.853958333333331,
+   "words": [
+    {
+     "text": "obvious.",
+     "start": 10.83489583333333,
+     "end": 11.45989583333333,
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "start": 11.88395833333333,
+   "end": 12.50895833333333,
+   "words": [
+    {
+     "text": "But",
+     "start": 11.88395833333333,
+     "end": 12.09645833333333,
+     "color": "white"
+    },
+    {
+     "text": "everyone",
+     "start": 12.146458333333332,
+     "end": 12.50895833333333,
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "start": 12.521458333333332,
+   "end": 12.90895833333333,
+   "words": [
+    {
+     "text": "else",
+     "start": 12.521458333333332,
+     "end": 12.72145833333333,
+     "color": "white"
+    },
+    {
+     "text": "in",
+     "start": 12.73395833333333,
+     "end": 12.79645833333333,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 12.808958333333331,
+     "end": 12.90895833333333,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 12.92145833333333,
+   "end": 13.333958333333332,
+   "words": [
+    {
+     "text": "room",
+     "start": 12.92145833333333,
+     "end": 13.17145833333333,
+     "color": "white"
+    },
+    {
+     "text": "was",
+     "start": 13.183958333333331,
+     "end": 13.333958333333332,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 13.34645833333333,
+   "end": 14.308958333333331,
+   "words": [
+    {
+     "text": "secretly",
+     "start": 13.34645833333333,
+     "end": 13.85895833333333,
+     "color": "red"
+    },
+    {
+     "text": "working",
+     "start": 13.871458333333331,
+     "end": 14.308958333333331,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 14.32145833333333,
+   "end": 14.521458333333332,
+   "words": [
+    {
+     "text": "with",
+     "start": 14.32145833333333,
+     "end": 14.42145833333333,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 14.433958333333331,
+     "end": 14.521458333333332,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 14.53395833333333,
+   "end": 15.517999999999997,
+   "words": [
+    {
+     "text": "researcher.",
+     "start": 14.53395833333333,
+     "end": 15.13395833333333,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 15.547999999999996,
+   "end": 16.085499999999996,
+   "words": [
+    {
+     "text": "And",
+     "start": 15.547999999999996,
+     "end": 15.760499999999997,
+     "color": "white"
+    },
+    {
+     "text": "one",
+     "start": 15.772999999999996,
+     "end": 15.922999999999996,
+     "color": "white"
+    },
+    {
+     "text": "by",
+     "start": 15.935499999999998,
+     "end": 16.085499999999996,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 16.097999999999995,
+   "end": 16.8605,
+   "words": [
+    {
+     "text": "one,",
+     "start": 16.097999999999995,
+     "end": 16.410499999999995,
+     "color": "white"
+    },
+    {
+     "text": "they",
+     "start": 16.597999999999995,
+     "end": 16.697999999999997,
+     "color": "white"
+    },
+    {
+     "text": "all",
+     "start": 16.710499999999996,
+     "end": 16.8605,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 16.872999999999998,
+   "end": 17.472999999999995,
+   "words": [
+    {
+     "text": "gave",
+     "start": 16.872999999999998,
+     "end": 17.085499999999996,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 17.097999999999995,
+     "end": 17.147999999999996,
+     "color": "white"
+    },
+    {
+     "text": "same",
+     "start": 17.160499999999995,
+     "end": 17.472999999999995,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 17.4855,
+   "end": 18.757749999999998,
+   "words": [
+    {
+     "text": "wrong",
+     "start": 17.4855,
+     "end": 17.7355,
+     "color": "red"
+    },
+    {
+     "text": "answer.",
+     "start": 17.747999999999998,
+     "end": 18.173,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 18.78775,
+   "end": 19.28775,
+   "words": [
+    {
+     "text": "So",
+     "start": 18.78775,
+     "end": 19.03775,
+     "color": "white"
+    },
+    {
+     "text": "what",
+     "start": 19.05025,
+     "end": 19.16275,
+     "color": "white"
+    },
+    {
+     "text": "did",
+     "start": 19.17525,
+     "end": 19.28775,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 19.30025,
+   "end": 19.61275,
+   "words": [
+    {
+     "text": "the",
+     "start": 19.30025,
+     "end": 19.375249999999998,
+     "color": "white"
+    },
+    {
+     "text": "real",
+     "start": 19.387749999999997,
+     "end": 19.61275,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 19.625249999999998,
+   "end": 21.10025,
+   "words": [
+    {
+     "text": "participants",
+     "start": 19.625249999999998,
+     "end": 20.212749999999996,
+     "color": "white"
+    },
+    {
+     "text": "do?",
+     "start": 20.22525,
+     "end": 20.500249999999998,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 21.150229166666666,
+   "end": 21.700229166666663,
+   "words": [
+    {
+     "text": "Many",
+     "start": 21.150229166666666,
+     "end": 21.487729166666664,
+     "color": "yellow"
+    },
+    {
+     "text": "of",
+     "start": 21.500229166666664,
+     "end": 21.575229166666663,
+     "color": "white"
+    },
+    {
+     "text": "them",
+     "start": 21.587729166666666,
+     "end": 21.700229166666663,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 21.712729166666666,
+   "end": 22.337729166666666,
+   "words": [
+    {
+     "text": "went",
+     "start": 21.712729166666666,
+     "end": 21.850229166666665,
+     "color": "white"
+    },
+    {
+     "text": "along",
+     "start": 21.862729166666664,
+     "end": 22.212729166666666,
+     "color": "white"
+    },
+    {
+     "text": "with",
+     "start": 22.225229166666665,
+     "end": 22.337729166666666,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 22.350229166666665,
+   "end": 22.800229166666664,
+   "words": [
+    {
+     "text": "the",
+     "start": 22.350229166666665,
+     "end": 22.425229166666664,
+     "color": "white"
+    },
+    {
+     "text": "group",
+     "start": 22.437729166666664,
+     "end": 22.712729166666666,
+     "color": "yellow"
+    },
+    {
+     "text": "at",
+     "start": 22.725229166666665,
+     "end": 22.800229166666664,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 22.812729166666664,
+   "end": 23.877729166666665,
+   "words": [
+    {
+     "text": "least",
+     "start": 22.812729166666664,
+     "end": 23.050229166666664,
+     "color": "white"
+    },
+    {
+     "text": "once.",
+     "start": 23.062729166666664,
+     "end": 23.475229166666665,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 23.907729166666666,
+   "end": 24.520229166666663,
+   "words": [
+    {
+     "text": "Not",
+     "start": 23.907729166666666,
+     "end": 24.145229166666663,
+     "color": "white"
+    },
+    {
+     "text": "because",
+     "start": 24.157729166666666,
+     "end": 24.407729166666666,
+     "color": "white"
+    },
+    {
+     "text": "they",
+     "start": 24.420229166666665,
+     "end": 24.520229166666663,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 24.532729166666666,
+   "end": 25.120229166666665,
+   "words": [
+    {
+     "text": "couldn't",
+     "start": 24.532729166666666,
+     "end": 24.820229166666664,
+     "color": "white"
+    },
+    {
+     "text": "see",
+     "start": 24.832729166666663,
+     "end": 25.032729166666666,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 25.045229166666665,
+     "end": 25.120229166666665,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 25.132729166666664,
+   "end": 25.923541666666665,
+   "words": [
+    {
+     "text": "answer.",
+     "start": 25.132729166666664,
+     "end": 25.645229166666663,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 25.953541666666666,
+   "end": 26.403541666666666,
+   "words": [
+    {
+     "text": "Because",
+     "start": 25.953541666666666,
+     "end": 26.291041666666665,
+     "color": "white"
+    },
+    {
+     "text": "they",
+     "start": 26.303541666666664,
+     "end": 26.403541666666666,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 26.416041666666665,
+   "end": 26.878541666666663,
+   "words": [
+    {
+     "text": "didn't",
+     "start": 26.416041666666665,
+     "end": 26.678541666666664,
+     "color": "white"
+    },
+    {
+     "text": "want",
+     "start": 26.691041666666663,
+     "end": 26.828541666666666,
+     "color": "white"
+    },
+    {
+     "text": "to",
+     "start": 26.841041666666666,
+     "end": 26.878541666666663,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 26.891041666666666,
+   "end": 28.228541666666665,
+   "words": [
+    {
+     "text": "stand",
+     "start": 26.891041666666666,
+     "end": 27.216041666666666,
+     "color": "white"
+    },
+    {
+     "text": "alone.",
+     "start": 27.228541666666665,
+     "end": 27.628541666666663,
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "start": 28.452479166666667,
+   "end": 29.433104166666663,
+   "words": [
+    {
+     "text": "Sometimes,",
+     "start": 28.452479166666667,
+     "end": 29.276937166666666,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 29.463104166666664,
+   "end": 30.181229166666665,
+   "words": [
+    {
+     "text": "the",
+     "start": 29.463104166666664,
+     "end": 29.569479166666664,
+     "color": "white"
+    },
+    {
+     "text": "crowd",
+     "start": 29.582812166666663,
+     "end": 29.928562166666666,
+     "color": "red"
+    },
+    {
+     "text": "isn't",
+     "start": 29.941854166666666,
+     "end": 30.181229166666665,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 30.194520166666663,
+   "end": 30.942958333333333,
+   "words": [
+    {
+     "text": "right.",
+     "start": 30.194520166666663,
+     "end": 30.540270166666666,
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "start": 30.972958333333334,
+   "end": 31.530040333333332,
+   "words": [
+    {
+     "text": "It's",
+     "start": 30.972958333333334,
+     "end": 31.231124333333334,
+     "color": "white"
+    },
+    {
+     "text": "just",
+     "start": 31.24470833333333,
+     "end": 31.434916333333334,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 31.448499333333334,
+     "end": 31.530040333333332,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 31.543624333333334,
+   "end": 32.700707333333334,
+   "words": [
+    {
+     "text": "crowd.",
+     "start": 31.543624333333334,
+     "end": 32.10070733333333,
+     "color": "red"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "key": "b2c141fc92e2",
+ "say": "Welcome to the hidden world of psychological manipulation.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-6%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Welcome",
+   "start": 0.1,
+   "end": 0.538833
+  },
+  {
+   "text": "to",
+   "start": 0.552125,
+   "end": 0.618625
+  },
+  {
+   "text": "the",
+   "start": 0.631916,
+   "end": 0.711707
+  },
+  {
+   "text": "hidden",
+   "start": 0.725,
+   "end": 1.097333
+  },
+  {
+   "text": "world",
+   "start": 1.110625,
+   "end": 1.469666
+  },
+  {
+   "text": "of",
+   "start": 1.482958,
+   "end": 1.602624
+  },
+  {
+   "text": "psychological",
+   "start": 1.615958,
+   "end": 2.467041
+  },
+  {
+   "text": "manipulation",
+   "start": 2.480333,
+   "end": 3.238291
+  }
+ ]
+}

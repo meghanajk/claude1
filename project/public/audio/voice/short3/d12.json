@@ -1,0 +1,76 @@
+{
+ "key": "4138e265df2e",
+ "say": "And never let someone else become the only source of truth about yourself.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-6%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "And",
+   "start": 0.1,
+   "end": 0.31275
+  },
+  {
+   "text": "never",
+   "start": 0.326083,
+   "end": 0.552166
+  },
+  {
+   "text": "let",
+   "start": 0.565416,
+   "end": 0.724999
+  },
+  {
+   "text": "someone",
+   "start": 0.738291,
+   "end": 1.070749
+  },
+  {
+   "text": "else",
+   "start": 1.084041,
+   "end": 1.270207
+  },
+  {
+   "text": "become",
+   "start": 1.2835,
+   "end": 1.576041
+  },
+  {
+   "text": "the",
+   "start": 1.589375,
+   "end": 1.709041
+  },
+  {
+   "text": "only",
+   "start": 1.735625,
+   "end": 2.081375
+  },
+  {
+   "text": "source",
+   "start": 2.094666,
+   "end": 2.453707
+  },
+  {
+   "text": "of",
+   "start": 2.467041,
+   "end": 2.546832
+  },
+  {
+   "text": "truth",
+   "start": 2.560125,
+   "end": 2.852666
+  },
+  {
+   "text": "about",
+   "start": 2.865958,
+   "end": 3.145208
+  },
+  {
+   "text": "yourself",
+   "start": 3.1585,
+   "end": 3.730291
+  }
+ ]
+}

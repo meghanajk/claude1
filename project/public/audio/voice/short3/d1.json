@@ -1,0 +1,61 @@
+{
+ "key": "7e3b8c34877c",
+ "say": "What if someone slowly made you doubt your own memories?",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-4%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "What",
+   "start": 0.1,
+   "end": 0.321375
+  },
+  {
+   "text": "if",
+   "start": 0.334375,
+   "end": 0.4125
+  },
+  {
+   "text": "someone",
+   "start": 0.425541,
+   "end": 0.764082
+  },
+  {
+   "text": "slowly",
+   "start": 0.777083,
+   "end": 1.271874
+  },
+  {
+   "text": "made",
+   "start": 1.284916,
+   "end": 1.519291
+  },
+  {
+   "text": "you",
+   "start": 1.532291,
+   "end": 1.610416
+  },
+  {
+   "text": "doubt",
+   "start": 1.623458,
+   "end": 1.857833
+  },
+  {
+   "text": "your",
+   "start": 1.870833,
+   "end": 2.040124
+  },
+  {
+   "text": "own",
+   "start": 2.053125,
+   "end": 2.222416
+  },
+  {
+   "text": "memories",
+   "start": 2.235416,
+   "end": 2.860416
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "key": "3ca583aa324d",
+ "say": "It also wants to belong.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "It",
+   "start": 0.1,
+   "end": 0.2875
+  },
+  {
+   "text": "also",
+   "start": 0.3,
+   "end": 0.6125
+  },
+  {
+   "text": "wants",
+   "start": 0.625,
+   "end": 0.8625
+  },
+  {
+   "text": "to",
+   "start": 0.875,
+   "end": 0.9625
+  },
+  {
+   "text": "belong",
+   "start": 0.975,
+   "end": 1.4625
+  }
+ ]
+}

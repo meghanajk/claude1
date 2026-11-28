@@ -1,0 +1,36 @@
+{
+ "key": "40e8ee7b98fa",
+ "say": "It only makes it familiar.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-6%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "It",
+   "start": 0.1,
+   "end": 0.299458
+  },
+  {
+   "text": "only",
+   "start": 0.31275,
+   "end": 0.538833
+  },
+  {
+   "text": "makes",
+   "start": 0.552125,
+   "end": 0.818083
+  },
+  {
+   "text": "it",
+   "start": 0.831375,
+   "end": 0.911166
+  },
+  {
+   "text": "familiar",
+   "start": 0.924458,
+   "end": 1.482958
+  }
+ ]
+}

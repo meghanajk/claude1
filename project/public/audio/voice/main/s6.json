@@ -1,0 +1,41 @@
+{
+ "key": "077384a82937",
+ "say": "But suddenly, you start questioning yourself.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "But",
+   "start": 0.1,
+   "end": 0.2875
+  },
+  {
+   "text": "suddenly",
+   "start": 0.3,
+   "end": 0.7875
+  },
+  {
+   "text": "you",
+   "start": 0.8375,
+   "end": 0.9125
+  },
+  {
+   "text": "start",
+   "start": 0.925,
+   "end": 1.1625
+  },
+  {
+   "text": "questioning",
+   "start": 1.175,
+   "end": 1.625
+  },
+  {
+   "text": "yourself",
+   "start": 1.6375,
+   "end": 2.1625
+  }
+ ]
+}

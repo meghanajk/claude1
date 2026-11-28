@@ -1,0 +1,56 @@
+{
+ "key": "5fb07ead6efa",
+ "say": "It can damage your confidence in your own judgment.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "It",
+   "start": 0.1,
+   "end": 0.2625
+  },
+  {
+   "text": "can",
+   "start": 0.275,
+   "end": 0.4
+  },
+  {
+   "text": "damage",
+   "start": 0.4125,
+   "end": 0.7625
+  },
+  {
+   "text": "your",
+   "start": 0.775,
+   "end": 0.8875
+  },
+  {
+   "text": "confidence",
+   "start": 0.9,
+   "end": 1.45
+  },
+  {
+   "text": "in",
+   "start": 1.4625,
+   "end": 1.55
+  },
+  {
+   "text": "your",
+   "start": 1.5625,
+   "end": 1.7
+  },
+  {
+   "text": "own",
+   "start": 1.7125,
+   "end": 1.8625
+  },
+  {
+   "text": "judgment",
+   "start": 1.875,
+   "end": 2.325
+  }
+ ]
+}

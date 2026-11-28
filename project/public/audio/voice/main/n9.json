@@ -1,0 +1,31 @@
+{
+ "key": "462ad345cff6",
+ "say": "Stay curious. Question everything.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-6%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Stay",
+   "start": 0.1,
+   "end": 0.485625
+  },
+  {
+   "text": "curious",
+   "start": 0.498916,
+   "end": 1.123916
+  },
+  {
+   "text": "Question",
+   "start": 1.51275,
+   "end": 1.978166
+  },
+  {
+   "text": "everything",
+   "start": 1.9915,
+   "end": 2.470208
+  }
+ ]
+}

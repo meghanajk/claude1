@@ -1,0 +1,36 @@
+{
+ "key": "f094baeded23",
+ "say": "Let's try a little experiment.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Let's",
+   "start": 0.1,
+   "end": 0.3625
+  },
+  {
+   "text": "try",
+   "start": 0.375,
+   "end": 0.575
+  },
+  {
+   "text": "a",
+   "start": 0.5875,
+   "end": 0.65
+  },
+  {
+   "text": "little",
+   "start": 0.6625,
+   "end": 0.925
+  },
+  {
+   "text": "experiment",
+   "start": 0.9375,
+   "end": 1.5625
+  }
+ ]
+}

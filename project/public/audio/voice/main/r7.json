@@ -1,0 +1,51 @@
+{
+ "key": "7b48d848e645",
+ "say": "Sometimes, the strongest manipulation doesn't look like control.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-6%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Sometimes",
+   "start": 0.1,
+   "end": 0.964375
+  },
+  {
+   "text": "the",
+   "start": 1.084041,
+   "end": 1.190416
+  },
+  {
+   "text": "strongest",
+   "start": 1.203708,
+   "end": 1.748916
+  },
+  {
+   "text": "manipulation",
+   "start": 1.76225,
+   "end": 2.493625
+  },
+  {
+   "text": "doesn't",
+   "start": 2.506916,
+   "end": 2.839374
+  },
+  {
+   "text": "look",
+   "start": 2.852666,
+   "end": 3.025541
+  },
+  {
+   "text": "like",
+   "start": 3.038833,
+   "end": 3.171791
+  },
+  {
+   "text": "control",
+   "start": 3.185125,
+   "end": 3.70375
+  }
+ ]
+}

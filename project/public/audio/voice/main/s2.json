@@ -1,0 +1,41 @@
+{
+ "key": "0ce9fe5218f6",
+ "say": "Imagine you're walking into a room.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Imagine",
+   "start": 0.1,
+   "end": 0.6
+  },
+  {
+   "text": "you're",
+   "start": 0.6125,
+   "end": 0.725
+  },
+  {
+   "text": "walking",
+   "start": 0.7375,
+   "end": 1.1
+  },
+  {
+   "text": "into",
+   "start": 1.1125,
+   "end": 1.3375
+  },
+  {
+   "text": "a",
+   "start": 1.35,
+   "end": 1.4375
+  },
+  {
+   "text": "room",
+   "start": 1.45,
+   "end": 1.75
+  }
+ ]
+}

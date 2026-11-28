@@ -1,0 +1,111 @@
+{
+ "key": "b591693736e7",
+ "say": "They could make you buy things you don't need, believe things that aren't true, and even doubt your own memories.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-4%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "They",
+   "start": 0.1,
+   "end": 0.282291
+  },
+  {
+   "text": "could",
+   "start": 0.295333,
+   "end": 0.464624
+  },
+  {
+   "text": "make",
+   "start": 0.477625,
+   "end": 0.685958
+  },
+  {
+   "text": "you",
+   "start": 0.698958,
+   "end": 0.816166
+  },
+  {
+   "text": "buy",
+   "start": 0.829166,
+   "end": 0.998457
+  },
+  {
+   "text": "things",
+   "start": 1.011458,
+   "end": 1.349999
+  },
+  {
+   "text": "you",
+   "start": 1.363041,
+   "end": 1.441166
+  },
+  {
+   "text": "don't",
+   "start": 1.454166,
+   "end": 1.701582
+  },
+  {
+   "text": "need",
+   "start": 1.714583,
+   "end": 2.079166
+  },
+  {
+   "text": "believe",
+   "start": 2.469791,
+   "end": 2.821374
+  },
+  {
+   "text": "things",
+   "start": 2.834375,
+   "end": 3.133875
+  },
+  {
+   "text": "that",
+   "start": 3.146875,
+   "end": 3.277083
+  },
+  {
+   "text": "aren't",
+   "start": 3.290125,
+   "end": 3.537541
+  },
+  {
+   "text": "true",
+   "start": 3.550541,
+   "end": 3.954207
+  },
+  {
+   "text": "and",
+   "start": 4.31875,
+   "end": 4.475
+  },
+  {
+   "text": "even",
+   "start": 4.488041,
+   "end": 4.735457
+  },
+  {
+   "text": "doubt",
+   "start": 4.748458,
+   "end": 4.982833
+  },
+  {
+   "text": "your",
+   "start": 4.995833,
+   "end": 5.165124
+  },
+  {
+   "text": "own",
+   "start": 5.178125,
+   "end": 5.334375
+  },
+  {
+   "text": "memories",
+   "start": 5.347416,
+   "end": 5.959416
+  }
+ ]
+}

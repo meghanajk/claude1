@@ -1,0 +1,26 @@
+{
+ "key": "733579628ca8",
+ "say": "It's called gaslighting.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-6%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "It's",
+   "start": 0.1,
+   "end": 0.326083
+  },
+  {
+   "text": "called",
+   "start": 0.339375,
+   "end": 0.658541
+  },
+  {
+   "text": "gaslighting",
+   "start": 0.671791,
+   "end": 1.336666
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "key": "2d155fd1db2a",
+ "say": "Gaslighting.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-12%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Gaslighting",
+   "start": 0.1,
+   "end": 0.88125
+  }
+ ]
+}

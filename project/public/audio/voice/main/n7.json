@@ -1,0 +1,66 @@
+{
+ "key": "ab456688040e",
+ "say": "Is the moment someone else can start making them for you.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-6%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Is",
+   "start": 0.1,
+   "end": 0.299458
+  },
+  {
+   "text": "the",
+   "start": 0.31275,
+   "end": 0.392541
+  },
+  {
+   "text": "moment",
+   "start": 0.405833,
+   "end": 0.738291
+  },
+  {
+   "text": "someone",
+   "start": 0.751583,
+   "end": 1.070749
+  },
+  {
+   "text": "else",
+   "start": 1.084041,
+   "end": 1.283499
+  },
+  {
+   "text": "can",
+   "start": 1.296791,
+   "end": 1.443082
+  },
+  {
+   "text": "start",
+   "start": 1.456375,
+   "end": 1.762208
+  },
+  {
+   "text": "making",
+   "start": 1.775541,
+   "end": 2.107999
+  },
+  {
+   "text": "them",
+   "start": 2.121291,
+   "end": 2.254249
+  },
+  {
+   "text": "for",
+   "start": 2.267541,
+   "end": 2.493624
+  },
+  {
+   "text": "you",
+   "start": 2.506916,
+   "end": 2.706374
+  }
+ ]
+}

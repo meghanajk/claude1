@@ -1,0 +1,96 @@
+{
+ "key": "c31360b80e60",
+ "say": "And when someone understands which emotions affect you most, they may use those emotions to pressure you.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "And",
+   "start": 0.1,
+   "end": 0.3
+  },
+  {
+   "text": "when",
+   "start": 0.3125,
+   "end": 0.45
+  },
+  {
+   "text": "someone",
+   "start": 0.4625,
+   "end": 0.8
+  },
+  {
+   "text": "understands",
+   "start": 0.8125,
+   "end": 1.35
+  },
+  {
+   "text": "which",
+   "start": 1.3625,
+   "end": 1.5
+  },
+  {
+   "text": "emotions",
+   "start": 1.5125,
+   "end": 2.0
+  },
+  {
+   "text": "affect",
+   "start": 2.0125,
+   "end": 2.3125
+  },
+  {
+   "text": "you",
+   "start": 2.325,
+   "end": 2.375
+  },
+  {
+   "text": "most",
+   "start": 2.3875,
+   "end": 2.7625
+  },
+  {
+   "text": "they",
+   "start": 2.975,
+   "end": 3.0625
+  },
+  {
+   "text": "may",
+   "start": 3.075,
+   "end": 3.3125
+  },
+  {
+   "text": "use",
+   "start": 3.325,
+   "end": 3.6
+  },
+  {
+   "text": "those",
+   "start": 3.6125,
+   "end": 3.775
+  },
+  {
+   "text": "emotions",
+   "start": 3.7875,
+   "end": 4.2625
+  },
+  {
+   "text": "to",
+   "start": 4.275,
+   "end": 4.35
+  },
+  {
+   "text": "pressure",
+   "start": 4.3625,
+   "end": 4.75
+  },
+  {
+   "text": "you",
+   "start": 4.7625,
+   "end": 4.95
+  }
+ ]
+}

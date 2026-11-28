@@ -1,0 +1,31 @@
+{
+ "key": "6738c323f06b",
+ "say": "They target your emotions.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "They",
+   "start": 0.1,
+   "end": 0.2625
+  },
+  {
+   "text": "target",
+   "start": 0.275,
+   "end": 0.7125
+  },
+  {
+   "text": "your",
+   "start": 0.725,
+   "end": 0.85
+  },
+  {
+   "text": "emotions",
+   "start": 0.8625,
+   "end": 1.4875
+  }
+ ]
+}

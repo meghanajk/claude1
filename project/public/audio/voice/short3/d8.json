@@ -1,0 +1,36 @@
+{
+ "key": "d69e7baabcd0",
+ "say": "It doesn't just create confusion.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "It",
+   "start": 0.1,
+   "end": 0.275
+  },
+  {
+   "text": "doesn't",
+   "start": 0.2875,
+   "end": 0.55
+  },
+  {
+   "text": "just",
+   "start": 0.5625,
+   "end": 0.75
+  },
+  {
+   "text": "create",
+   "start": 0.7625,
+   "end": 1.075
+  },
+  {
+   "text": "confusion",
+   "start": 1.0875,
+   "end": 1.6375
+  }
+ ]
+}

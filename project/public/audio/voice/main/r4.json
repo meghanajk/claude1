@@ -1,0 +1,36 @@
+{
+ "key": "94159ca58713",
+ "say": "And here's the interesting part.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "And",
+   "start": 0.1,
+   "end": 0.275
+  },
+  {
+   "text": "here's",
+   "start": 0.2875,
+   "end": 0.4875
+  },
+  {
+   "text": "the",
+   "start": 0.5,
+   "end": 0.6125
+  },
+  {
+   "text": "interesting",
+   "start": 0.625,
+   "end": 1.075
+  },
+  {
+   "text": "part",
+   "start": 1.0875,
+   "end": 1.425
+  }
+ ]
+}

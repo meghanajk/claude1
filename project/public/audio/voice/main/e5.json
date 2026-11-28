@@ -1,0 +1,71 @@
+{
+ "key": "f01091657871",
+ "say": "Or makes you afraid of losing them whenever you set a boundary.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Or",
+   "start": 0.1,
+   "end": 0.25
+  },
+  {
+   "text": "makes",
+   "start": 0.2625,
+   "end": 0.5
+  },
+  {
+   "text": "you",
+   "start": 0.5125,
+   "end": 0.625
+  },
+  {
+   "text": "afraid",
+   "start": 0.6375,
+   "end": 1.0
+  },
+  {
+   "text": "of",
+   "start": 1.0125,
+   "end": 1.1125
+  },
+  {
+   "text": "losing",
+   "start": 1.125,
+   "end": 1.475
+  },
+  {
+   "text": "them",
+   "start": 1.4875,
+   "end": 1.6125
+  },
+  {
+   "text": "whenever",
+   "start": 1.625,
+   "end": 1.9125
+  },
+  {
+   "text": "you",
+   "start": 1.925,
+   "end": 2.0125
+  },
+  {
+   "text": "set",
+   "start": 2.025,
+   "end": 2.2
+  },
+  {
+   "text": "a",
+   "start": 2.2125,
+   "end": 2.25
+  },
+  {
+   "text": "boundary",
+   "start": 2.2625,
+   "end": 2.7375
+  }
+ ]
+}

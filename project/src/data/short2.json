@@ -1,0 +1,1510 @@
+{
+ "program": "short2",
+ "fps": 30,
+ "duration": 37.03333333333333,
+ "durationInFrames": 1111,
+ "title": "THE LIE THAT BECOMES THE TRUTH",
+ "scenes": [
+  {
+   "id": "s2main",
+   "start": 0.0,
+   "music": "pulse",
+   "end": 37.03333333333333
+  }
+ ],
+ "lines": {
+  "b1": {
+   "id": "b1",
+   "scene": "s2main",
+   "text": "What if hearing a lie repeatedly makes it feel true?",
+   "start": 0.15,
+   "end": 2.830395833333333,
+   "words": [
+    {
+     "text": "What",
+     "start": 0.2,
+     "end": 0.39999999999999997,
+     "color": "white"
+    },
+    {
+     "text": "if",
+     "start": 0.4125,
+     "end": 0.5,
+     "color": "white"
+    },
+    {
+     "text": "hearing",
+     "start": 0.5125,
+     "end": 0.8125,
+     "color": "white"
+    },
+    {
+     "text": "a",
+     "start": 0.825,
+     "end": 0.875,
+     "color": "white"
+    },
+    {
+     "text": "lie",
+     "start": 0.8875,
+     "end": 1.1500000000000001,
+     "color": "red"
+    },
+    {
+     "text": "repeatedly",
+     "start": 1.1625,
+     "end": 1.7750000000000001,
+     "color": "white"
+    },
+    {
+     "text": "makes",
+     "start": 1.7875,
+     "end": 2.025,
+     "color": "white"
+    },
+    {
+     "text": "it",
+     "start": 2.0375,
+     "end": 2.1,
+     "color": "white"
+    },
+    {
+     "text": "feel",
+     "start": 2.1125000000000003,
+     "end": 2.35,
+     "color": "white"
+    },
+    {
+     "text": "true?",
+     "start": 2.3625000000000003,
+     "end": 2.7625,
+     "color": "yellow"
+    }
+   ]
+  },
+  "b2": {
+   "id": "b2",
+   "scene": "s2main",
+   "text": "The first time you hear a claim, you might doubt it.",
+   "start": 3.230395833333333,
+   "end": 5.786395833333334,
+   "words": [
+    {
+     "text": "The",
+     "start": 3.2803958333333334,
+     "end": 3.455395833333333,
+     "color": "white"
+    },
+    {
+     "text": "first",
+     "start": 3.4678958333333334,
+     "end": 3.8053958333333333,
+     "color": "white"
+    },
+    {
+     "text": "time",
+     "start": 3.817895833333333,
+     "end": 4.005395833333333,
+     "color": "white"
+    },
+    {
+     "text": "you",
+     "start": 4.017895833333333,
+     "end": 4.105395833333334,
+     "color": "white"
+    },
+    {
+     "text": "hear",
+     "start": 4.117895833333334,
+     "end": 4.280395833333333,
+     "color": "white"
+    },
+    {
+     "text": "a",
+     "start": 4.292895833333334,
+     "end": 4.342895833333333,
+     "color": "white"
+    },
+    {
+     "text": "claim,",
+     "start": 4.355395833333334,
+     "end": 4.792895833333334,
+     "color": "white"
+    },
+    {
+     "text": "you",
+     "start": 5.105395833333334,
+     "end": 5.155395833333333,
+     "color": "white"
+    },
+    {
+     "text": "might",
+     "start": 5.167895833333334,
+     "end": 5.380395833333333,
+     "color": "white"
+    },
+    {
+     "text": "doubt",
+     "start": 5.392895833333333,
+     "end": 5.617895833333334,
+     "color": "yellow"
+    },
+    {
+     "text": "it.",
+     "start": 5.630395833333333,
+     "end": 5.755395833333333,
+     "color": "white"
+    }
+   ]
+  },
+  "b3": {
+   "id": "b3",
+   "scene": "s2main",
+   "text": "The second time, it sounds a little familiar.",
+   "start": 6.086395833333333,
+   "end": 8.555145833333333,
+   "words": [
+    {
+     "text": "The",
+     "start": 6.136395833333332,
+     "end": 6.298895833333333,
+     "color": "white"
+    },
+    {
+     "text": "second",
+     "start": 6.311395833333333,
+     "end": 6.648895833333333,
+     "color": "white"
+    },
+    {
+     "text": "time,",
+     "start": 6.661395833333333,
+     "end": 7.036395833333333,
+     "color": "white"
+    },
+    {
+     "text": "it",
+     "start": 7.148895833333333,
+     "end": 7.223895833333333,
+     "color": "white"
+    },
+    {
+     "text": "sounds",
+     "start": 7.236395833333333,
+     "end": 7.548895833333333,
+     "color": "white"
+    },
+    {
+     "text": "a",
+     "start": 7.561395833333332,
+     "end": 7.611395833333333,
+     "color": "white"
+    },
+    {
+     "text": "little",
+     "start": 7.623895833333332,
+     "end": 7.961395833333333,
+     "color": "white"
+    },
+    {
+     "text": "familiar.",
+     "start": 7.973895833333333,
+     "end": 8.486395833333333,
+     "color": "yellow"
+    }
+   ]
+  },
+  "b4": {
+   "id": "b4",
+   "scene": "s2main",
+   "text": "By the hundredth time, your brain processes it more easily.",
+   "start": 8.855145833333331,
+   "end": 12.0626875,
+   "words": [
+    {
+     "text": "By",
+     "start": 8.90514583333333,
+     "end": 9.06764583333333,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 9.080145833333331,
+     "end": 9.142645833333331,
+     "color": "white"
+    },
+    {
+     "text": "hundredth",
+     "start": 9.15514583333333,
+     "end": 9.49264583333333,
+     "color": "yellow"
+    },
+    {
+     "text": "time,",
+     "start": 9.50514583333333,
+     "end": 9.855145833333331,
+     "color": "white"
+    },
+    {
+     "text": "your",
+     "start": 10.13014583333333,
+     "end": 10.21764583333333,
+     "color": "white"
+    },
+    {
+     "text": "brain",
+     "start": 10.230145833333331,
+     "end": 10.580145833333331,
+     "color": "white"
+    },
+    {
+     "text": "processes",
+     "start": 10.59264583333333,
+     "end": 11.21764583333333,
+     "color": "white"
+    },
+    {
+     "text": "it",
+     "start": 11.230145833333331,
+     "end": 11.292645833333331,
+     "color": "white"
+    },
+    {
+     "text": "more",
+     "start": 11.30514583333333,
+     "end": 11.517645833333331,
+     "color": "white"
+    },
+    {
+     "text": "easily.",
+     "start": 11.53014583333333,
+     "end": 11.96764583333333,
+     "color": "white"
+    }
+   ]
+  },
+  "b5": {
+   "id": "b5",
+   "scene": "s2main",
+   "text": "And that easy, familiar feeling can be mistaken for truth.",
+   "start": 12.262687499999998,
+   "end": 15.776979166666665,
+   "words": [
+    {
+     "text": "And",
+     "start": 12.312687499999997,
+     "end": 12.500187499999997,
+     "color": "white"
+    },
+    {
+     "text": "that",
+     "start": 12.512687499999998,
+     "end": 12.687687499999997,
+     "color": "white"
+    },
+    {
+     "text": "easy,",
+     "start": 12.700187499999998,
+     "end": 13.137687499999998,
+     "color": "white"
+    },
+    {
+     "text": "familiar",
+     "start": 13.362687499999998,
+     "end": 13.787687499999997,
+     "color": "yellow"
+    },
+    {
+     "text": "feeling",
+     "start": 13.800187499999998,
+     "end": 14.200187499999998,
+     "color": "white"
+    },
+    {
+     "text": "can",
+     "start": 14.212687499999998,
+     "end": 14.350187499999997,
+     "color": "white"
+    },
+    {
+     "text": "be",
+     "start": 14.362687499999998,
+     "end": 14.475187499999997,
+     "color": "white"
+    },
+    {
+     "text": "mistaken",
+     "start": 14.487687499999998,
+     "end": 15.062687499999997,
+     "color": "red"
+    },
+    {
+     "text": "for",
+     "start": 15.075187499999998,
+     "end": 15.212687499999998,
+     "color": "white"
+    },
+    {
+     "text": "truth.",
+     "start": 15.225187499999997,
+     "end": 15.700187499999998,
+     "color": "yellow"
+    }
+   ]
+  },
+  "b6": {
+   "id": "b6",
+   "scene": "s2main",
+   "text": "Psychologists call this the Illusory Truth Effect.",
+   "start": 16.276979166666663,
+   "end": 19.00133333333333,
+   "words": [
+    {
+     "text": "Psychologists",
+     "start": 16.326979166666664,
+     "end": 17.151979166666663,
+     "color": "white"
+    },
+    {
+     "text": "call",
+     "start": 17.164479166666663,
+     "end": 17.426979166666662,
+     "color": "white"
+    },
+    {
+     "text": "this",
+     "start": 17.43947916666666,
+     "end": 17.601979166666663,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 17.614479166666662,
+     "end": 17.714479166666663,
+     "color": "white"
+    },
+    {
+     "text": "Illusory",
+     "start": 17.726979166666663,
+     "end": 18.239479166666662,
+     "color": "yellow"
+    },
+    {
+     "text": "Truth",
+     "start": 18.25197916666666,
+     "end": 18.489479166666662,
+     "color": "yellow"
+    },
+    {
+     "text": "Effect.",
+     "start": 18.50197916666666,
+     "end": 18.926979166666662,
+     "color": "yellow"
+    }
+   ]
+  },
+  "b7": {
+   "id": "b7",
+   "scene": "s2main",
+   "text": "It's one reason repetition is so powerful in advertising and misinformation.",
+   "start": 19.50133333333333,
+   "end": 24.017416666666666,
+   "words": [
+    {
+     "text": "It's",
+     "start": 19.551333333333332,
+     "end": 19.76383333333333,
+     "color": "white"
+    },
+    {
+     "text": "one",
+     "start": 19.77633333333333,
+     "end": 19.988833333333332,
+     "color": "white"
+    },
+    {
+     "text": "reason",
+     "start": 20.00133333333333,
+     "end": 20.301333333333332,
+     "color": "white"
+    },
+    {
+     "text": "repetition",
+     "start": 20.31383333333333,
+     "end": 20.926333333333332,
+     "color": "yellow"
+    },
+    {
+     "text": "is",
+     "start": 20.93883333333333,
+     "end": 21.10133333333333,
+     "color": "white"
+    },
+    {
+     "text": "so",
+     "start": 21.113833333333332,
+     "end": 21.363833333333332,
+     "color": "white"
+    },
+    {
+     "text": "powerful",
+     "start": 21.37633333333333,
+     "end": 22.00133333333333,
+     "color": "white"
+    },
+    {
+     "text": "in",
+     "start": 22.01383333333333,
+     "end": 22.12633333333333,
+     "color": "white"
+    },
+    {
+     "text": "advertising",
+     "start": 22.13883333333333,
+     "end": 22.97633333333333,
+     "color": "white"
+    },
+    {
+     "text": "and",
+     "start": 22.988833333333332,
+     "end": 23.08883333333333,
+     "color": "white"
+    },
+    {
+     "text": "misinformation.",
+     "start": 23.10133333333333,
+     "end": 23.95133333333333,
+     "color": "red"
+    }
+   ]
+  },
+  "b8": {
+   "id": "b8",
+   "scene": "s2main",
+   "text": "Research suggests it can even affect people who already know the correct answer.",
+   "start": 24.317416666666666,
+   "end": 28.196770833333332,
+   "words": [
+    {
+     "text": "Research",
+     "start": 24.367416666666667,
+     "end": 24.892416666666666,
+     "color": "white"
+    },
+    {
+     "text": "suggests",
+     "start": 24.904916666666665,
+     "end": 25.367416666666667,
+     "color": "white"
+    },
+    {
+     "text": "it",
+     "start": 25.379916666666666,
+     "end": 25.454916666666666,
+     "color": "white"
+    },
+    {
+     "text": "can",
+     "start": 25.467416666666665,
+     "end": 25.567416666666666,
+     "color": "white"
+    },
+    {
+     "text": "even",
+     "start": 25.579916666666666,
+     "end": 25.817416666666666,
+     "color": "white"
+    },
+    {
+     "text": "affect",
+     "start": 25.829916666666666,
+     "end": 26.154916666666665,
+     "color": "white"
+    },
+    {
+     "text": "people",
+     "start": 26.167416666666664,
+     "end": 26.492416666666667,
+     "color": "white"
+    },
+    {
+     "text": "who",
+     "start": 26.504916666666666,
+     "end": 26.604916666666664,
+     "color": "white"
+    },
+    {
+     "text": "already",
+     "start": 26.617416666666667,
+     "end": 26.967416666666665,
+     "color": "white"
+    },
+    {
+     "text": "know",
+     "start": 26.979916666666664,
+     "end": 27.192416666666666,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 27.204916666666666,
+     "end": 27.304916666666667,
+     "color": "white"
+    },
+    {
+     "text": "correct",
+     "start": 27.317416666666666,
+     "end": 27.692416666666666,
+     "color": "white"
+    },
+    {
+     "text": "answer.",
+     "start": 27.704916666666666,
+     "end": 28.129916666666666,
+     "color": "white"
+    }
+   ]
+  },
+  "b9": {
+   "id": "b9",
+   "scene": "s2main",
+   "text": "So next time something feels true, ask yourself why.",
+   "start": 28.796770833333333,
+   "end": 31.802,
+   "words": [
+    {
+     "text": "So",
+     "start": 28.846770833333334,
+     "end": 29.059270833333333,
+     "color": "white"
+    },
+    {
+     "text": "next",
+     "start": 29.071770833333332,
+     "end": 29.309270833333333,
+     "color": "white"
+    },
+    {
+     "text": "time",
+     "start": 29.321770833333332,
+     "end": 29.496770833333333,
+     "color": "white"
+    },
+    {
+     "text": "something",
+     "start": 29.509270833333332,
+     "end": 29.83427083333333,
+     "color": "white"
+    },
+    {
+     "text": "feels",
+     "start": 29.846770833333334,
+     "end": 30.184270833333333,
+     "color": "white"
+    },
+    {
+     "text": "true,",
+     "start": 30.196770833333332,
+     "end": 30.496770833333333,
+     "color": "yellow"
+    },
+    {
+     "text": "ask",
+     "start": 30.77177083333333,
+     "end": 31.02177083333333,
+     "color": "white"
+    },
+    {
+     "text": "yourself",
+     "start": 31.034270833333334,
+     "end": 31.39677083333333,
+     "color": "white"
+    },
+    {
+     "text": "why.",
+     "start": 31.409270833333334,
+     "end": 31.696770833333332,
+     "color": "yellow"
+    }
+   ]
+  },
+  "b10": {
+   "id": "b10",
+   "scene": "s2main",
+   "text": "Remember, familiarity is not proof.",
+   "start": 32.202,
+   "end": 34.831604166666665,
+   "words": [
+    {
+     "text": "Remember,",
+     "start": 32.252,
+     "end": 32.849833000000004,
+     "color": "white"
+    },
+    {
+     "text": "familiarity",
+     "start": 33.012875,
+     "end": 33.882458,
+     "color": "yellow"
+    },
+    {
+     "text": "is",
+     "start": 33.896041000000004,
+     "end": 34.018332,
+     "color": "white"
+    },
+    {
+     "text": "not",
+     "start": 34.031875,
+     "end": 34.317208,
+     "color": "white"
+    },
+    {
+     "text": "proof.",
+     "start": 34.330791,
+     "end": 34.724832,
+     "color": "red"
+    }
+   ]
+  }
+ },
+ "lineOrder": [
+  "b1",
+  "b2",
+  "b3",
+  "b4",
+  "b5",
+  "b6",
+  "b7",
+  "b8",
+  "b9",
+  "b10"
+ ],
+ "beats": {
+  "hook": 0.15,
+  "lieWord": 1.1625,
+  "first": 3.2304,
+  "second": 6.0864,
+  "hundred": 9.1551,
+  "truthFeel": 15.2252,
+  "effect": 17.727,
+  "ads": 22.1388,
+  "mis": 23.1013,
+  "research": 24.3174,
+  "ask": 31.4093,
+  "endOff": 32.002,
+  "endHit": 34.3308
+ },
+ "captions": [
+  {
+   "start": 0.2,
+   "end": 0.8125,
+   "words": [
+    {
+     "text": "What",
+     "start": 0.2,
+     "end": 0.39999999999999997,
+     "color": "white"
+    },
+    {
+     "text": "if",
+     "start": 0.4125,
+     "end": 0.5,
+     "color": "white"
+    },
+    {
+     "text": "hearing",
+     "start": 0.5125,
+     "end": 0.8125,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 0.825,
+   "end": 1.7750000000000001,
+   "words": [
+    {
+     "text": "a",
+     "start": 0.825,
+     "end": 0.875,
+     "color": "white"
+    },
+    {
+     "text": "lie",
+     "start": 0.8875,
+     "end": 1.1500000000000001,
+     "color": "red"
+    },
+    {
+     "text": "repeatedly",
+     "start": 1.1625,
+     "end": 1.7750000000000001,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 1.7875,
+   "end": 2.35,
+   "words": [
+    {
+     "text": "makes",
+     "start": 1.7875,
+     "end": 2.025,
+     "color": "white"
+    },
+    {
+     "text": "it",
+     "start": 2.0375,
+     "end": 2.1,
+     "color": "white"
+    },
+    {
+     "text": "feel",
+     "start": 2.1125000000000003,
+     "end": 2.35,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 2.3625000000000003,
+   "end": 3.2503958333333336,
+   "words": [
+    {
+     "text": "true?",
+     "start": 2.3625000000000003,
+     "end": 2.7625,
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "start": 3.2803958333333334,
+   "end": 4.005395833333333,
+   "words": [
+    {
+     "text": "The",
+     "start": 3.2803958333333334,
+     "end": 3.455395833333333,
+     "color": "white"
+    },
+    {
+     "text": "first",
+     "start": 3.4678958333333334,
+     "end": 3.8053958333333333,
+     "color": "white"
+    },
+    {
+     "text": "time",
+     "start": 3.817895833333333,
+     "end": 4.005395833333333,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 4.017895833333333,
+   "end": 4.342895833333333,
+   "words": [
+    {
+     "text": "you",
+     "start": 4.017895833333333,
+     "end": 4.105395833333334,
+     "color": "white"
+    },
+    {
+     "text": "hear",
+     "start": 4.117895833333334,
+     "end": 4.280395833333333,
+     "color": "white"
+    },
+    {
+     "text": "a",
+     "start": 4.292895833333334,
+     "end": 4.342895833333333,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 4.355395833333334,
+   "end": 5.380395833333333,
+   "words": [
+    {
+     "text": "claim,",
+     "start": 4.355395833333334,
+     "end": 4.792895833333334,
+     "color": "white"
+    },
+    {
+     "text": "you",
+     "start": 5.105395833333334,
+     "end": 5.155395833333333,
+     "color": "white"
+    },
+    {
+     "text": "might",
+     "start": 5.167895833333334,
+     "end": 5.380395833333333,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 5.392895833333333,
+   "end": 6.106395833333332,
+   "words": [
+    {
+     "text": "doubt",
+     "start": 5.392895833333333,
+     "end": 5.617895833333334,
+     "color": "yellow"
+    },
+    {
+     "text": "it.",
+     "start": 5.630395833333333,
+     "end": 5.755395833333333,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 6.136395833333332,
+   "end": 7.118895833333332,
+   "words": [
+    {
+     "text": "The",
+     "start": 6.136395833333332,
+     "end": 6.298895833333333,
+     "color": "white"
+    },
+    {
+     "text": "second",
+     "start": 6.311395833333333,
+     "end": 6.648895833333333,
+     "color": "white"
+    },
+    {
+     "text": "time,",
+     "start": 6.661395833333333,
+     "end": 7.036395833333333,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 7.148895833333333,
+   "end": 7.611395833333333,
+   "words": [
+    {
+     "text": "it",
+     "start": 7.148895833333333,
+     "end": 7.223895833333333,
+     "color": "white"
+    },
+    {
+     "text": "sounds",
+     "start": 7.236395833333333,
+     "end": 7.548895833333333,
+     "color": "white"
+    },
+    {
+     "text": "a",
+     "start": 7.561395833333332,
+     "end": 7.611395833333333,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 7.623895833333332,
+   "end": 8.875145833333331,
+   "words": [
+    {
+     "text": "little",
+     "start": 7.623895833333332,
+     "end": 7.961395833333333,
+     "color": "white"
+    },
+    {
+     "text": "familiar.",
+     "start": 7.973895833333333,
+     "end": 8.486395833333333,
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "start": 8.90514583333333,
+   "end": 9.49264583333333,
+   "words": [
+    {
+     "text": "By",
+     "start": 8.90514583333333,
+     "end": 9.06764583333333,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 9.080145833333331,
+     "end": 9.142645833333331,
+     "color": "white"
+    },
+    {
+     "text": "hundredth",
+     "start": 9.15514583333333,
+     "end": 9.49264583333333,
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "start": 9.50514583333333,
+   "end": 10.580145833333331,
+   "words": [
+    {
+     "text": "time,",
+     "start": 9.50514583333333,
+     "end": 9.855145833333331,
+     "color": "white"
+    },
+    {
+     "text": "your",
+     "start": 10.13014583333333,
+     "end": 10.21764583333333,
+     "color": "white"
+    },
+    {
+     "text": "brain",
+     "start": 10.230145833333331,
+     "end": 10.580145833333331,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 10.59264583333333,
+   "end": 11.292645833333331,
+   "words": [
+    {
+     "text": "processes",
+     "start": 10.59264583333333,
+     "end": 11.21764583333333,
+     "color": "white"
+    },
+    {
+     "text": "it",
+     "start": 11.230145833333331,
+     "end": 11.292645833333331,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 11.30514583333333,
+   "end": 12.282687499999998,
+   "words": [
+    {
+     "text": "more",
+     "start": 11.30514583333333,
+     "end": 11.517645833333331,
+     "color": "white"
+    },
+    {
+     "text": "easily.",
+     "start": 11.53014583333333,
+     "end": 11.96764583333333,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 12.312687499999997,
+   "end": 13.332687499999999,
+   "words": [
+    {
+     "text": "And",
+     "start": 12.312687499999997,
+     "end": 12.500187499999997,
+     "color": "white"
+    },
+    {
+     "text": "that",
+     "start": 12.512687499999998,
+     "end": 12.687687499999997,
+     "color": "white"
+    },
+    {
+     "text": "easy,",
+     "start": 12.700187499999998,
+     "end": 13.137687499999998,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 13.362687499999998,
+   "end": 14.200187499999998,
+   "words": [
+    {
+     "text": "familiar",
+     "start": 13.362687499999998,
+     "end": 13.787687499999997,
+     "color": "yellow"
+    },
+    {
+     "text": "feeling",
+     "start": 13.800187499999998,
+     "end": 14.200187499999998,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 14.212687499999998,
+   "end": 15.062687499999997,
+   "words": [
+    {
+     "text": "can",
+     "start": 14.212687499999998,
+     "end": 14.350187499999997,
+     "color": "white"
+    },
+    {
+     "text": "be",
+     "start": 14.362687499999998,
+     "end": 14.475187499999997,
+     "color": "white"
+    },
+    {
+     "text": "mistaken",
+     "start": 14.487687499999998,
+     "end": 15.062687499999997,
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "start": 15.075187499999998,
+   "end": 16.296979166666663,
+   "words": [
+    {
+     "text": "for",
+     "start": 15.075187499999998,
+     "end": 15.212687499999998,
+     "color": "white"
+    },
+    {
+     "text": "truth.",
+     "start": 15.225187499999997,
+     "end": 15.700187499999998,
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "start": 16.326979166666664,
+   "end": 17.151979166666663,
+   "words": [
+    {
+     "text": "Psychologists",
+     "start": 16.326979166666664,
+     "end": 17.151979166666663,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 17.164479166666663,
+   "end": 17.714479166666663,
+   "words": [
+    {
+     "text": "call",
+     "start": 17.164479166666663,
+     "end": 17.426979166666662,
+     "color": "white"
+    },
+    {
+     "text": "this",
+     "start": 17.43947916666666,
+     "end": 17.601979166666663,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 17.614479166666662,
+     "end": 17.714479166666663,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 17.726979166666663,
+   "end": 18.489479166666662,
+   "words": [
+    {
+     "text": "Illusory",
+     "start": 17.726979166666663,
+     "end": 18.239479166666662,
+     "color": "yellow"
+    },
+    {
+     "text": "Truth",
+     "start": 18.25197916666666,
+     "end": 18.489479166666662,
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "start": 18.50197916666666,
+   "end": 19.52133333333333,
+   "words": [
+    {
+     "text": "Effect.",
+     "start": 18.50197916666666,
+     "end": 18.926979166666662,
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "start": 19.551333333333332,
+   "end": 20.301333333333332,
+   "words": [
+    {
+     "text": "It's",
+     "start": 19.551333333333332,
+     "end": 19.76383333333333,
+     "color": "white"
+    },
+    {
+     "text": "one",
+     "start": 19.77633333333333,
+     "end": 19.988833333333332,
+     "color": "white"
+    },
+    {
+     "text": "reason",
+     "start": 20.00133333333333,
+     "end": 20.301333333333332,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 20.31383333333333,
+   "end": 21.363833333333332,
+   "words": [
+    {
+     "text": "repetition",
+     "start": 20.31383333333333,
+     "end": 20.926333333333332,
+     "color": "yellow"
+    },
+    {
+     "text": "is",
+     "start": 20.93883333333333,
+     "end": 21.10133333333333,
+     "color": "white"
+    },
+    {
+     "text": "so",
+     "start": 21.113833333333332,
+     "end": 21.363833333333332,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 21.37633333333333,
+   "end": 22.12633333333333,
+   "words": [
+    {
+     "text": "powerful",
+     "start": 21.37633333333333,
+     "end": 22.00133333333333,
+     "color": "white"
+    },
+    {
+     "text": "in",
+     "start": 22.01383333333333,
+     "end": 22.12633333333333,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 22.13883333333333,
+   "end": 23.08883333333333,
+   "words": [
+    {
+     "text": "advertising",
+     "start": 22.13883333333333,
+     "end": 22.97633333333333,
+     "color": "white"
+    },
+    {
+     "text": "and",
+     "start": 22.988833333333332,
+     "end": 23.08883333333333,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 23.10133333333333,
+   "end": 24.337416666666666,
+   "words": [
+    {
+     "text": "misinformation.",
+     "start": 23.10133333333333,
+     "end": 23.95133333333333,
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "start": 24.367416666666667,
+   "end": 24.892416666666666,
+   "words": [
+    {
+     "text": "Research",
+     "start": 24.367416666666667,
+     "end": 24.892416666666666,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 24.904916666666665,
+   "end": 25.567416666666666,
+   "words": [
+    {
+     "text": "suggests",
+     "start": 24.904916666666665,
+     "end": 25.367416666666667,
+     "color": "white"
+    },
+    {
+     "text": "it",
+     "start": 25.379916666666666,
+     "end": 25.454916666666666,
+     "color": "white"
+    },
+    {
+     "text": "can",
+     "start": 25.467416666666665,
+     "end": 25.567416666666666,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 25.579916666666666,
+   "end": 26.154916666666665,
+   "words": [
+    {
+     "text": "even",
+     "start": 25.579916666666666,
+     "end": 25.817416666666666,
+     "color": "white"
+    },
+    {
+     "text": "affect",
+     "start": 25.829916666666666,
+     "end": 26.154916666666665,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 26.167416666666664,
+   "end": 26.604916666666664,
+   "words": [
+    {
+     "text": "people",
+     "start": 26.167416666666664,
+     "end": 26.492416666666667,
+     "color": "white"
+    },
+    {
+     "text": "who",
+     "start": 26.504916666666666,
+     "end": 26.604916666666664,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 26.617416666666667,
+   "end": 27.304916666666667,
+   "words": [
+    {
+     "text": "already",
+     "start": 26.617416666666667,
+     "end": 26.967416666666665,
+     "color": "white"
+    },
+    {
+     "text": "know",
+     "start": 26.979916666666664,
+     "end": 27.192416666666666,
+     "color": "white"
+    },
+    {
+     "text": "the",
+     "start": 27.204916666666666,
+     "end": 27.304916666666667,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 27.317416666666666,
+   "end": 28.729916666666668,
+   "words": [
+    {
+     "text": "correct",
+     "start": 27.317416666666666,
+     "end": 27.692416666666666,
+     "color": "white"
+    },
+    {
+     "text": "answer.",
+     "start": 27.704916666666666,
+     "end": 28.129916666666666,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 28.846770833333334,
+   "end": 29.496770833333333,
+   "words": [
+    {
+     "text": "So",
+     "start": 28.846770833333334,
+     "end": 29.059270833333333,
+     "color": "white"
+    },
+    {
+     "text": "next",
+     "start": 29.071770833333332,
+     "end": 29.309270833333333,
+     "color": "white"
+    },
+    {
+     "text": "time",
+     "start": 29.321770833333332,
+     "end": 29.496770833333333,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 29.509270833333332,
+   "end": 30.184270833333333,
+   "words": [
+    {
+     "text": "something",
+     "start": 29.509270833333332,
+     "end": 29.83427083333333,
+     "color": "white"
+    },
+    {
+     "text": "feels",
+     "start": 29.846770833333334,
+     "end": 30.184270833333333,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 30.196770833333332,
+   "end": 31.02177083333333,
+   "words": [
+    {
+     "text": "true,",
+     "start": 30.196770833333332,
+     "end": 30.496770833333333,
+     "color": "yellow"
+    },
+    {
+     "text": "ask",
+     "start": 30.77177083333333,
+     "end": 31.02177083333333,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 31.034270833333334,
+   "end": 32.222,
+   "words": [
+    {
+     "text": "yourself",
+     "start": 31.034270833333334,
+     "end": 31.39677083333333,
+     "color": "white"
+    },
+    {
+     "text": "why.",
+     "start": 31.409270833333334,
+     "end": 31.696770833333332,
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "start": 32.252,
+   "end": 32.982875,
+   "words": [
+    {
+     "text": "Remember,",
+     "start": 32.252,
+     "end": 32.849833000000004,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 33.012875,
+   "end": 34.018332,
+   "words": [
+    {
+     "text": "familiarity",
+     "start": 33.012875,
+     "end": 33.882458,
+     "color": "yellow"
+    },
+    {
+     "text": "is",
+     "start": 33.896041000000004,
+     "end": 34.018332,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "start": 34.031875,
+   "end": 35.324832,
+   "words": [
+    {
+     "text": "not",
+     "start": 34.031875,
+     "end": 34.317208,
+     "color": "white"
+    },
+    {
+     "text": "proof.",
+     "start": 34.330791,
+     "end": 34.724832,
+     "color": "red"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "key": "d77d5342b7c2",
+ "say": "Because the moment you stop questioning your decisions...",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-6%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Because",
+   "start": 0.1,
+   "end": 0.432458
+  },
+  {
+   "text": "the",
+   "start": 0.44575,
+   "end": 0.525541
+  },
+  {
+   "text": "moment",
+   "start": 0.538833,
+   "end": 0.951083
+  },
+  {
+   "text": "you",
+   "start": 0.964375,
+   "end": 1.057458
+  },
+  {
+   "text": "stop",
+   "start": 1.07075,
+   "end": 1.35
+  },
+  {
+   "text": "questioning",
+   "start": 1.363291,
+   "end": 1.841999
+  },
+  {
+   "text": "your",
+   "start": 1.855333,
+   "end": 1.948416
+  },
+  {
+   "text": "decisions",
+   "start": 1.961708,
+   "end": 2.706374
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "key": "93e2bfdbb144",
+ "say": "Write things down. Talk to people you trust.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Write",
+   "start": 0.1,
+   "end": 0.3625
+  },
+  {
+   "text": "things",
+   "start": 0.375,
+   "end": 0.6625
+  },
+  {
+   "text": "down",
+   "start": 0.675,
+   "end": 1.05
+  },
+  {
+   "text": "Talk",
+   "start": 1.4125,
+   "end": 1.6875
+  },
+  {
+   "text": "to",
+   "start": 1.7,
+   "end": 1.7625
+  },
+  {
+   "text": "people",
+   "start": 1.775,
+   "end": 2.0625
+  },
+  {
+   "text": "you",
+   "start": 2.075,
+   "end": 2.175
+  },
+  {
+   "text": "trust",
+   "start": 2.1875,
+   "end": 2.65
+  }
+ ]
+}

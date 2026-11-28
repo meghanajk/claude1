@@ -1,0 +1,86 @@
+{
+ "key": "b12cf77ab923",
+ "say": "They all point towards a completely ordinary object and confidently tell you it's something different.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "They",
+   "start": 0.1,
+   "end": 0.2875
+  },
+  {
+   "text": "all",
+   "start": 0.3,
+   "end": 0.4375
+  },
+  {
+   "text": "point",
+   "start": 0.45,
+   "end": 0.6875
+  },
+  {
+   "text": "towards",
+   "start": 0.7,
+   "end": 1.05
+  },
+  {
+   "text": "a",
+   "start": 1.0625,
+   "end": 1.1125
+  },
+  {
+   "text": "completely",
+   "start": 1.125,
+   "end": 1.7125
+  },
+  {
+   "text": "ordinary",
+   "start": 1.725,
+   "end": 2.2125
+  },
+  {
+   "text": "object",
+   "start": 2.225,
+   "end": 2.775
+  },
+  {
+   "text": "and",
+   "start": 2.8375,
+   "end": 2.975
+  },
+  {
+   "text": "confidently",
+   "start": 2.9875,
+   "end": 3.5625
+  },
+  {
+   "text": "tell",
+   "start": 3.575,
+   "end": 3.8
+  },
+  {
+   "text": "you",
+   "start": 3.8125,
+   "end": 3.9375
+  },
+  {
+   "text": "it's",
+   "start": 3.95,
+   "end": 4.0875
+  },
+  {
+   "text": "something",
+   "start": 4.1,
+   "end": 4.3625
+  },
+  {
+   "text": "different",
+   "start": 4.375,
+   "end": 4.7625
+  }
+ ]
+}

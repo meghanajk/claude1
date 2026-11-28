@@ -1,0 +1,26 @@
+{
+ "key": "06401f2fb335",
+ "say": "Think about that.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-6%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Think",
+   "start": 0.1,
+   "end": 0.405833
+  },
+  {
+   "text": "about",
+   "start": 0.419166,
+   "end": 0.685124
+  },
+  {
+   "text": "that",
+   "start": 0.698416,
+   "end": 0.964374
+  }
+ ]
+}

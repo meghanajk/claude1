@@ -1,0 +1,66 @@
+{
+ "key": "adfaab3d0561",
+ "say": "The first time you hear a claim, you might doubt it.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "The",
+   "start": 0.1,
+   "end": 0.275
+  },
+  {
+   "text": "first",
+   "start": 0.2875,
+   "end": 0.625
+  },
+  {
+   "text": "time",
+   "start": 0.6375,
+   "end": 0.825
+  },
+  {
+   "text": "you",
+   "start": 0.8375,
+   "end": 0.925
+  },
+  {
+   "text": "hear",
+   "start": 0.9375,
+   "end": 1.1
+  },
+  {
+   "text": "a",
+   "start": 1.1125,
+   "end": 1.1625
+  },
+  {
+   "text": "claim",
+   "start": 1.175,
+   "end": 1.6125
+  },
+  {
+   "text": "you",
+   "start": 1.925,
+   "end": 1.975
+  },
+  {
+   "text": "might",
+   "start": 1.9875,
+   "end": 2.2
+  },
+  {
+   "text": "doubt",
+   "start": 2.2125,
+   "end": 2.4375
+  },
+  {
+   "text": "it",
+   "start": 2.45,
+   "end": 2.575
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "key": "1ab93dc4e142",
+ "say": "And that easy, familiar feeling can be mistaken for truth.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "And",
+   "start": 0.1,
+   "end": 0.2875
+  },
+  {
+   "text": "that",
+   "start": 0.3,
+   "end": 0.475
+  },
+  {
+   "text": "easy",
+   "start": 0.4875,
+   "end": 0.925
+  },
+  {
+   "text": "familiar",
+   "start": 1.15,
+   "end": 1.575
+  },
+  {
+   "text": "feeling",
+   "start": 1.5875,
+   "end": 1.9875
+  },
+  {
+   "text": "can",
+   "start": 2.0,
+   "end": 2.1375
+  },
+  {
+   "text": "be",
+   "start": 2.15,
+   "end": 2.2625
+  },
+  {
+   "text": "mistaken",
+   "start": 2.275,
+   "end": 2.85
+  },
+  {
+   "text": "for",
+   "start": 2.8625,
+   "end": 3.0
+  },
+  {
+   "text": "truth",
+   "start": 3.0125,
+   "end": 3.4875
+  }
+ ]
+}

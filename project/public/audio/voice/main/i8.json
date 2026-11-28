@@ -1,0 +1,56 @@
+{
+ "key": "6e708b9b7966",
+ "say": "Hearing something a thousand times doesn't make it true.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Hearing",
+   "start": 0.1,
+   "end": 0.4125
+  },
+  {
+   "text": "something",
+   "start": 0.425,
+   "end": 0.7375
+  },
+  {
+   "text": "a",
+   "start": 0.75,
+   "end": 0.8
+  },
+  {
+   "text": "thousand",
+   "start": 0.8125,
+   "end": 1.2375
+  },
+  {
+   "text": "times",
+   "start": 1.25,
+   "end": 1.6
+  },
+  {
+   "text": "doesn't",
+   "start": 1.6125,
+   "end": 1.8875
+  },
+  {
+   "text": "make",
+   "start": 1.9,
+   "end": 2.05
+  },
+  {
+   "text": "it",
+   "start": 2.0625,
+   "end": 2.125
+  },
+  {
+   "text": "true",
+   "start": 2.1375,
+   "end": 2.5
+  }
+ ]
+}

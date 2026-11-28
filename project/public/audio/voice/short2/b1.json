@@ -1,0 +1,61 @@
+{
+ "key": "8c51ac0aff20",
+ "say": "What if hearing a lie repeatedly makes it feel true?",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "What",
+   "start": 0.1,
+   "end": 0.3
+  },
+  {
+   "text": "if",
+   "start": 0.3125,
+   "end": 0.4
+  },
+  {
+   "text": "hearing",
+   "start": 0.4125,
+   "end": 0.7125
+  },
+  {
+   "text": "a",
+   "start": 0.725,
+   "end": 0.775
+  },
+  {
+   "text": "lie",
+   "start": 0.7875,
+   "end": 1.05
+  },
+  {
+   "text": "repeatedly",
+   "start": 1.0625,
+   "end": 1.675
+  },
+  {
+   "text": "makes",
+   "start": 1.6875,
+   "end": 1.925
+  },
+  {
+   "text": "it",
+   "start": 1.9375,
+   "end": 2.0
+  },
+  {
+   "text": "feel",
+   "start": 2.0125,
+   "end": 2.25
+  },
+  {
+   "text": "true",
+   "start": 2.2625,
+   "end": 2.6625
+  }
+ ]
+}

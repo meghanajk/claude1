@@ -1,0 +1,41 @@
+{
+ "key": "2ed1668e0a58",
+ "say": "At first, you don't believe it.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "At",
+   "start": 0.1,
+   "end": 0.2875
+  },
+  {
+   "text": "first",
+   "start": 0.3,
+   "end": 0.8375
+  },
+  {
+   "text": "you",
+   "start": 1.125,
+   "end": 1.1625
+  },
+  {
+   "text": "don't",
+   "start": 1.175,
+   "end": 1.3875
+  },
+  {
+   "text": "believe",
+   "start": 1.4,
+   "end": 1.725
+  },
+  {
+   "text": "it",
+   "start": 1.7375,
+   "end": 1.875
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "key": "8697fd1b8e7a",
+ "say": "One disagreement isn't gaslighting. The repeated pattern is what matters.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "One",
+   "start": 0.1,
+   "end": 0.3625
+  },
+  {
+   "text": "disagreement",
+   "start": 0.375,
+   "end": 1.0
+  },
+  {
+   "text": "isn't",
+   "start": 1.0125,
+   "end": 1.2625
+  },
+  {
+   "text": "gaslighting",
+   "start": 1.275,
+   "end": 1.9125
+  },
+  {
+   "text": "The",
+   "start": 2.275,
+   "end": 2.475
+  },
+  {
+   "text": "repeated",
+   "start": 2.4875,
+   "end": 2.9
+  },
+  {
+   "text": "pattern",
+   "start": 2.9125,
+   "end": 3.375
+  },
+  {
+   "text": "is",
+   "start": 3.4,
+   "end": 3.525
+  },
+  {
+   "text": "what",
+   "start": 3.5375,
+   "end": 3.6875
+  },
+  {
+   "text": "matters",
+   "start": 3.7,
+   "end": 4.2375
+  }
+ ]
+}

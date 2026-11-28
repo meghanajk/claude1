@@ -1,0 +1,46 @@
+{
+ "key": "d4d266ad99f0",
+ "say": "That's why gaslighting can be so harmful.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-5%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "That's",
+   "start": 0.1,
+   "end": 0.35
+  },
+  {
+   "text": "why",
+   "start": 0.363166,
+   "end": 0.507916
+  },
+  {
+   "text": "gaslighting",
+   "start": 0.521041,
+   "end": 1.244707
+  },
+  {
+   "text": "can",
+   "start": 1.257875,
+   "end": 1.41575
+  },
+  {
+   "text": "be",
+   "start": 1.428958,
+   "end": 1.534208
+  },
+  {
+   "text": "so",
+   "start": 1.547375,
+   "end": 1.810541
+  },
+  {
+   "text": "harmful",
+   "start": 1.823666,
+   "end": 2.363124
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "key": "0e7bdf210457",
+ "say": "Which line matches the reference line?",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Which",
+   "start": 0.1,
+   "end": 0.35
+  },
+  {
+   "text": "line",
+   "start": 0.3625,
+   "end": 0.6
+  },
+  {
+   "text": "matches",
+   "start": 0.6125,
+   "end": 0.9875
+  },
+  {
+   "text": "the",
+   "start": 1.0,
+   "end": 1.075
+  },
+  {
+   "text": "reference",
+   "start": 1.0875,
+   "end": 1.475
+  },
+  {
+   "text": "line",
+   "start": 1.4875,
+   "end": 1.8125
+  }
+ ]
+}

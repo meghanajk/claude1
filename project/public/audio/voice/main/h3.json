@@ -1,0 +1,31 @@
+{
+ "key": "ddfb3915dcd5",
+ "say": "And the scariest part?",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-10%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "And",
+   "start": 0.1,
+   "end": 0.294458
+  },
+  {
+   "text": "the",
+   "start": 0.308333,
+   "end": 0.377791
+  },
+  {
+   "text": "scariest",
+   "start": 0.391666,
+   "end": 0.905541
+  },
+  {
+   "text": "part",
+   "start": 0.919458,
+   "end": 1.252791
+  }
+ ]
+}

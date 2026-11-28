@@ -1,0 +1,46 @@
+{
+ "key": "d25389c61fde",
+ "say": "Fashion trends. Social media opinions. Popular beliefs.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Fashion",
+   "start": 0.1,
+   "end": 0.5375
+  },
+  {
+   "text": "trends",
+   "start": 0.55,
+   "end": 1.05
+  },
+  {
+   "text": "Social",
+   "start": 1.4125,
+   "end": 1.8875
+  },
+  {
+   "text": "media",
+   "start": 1.9,
+   "end": 2.25
+  },
+  {
+   "text": "opinions",
+   "start": 2.2625,
+   "end": 2.8625
+  },
+  {
+   "text": "Popular",
+   "start": 3.225,
+   "end": 3.7625
+  },
+  {
+   "text": "beliefs",
+   "start": 3.775,
+   "end": 4.2875
+  }
+ ]
+}

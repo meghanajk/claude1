@@ -1,0 +1,31 @@
+{
+ "key": "3464228fa8e4",
+ "say": "This is Fact Man.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-4%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "This",
+   "start": 0.1,
+   "end": 0.373458
+  },
+  {
+   "text": "is",
+   "start": 0.386458,
+   "end": 0.503666
+  },
+  {
+   "text": "Fact",
+   "start": 0.516666,
+   "end": 0.829166
+  },
+  {
+   "text": "Man",
+   "start": 0.842208,
+   "end": 1.154708
+  }
+ ]
+}

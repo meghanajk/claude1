@@ -1,0 +1,5 @@
+node_modules/
+public/audio/*_mix.wav
+out/
+.remotion/
+__pycache__/

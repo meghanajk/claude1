@@ -1,0 +1,51 @@
+{
+ "key": "d833e16384d6",
+ "say": "Question information, even when everyone agrees with it.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Question",
+   "start": 0.1,
+   "end": 0.55
+  },
+  {
+   "text": "information",
+   "start": 0.5625,
+   "end": 1.1625
+  },
+  {
+   "text": "even",
+   "start": 1.4625,
+   "end": 1.6375
+  },
+  {
+   "text": "when",
+   "start": 1.65,
+   "end": 1.7875
+  },
+  {
+   "text": "everyone",
+   "start": 1.8125,
+   "end": 2.175
+  },
+  {
+   "text": "agrees",
+   "start": 2.1875,
+   "end": 2.5125
+  },
+  {
+   "text": "with",
+   "start": 2.525,
+   "end": 2.675
+  },
+  {
+   "text": "it",
+   "start": 2.6875,
+   "end": 2.825
+  }
+ ]
+}

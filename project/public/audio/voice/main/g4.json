@@ -1,0 +1,51 @@
+{
+ "key": "e25f07bfcb11",
+ "say": "They tell you that you're remembering everything incorrectly.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-5%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "They",
+   "start": 0.1,
+   "end": 0.284208
+  },
+  {
+   "text": "tell",
+   "start": 0.297375,
+   "end": 0.507916
+  },
+  {
+   "text": "you",
+   "start": 0.521041,
+   "end": 0.613166
+  },
+  {
+   "text": "that",
+   "start": 0.626333,
+   "end": 0.731583
+  },
+  {
+   "text": "you're",
+   "start": 0.74475,
+   "end": 0.863166
+  },
+  {
+   "text": "remembering",
+   "start": 0.876333,
+   "end": 1.402666
+  },
+  {
+   "text": "everything",
+   "start": 1.468416,
+   "end": 1.902624
+  },
+  {
+   "text": "incorrectly",
+   "start": 1.915791,
+   "end": 2.586832
+  }
+ ]
+}

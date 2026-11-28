@@ -1,0 +1,66 @@
+{
+ "key": "b3e323acc7cb",
+ "say": "It's one reason repetition is so powerful in advertising and misinformation.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "It's",
+   "start": 0.1,
+   "end": 0.3125
+  },
+  {
+   "text": "one",
+   "start": 0.325,
+   "end": 0.5375
+  },
+  {
+   "text": "reason",
+   "start": 0.55,
+   "end": 0.85
+  },
+  {
+   "text": "repetition",
+   "start": 0.8625,
+   "end": 1.475
+  },
+  {
+   "text": "is",
+   "start": 1.4875,
+   "end": 1.65
+  },
+  {
+   "text": "so",
+   "start": 1.6625,
+   "end": 1.9125
+  },
+  {
+   "text": "powerful",
+   "start": 1.925,
+   "end": 2.55
+  },
+  {
+   "text": "in",
+   "start": 2.5625,
+   "end": 2.675
+  },
+  {
+   "text": "advertising",
+   "start": 2.6875,
+   "end": 3.525
+  },
+  {
+   "text": "and",
+   "start": 3.5375,
+   "end": 3.6375
+  },
+  {
+   "text": "misinformation",
+   "start": 3.65,
+   "end": 4.5
+  }
+ ]
+}

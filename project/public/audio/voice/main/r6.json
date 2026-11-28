@@ -1,0 +1,76 @@
+{
+ "key": "ce4951ce97e3",
+ "say": "Advertising, social pressure, online trends and everyday relationships can all influence human behaviour.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Advertising",
+   "start": 0.1,
+   "end": 0.975
+  },
+  {
+   "text": "social",
+   "start": 1.1625,
+   "end": 1.525
+  },
+  {
+   "text": "pressure",
+   "start": 1.5375,
+   "end": 1.9625
+  },
+  {
+   "text": "online",
+   "start": 2.325,
+   "end": 2.7
+  },
+  {
+   "text": "trends",
+   "start": 2.7125,
+   "end": 3.2125
+  },
+  {
+   "text": "and",
+   "start": 3.2375,
+   "end": 3.375
+  },
+  {
+   "text": "everyday",
+   "start": 3.4,
+   "end": 3.8
+  },
+  {
+   "text": "relationships",
+   "start": 3.8125,
+   "end": 4.525
+  },
+  {
+   "text": "can",
+   "start": 4.5375,
+   "end": 4.6875
+  },
+  {
+   "text": "all",
+   "start": 4.7,
+   "end": 4.9
+  },
+  {
+   "text": "influence",
+   "start": 4.925,
+   "end": 5.4875
+  },
+  {
+   "text": "human",
+   "start": 5.5,
+   "end": 5.7875
+  },
+  {
+   "text": "behaviour",
+   "start": 5.8,
+   "end": 6.35
+  }
+ ]
+}

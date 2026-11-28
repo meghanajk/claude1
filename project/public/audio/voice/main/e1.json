@@ -1,0 +1,46 @@
+{
+ "key": "ae474cc216d3",
+ "say": "Here's another way people influence your decisions.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Here's",
+   "start": 0.1,
+   "end": 0.3375
+  },
+  {
+   "text": "another",
+   "start": 0.35,
+   "end": 0.6375
+  },
+  {
+   "text": "way",
+   "start": 0.65,
+   "end": 0.775
+  },
+  {
+   "text": "people",
+   "start": 0.7875,
+   "end": 1.15
+  },
+  {
+   "text": "influence",
+   "start": 1.1625,
+   "end": 1.7
+  },
+  {
+   "text": "your",
+   "start": 1.7125,
+   "end": 1.8
+  },
+  {
+   "text": "decisions",
+   "start": 1.8125,
+   "end": 2.475
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "factman-mind-control",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FACTMAN - How Easily Can Someone Control Your Mind? (Remotion project)",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "voice": "python3 scripts/generate_voice.py",
+    "audio": "python3 scripts/generate_audio.py",
+    "render:full": "node scripts/render.mjs full",
+    "render:shorts": "node scripts/render.mjs shorts",
+    "render:all": "node scripts/render.mjs all"
+  },
+  "dependencies": {
+    "@fontsource/anton": "^5.3.0",
+    "@fontsource/montserrat": "^5.3.0",
+    "@remotion/bundler": "4.0.547",
+    "@remotion/cli": "4.0.547",
+    "@remotion/renderer": "4.0.547",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.547"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

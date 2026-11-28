@@ -1,0 +1,66 @@
+{
+ "key": "559cdd798436",
+ "say": "In the nineteen fifties, psychologist Solomon Asch ran a simple experiment.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "In",
+   "start": 0.1,
+   "end": 0.2625
+  },
+  {
+   "text": "the",
+   "start": 0.275,
+   "end": 0.3375
+  },
+  {
+   "text": "nineteen",
+   "start": 0.35,
+   "end": 0.8125
+  },
+  {
+   "text": "fifties",
+   "start": 0.825,
+   "end": 1.3375
+  },
+  {
+   "text": "psychologist",
+   "start": 1.575,
+   "end": 2.275
+  },
+  {
+   "text": "Solomon",
+   "start": 2.2875,
+   "end": 2.7625
+  },
+  {
+   "text": "Asch",
+   "start": 2.8125,
+   "end": 3.1125
+  },
+  {
+   "text": "ran",
+   "start": 3.175,
+   "end": 3.3
+  },
+  {
+   "text": "a",
+   "start": 3.3125,
+   "end": 3.35
+  },
+  {
+   "text": "simple",
+   "start": 3.3625,
+   "end": 3.7375
+  },
+  {
+   "text": "experiment",
+   "start": 3.75,
+   "end": 4.3625
+  }
+ ]
+}

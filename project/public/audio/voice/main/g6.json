@@ -1,0 +1,81 @@
+{
+ "key": "5fb0481e5e04",
+ "say": "And slowly, you begin trusting their version of events more than your own memory.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-5%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "And",
+   "start": 0.1,
+   "end": 0.310541
+  },
+  {
+   "text": "slowly",
+   "start": 0.323666,
+   "end": 0.836832
+  },
+  {
+   "text": "you",
+   "start": 0.902625,
+   "end": 0.99475
+  },
+  {
+   "text": "begin",
+   "start": 1.007875,
+   "end": 1.257875
+  },
+  {
+   "text": "trusting",
+   "start": 1.271041,
+   "end": 1.744707
+  },
+  {
+   "text": "their",
+   "start": 1.757875,
+   "end": 1.889458
+  },
+  {
+   "text": "version",
+   "start": 1.902625,
+   "end": 2.271041
+  },
+  {
+   "text": "of",
+   "start": 2.284208,
+   "end": 2.376333
+  },
+  {
+   "text": "events",
+   "start": 2.389458,
+   "end": 2.784208
+  },
+  {
+   "text": "more",
+   "start": 2.797375,
+   "end": 3.060541
+  },
+  {
+   "text": "than",
+   "start": 3.073666,
+   "end": 3.218416
+  },
+  {
+   "text": "your",
+   "start": 3.231583,
+   "end": 3.402624
+  },
+  {
+   "text": "own",
+   "start": 3.415791,
+   "end": 3.599999
+  },
+  {
+   "text": "memory",
+   "start": 3.613166,
+   "end": 4.113166
+  }
+ ]
+}

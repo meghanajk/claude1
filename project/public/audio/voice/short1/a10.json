@@ -1,0 +1,46 @@
+{
+ "key": "fde1b563e41f",
+ "say": "Because they didn't want to stand alone.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Because",
+   "start": 0.1,
+   "end": 0.4375
+  },
+  {
+   "text": "they",
+   "start": 0.45,
+   "end": 0.55
+  },
+  {
+   "text": "didn't",
+   "start": 0.5625,
+   "end": 0.825
+  },
+  {
+   "text": "want",
+   "start": 0.8375,
+   "end": 0.975
+  },
+  {
+   "text": "to",
+   "start": 0.9875,
+   "end": 1.025
+  },
+  {
+   "text": "stand",
+   "start": 1.0375,
+   "end": 1.3625
+  },
+  {
+   "text": "alone",
+   "start": 1.375,
+   "end": 1.775
+  }
+ ]
+}

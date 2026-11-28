@@ -1,0 +1,36 @@
+{
+ "key": "041a64eba9a7",
+ "say": "Remember, familiarity is not proof.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-8%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Remember",
+   "start": 0.1,
+   "end": 0.697833
+  },
+  {
+   "text": "familiarity",
+   "start": 0.860875,
+   "end": 1.730458
+  },
+  {
+   "text": "is",
+   "start": 1.744041,
+   "end": 1.866332
+  },
+  {
+   "text": "not",
+   "start": 1.879875,
+   "end": 2.165208
+  },
+  {
+   "text": "proof",
+   "start": 2.178791,
+   "end": 2.572832
+  }
+ ]
+}

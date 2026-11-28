@@ -1,0 +1,21 @@
+{
+ "key": "00258d1d9390",
+ "say": "But remember:",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "But",
+   "start": 0.1,
+   "end": 0.2875
+  },
+  {
+   "text": "remember",
+   "start": 0.3,
+   "end": 0.7625
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "key": "e0751edffce6",
+ "say": "Look for evidence instead of blindly trusting repetition.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Look",
+   "start": 0.1,
+   "end": 0.3625
+  },
+  {
+   "text": "for",
+   "start": 0.375,
+   "end": 0.55
+  },
+  {
+   "text": "evidence",
+   "start": 0.5625,
+   "end": 0.975
+  },
+  {
+   "text": "instead",
+   "start": 0.9875,
+   "end": 1.3875
+  },
+  {
+   "text": "of",
+   "start": 1.4,
+   "end": 1.5125
+  },
+  {
+   "text": "blindly",
+   "start": 1.525,
+   "end": 1.9625
+  },
+  {
+   "text": "trusting",
+   "start": 1.975,
+   "end": 2.425
+  },
+  {
+   "text": "repetition",
+   "start": 2.4375,
+   "end": 3.0375
+  }
+ ]
+}

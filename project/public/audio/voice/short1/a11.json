@@ -1,0 +1,36 @@
+{
+ "key": "c7c4ce0c5a2d",
+ "say": "Sometimes, the crowd isn't right.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-6%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Sometimes",
+   "start": 0.1,
+   "end": 0.924458
+  },
+  {
+   "text": "the",
+   "start": 1.110625,
+   "end": 1.217
+  },
+  {
+   "text": "crowd",
+   "start": 1.230333,
+   "end": 1.576083
+  },
+  {
+   "text": "isn't",
+   "start": 1.589375,
+   "end": 1.82875
+  },
+  {
+   "text": "right",
+   "start": 1.842041,
+   "end": 2.187791
+  }
+ ]
+}

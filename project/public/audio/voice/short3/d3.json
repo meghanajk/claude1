@@ -1,0 +1,26 @@
+{
+ "key": "d339dc4369d8",
+ "say": "It starts small.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "It",
+   "start": 0.1,
+   "end": 0.2625
+  },
+  {
+   "text": "starts",
+   "start": 0.275,
+   "end": 0.5375
+  },
+  {
+   "text": "small",
+   "start": 0.55,
+   "end": 0.8875
+  }
+ ]
+}

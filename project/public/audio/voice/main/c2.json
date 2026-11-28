@@ -1,0 +1,66 @@
+{
+ "key": "9e77a63b920d",
+ "say": "We naturally observe other people to understand how we should behave.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "We",
+   "start": 0.1,
+   "end": 0.275
+  },
+  {
+   "text": "naturally",
+   "start": 0.2875,
+   "end": 0.85
+  },
+  {
+   "text": "observe",
+   "start": 0.8625,
+   "end": 1.275
+  },
+  {
+   "text": "other",
+   "start": 1.3375,
+   "end": 1.55
+  },
+  {
+   "text": "people",
+   "start": 1.5625,
+   "end": 1.9125
+  },
+  {
+   "text": "to",
+   "start": 1.925,
+   "end": 1.975
+  },
+  {
+   "text": "understand",
+   "start": 1.9875,
+   "end": 2.55
+  },
+  {
+   "text": "how",
+   "start": 2.5625,
+   "end": 2.75
+  },
+  {
+   "text": "we",
+   "start": 2.7625,
+   "end": 2.875
+  },
+  {
+   "text": "should",
+   "start": 2.8875,
+   "end": 3.0875
+  },
+  {
+   "text": "behave",
+   "start": 3.1,
+   "end": 3.6375
+  }
+ ]
+}

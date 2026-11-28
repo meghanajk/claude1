@@ -1,0 +1,41 @@
+{
+ "key": "33c9627c762e",
+ "say": "It looks like your own choice.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-8%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "It",
+   "start": 0.1,
+   "end": 0.303791
+  },
+  {
+   "text": "looks",
+   "start": 0.317375,
+   "end": 0.53475
+  },
+  {
+   "text": "like",
+   "start": 0.548375,
+   "end": 0.68425
+  },
+  {
+   "text": "your",
+   "start": 0.697833,
+   "end": 0.833708
+  },
+  {
+   "text": "own",
+   "start": 0.847291,
+   "end": 1.010332
+  },
+  {
+   "text": "choice",
+   "start": 1.023916,
+   "end": 1.621749
+  }
+ ]
+}

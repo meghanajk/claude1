@@ -1,0 +1,26 @@
+{
+ "key": "0f5ff0c72c11",
+ "say": "\"That never happened.\"",
+ "voice": {
+  "name": "en-US-EricNeural",
+  "rate": "-6%",
+  "pitch": "-8Hz"
+ },
+ "words": [
+  {
+   "text": "That",
+   "start": 0.103208,
+   "end": 0.369166
+  },
+  {
+   "text": "never",
+   "start": 0.382458,
+   "end": 0.714916
+  },
+  {
+   "text": "happened",
+   "start": 0.728208,
+   "end": 1.326624
+  }
+ ]
+}

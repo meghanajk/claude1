@@ -1,0 +1,46 @@
+{
+ "key": "6414026bbaa4",
+ "say": "So, can someone actually control your mind?",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-6%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "So",
+   "start": 0.1,
+   "end": 0.51225
+  },
+  {
+   "text": "can",
+   "start": 0.605333,
+   "end": 0.764916
+  },
+  {
+   "text": "someone",
+   "start": 0.778208,
+   "end": 1.137249
+  },
+  {
+   "text": "actually",
+   "start": 1.150541,
+   "end": 1.602666
+  },
+  {
+   "text": "control",
+   "start": 1.615958,
+   "end": 2.001583
+  },
+  {
+   "text": "your",
+   "start": 2.014875,
+   "end": 2.134541
+  },
+  {
+   "text": "mind",
+   "start": 2.147875,
+   "end": 2.546791
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "key": "58d24118dbe0",
+ "say": "This is called conformity.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-4%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "This",
+   "start": 0.1,
+   "end": 0.373458
+  },
+  {
+   "text": "is",
+   "start": 0.386458,
+   "end": 0.490624
+  },
+  {
+   "text": "called",
+   "start": 0.503666,
+   "end": 0.777124
+  },
+  {
+   "text": "conformity",
+   "start": 0.790125,
+   "end": 1.428166
+  }
+ ]
+}

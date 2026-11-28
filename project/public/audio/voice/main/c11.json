@@ -1,0 +1,51 @@
+{
+ "key": "d5ee244c8025",
+ "say": "We follow it because everyone else seems to.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "We",
+   "start": 0.1,
+   "end": 0.2875
+  },
+  {
+   "text": "follow",
+   "start": 0.3,
+   "end": 0.7
+  },
+  {
+   "text": "it",
+   "start": 0.7125,
+   "end": 0.775
+  },
+  {
+   "text": "because",
+   "start": 0.7875,
+   "end": 1.0375
+  },
+  {
+   "text": "everyone",
+   "start": 1.05,
+   "end": 1.35
+  },
+  {
+   "text": "else",
+   "start": 1.3625,
+   "end": 1.5375
+  },
+  {
+   "text": "seems",
+   "start": 1.55,
+   "end": 1.8875
+  },
+  {
+   "text": "to",
+   "start": 1.9,
+   "end": 2.1
+  }
+ ]
+}

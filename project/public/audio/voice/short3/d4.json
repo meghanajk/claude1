@@ -1,0 +1,31 @@
+{
+ "key": "1891e3987c29",
+ "say": "\"I never said that.\"",
+ "voice": {
+  "name": "en-US-EricNeural",
+  "rate": "-6%",
+  "pitch": "-8Hz"
+ },
+ "words": [
+  {
+   "text": "I",
+   "start": 0.103208,
+   "end": 0.236166
+  },
+  {
+   "text": "never",
+   "start": 0.249458,
+   "end": 0.608499
+  },
+  {
+   "text": "said",
+   "start": 0.621791,
+   "end": 0.914332
+  },
+  {
+   "text": "that",
+   "start": 0.927666,
+   "end": 1.299999
+  }
+ ]
+}

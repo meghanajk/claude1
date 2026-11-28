@@ -1,0 +1,41 @@
+{
+ "key": "0e204979e2bb",
+ "say": "Yet social pressure influenced their responses.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Yet",
+   "start": 0.1,
+   "end": 0.3375
+  },
+  {
+   "text": "social",
+   "start": 0.35,
+   "end": 0.8125
+  },
+  {
+   "text": "pressure",
+   "start": 0.825,
+   "end": 1.1875
+  },
+  {
+   "text": "influenced",
+   "start": 1.2,
+   "end": 1.8375
+  },
+  {
+   "text": "their",
+   "start": 1.85,
+   "end": 1.9625
+  },
+  {
+   "text": "responses",
+   "start": 1.975,
+   "end": 2.7
+  }
+ ]
+}

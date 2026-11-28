@@ -1,0 +1,56 @@
+{
+ "key": "d98fe6d9597c",
+ "say": "So next time something feels true, ask yourself why.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "So",
+   "start": 0.1,
+   "end": 0.3125
+  },
+  {
+   "text": "next",
+   "start": 0.325,
+   "end": 0.5625
+  },
+  {
+   "text": "time",
+   "start": 0.575,
+   "end": 0.75
+  },
+  {
+   "text": "something",
+   "start": 0.7625,
+   "end": 1.0875
+  },
+  {
+   "text": "feels",
+   "start": 1.1,
+   "end": 1.4375
+  },
+  {
+   "text": "true",
+   "start": 1.45,
+   "end": 1.75
+  },
+  {
+   "text": "ask",
+   "start": 2.025,
+   "end": 2.275
+  },
+  {
+   "text": "yourself",
+   "start": 2.2875,
+   "end": 2.65
+  },
+  {
+   "text": "why",
+   "start": 2.6625,
+   "end": 2.95
+  }
+ ]
+}

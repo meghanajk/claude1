@@ -1,0 +1,56 @@
+{
+ "key": "341142ca51e2",
+ "say": "And strangely, familiar information can sometimes feel more believable.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "And",
+   "start": 0.1,
+   "end": 0.2875
+  },
+  {
+   "text": "strangely",
+   "start": 0.3,
+   "end": 0.95
+  },
+  {
+   "text": "familiar",
+   "start": 1.0625,
+   "end": 1.4625
+  },
+  {
+   "text": "information",
+   "start": 1.475,
+   "end": 2.075
+  },
+  {
+   "text": "can",
+   "start": 2.0875,
+   "end": 2.2375
+  },
+  {
+   "text": "sometimes",
+   "start": 2.25,
+   "end": 2.7875
+  },
+  {
+   "text": "feel",
+   "start": 2.8,
+   "end": 3.0
+  },
+  {
+   "text": "more",
+   "start": 3.0125,
+   "end": 3.2375
+  },
+  {
+   "text": "believable",
+   "start": 3.25,
+   "end": 3.7875
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "key": "e8cfcf5aeb7e",
+ "say": "But they can influence what you notice, what you believe, how you feel and sometimes what you decide.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "But",
+   "start": 0.1,
+   "end": 0.3
+  },
+  {
+   "text": "they",
+   "start": 0.3125,
+   "end": 0.4125
+  },
+  {
+   "text": "can",
+   "start": 0.425,
+   "end": 0.55
+  },
+  {
+   "text": "influence",
+   "start": 0.5625,
+   "end": 1.0625
+  },
+  {
+   "text": "what",
+   "start": 1.075,
+   "end": 1.2
+  },
+  {
+   "text": "you",
+   "start": 1.2125,
+   "end": 1.3
+  },
+  {
+   "text": "notice",
+   "start": 1.3125,
+   "end": 1.8625
+  },
+  {
+   "text": "what",
+   "start": 2.0125,
+   "end": 2.1625
+  },
+  {
+   "text": "you",
+   "start": 2.175,
+   "end": 2.2625
+  },
+  {
+   "text": "believe",
+   "start": 2.275,
+   "end": 2.775
+  },
+  {
+   "text": "how",
+   "start": 3.125,
+   "end": 3.2
+  },
+  {
+   "text": "you",
+   "start": 3.2125,
+   "end": 3.375
+  },
+  {
+   "text": "feel",
+   "start": 3.3875,
+   "end": 3.75
+  },
+  {
+   "text": "and",
+   "start": 3.7625,
+   "end": 3.825
+  },
+  {
+   "text": "sometimes",
+   "start": 3.8375,
+   "end": 4.3625
+  },
+  {
+   "text": "what",
+   "start": 4.375,
+   "end": 4.5
+  },
+  {
+   "text": "you",
+   "start": 4.5125,
+   "end": 4.575
+  },
+  {
+   "text": "decide",
+   "start": 4.5875,
+   "end": 5.15
+  }
+ ]
+}

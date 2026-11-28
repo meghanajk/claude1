@@ -1,0 +1,61 @@
+{
+ "key": "2852d917eb0c",
+ "say": "Now comes one of the most damaging forms of manipulation.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "-6%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Now",
+   "start": 0.1,
+   "end": 0.37925
+  },
+  {
+   "text": "comes",
+   "start": 0.392541,
+   "end": 0.658499
+  },
+  {
+   "text": "one",
+   "start": 0.671791,
+   "end": 0.791457
+  },
+  {
+   "text": "of",
+   "start": 0.804791,
+   "end": 0.871291
+  },
+  {
+   "text": "the",
+   "start": 0.884583,
+   "end": 0.951083
+  },
+  {
+   "text": "most",
+   "start": 0.964375,
+   "end": 1.323416
+  },
+  {
+   "text": "damaging",
+   "start": 1.336708,
+   "end": 1.828749
+  },
+  {
+   "text": "forms",
+   "start": 1.842041,
+   "end": 2.294166
+  },
+  {
+   "text": "of",
+   "start": 2.307458,
+   "end": 2.387249
+  },
+  {
+   "text": "manipulation",
+   "start": 2.400541,
+   "end": 3.145207
+  }
+ ]
+}

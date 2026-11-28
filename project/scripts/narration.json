@@ -1,0 +1,350 @@
+{
+  "voice": {
+    "name": "en-US-AndrewNeural",
+    "rate": "+0%",
+    "pitch": "-4Hz"
+  },
+  "altVoices": {
+    "manipulator": {"name": "en-US-EricNeural", "rate": "-6%", "pitch": "-8Hz"}
+  },
+  "fps": 30,
+  "programs": {
+    "main": {
+      "title": "HOW EASILY CAN SOMEONE CONTROL YOUR MIND?",
+      "leadIn": 0.8,
+      "tail": 5.0,
+      "highlights": {
+        "red": ["control", "manipulation", "manipulator", "scariest", "wrong", "pressure", "lie", "guilty", "afraid", "fear", "guilt", "gaslighting", "damaging", "harmful", "damage", "misinformation", "doubt"],
+        "yellow": ["decisions", "experiment", "belong", "Asch", "conformity", "familiar", "Illusory", "Truth", "Effect", "repetition", "emotions", "insecurity", "excitement", "memory", "memories", "judgment", "pattern", "choice", "evidence", "independently", "FACTMAN", "everything", "curious", "Pause", "Question"]
+      },
+      "scenes": [
+        {"id": "hook", "music": "dark", "lines": [
+          {"id": "h1", "text": "Imagine someone could control your decisions without touching you, threatening you, or even speaking to you.", "rate": "-8%", "pause": 0.6},
+          {"id": "h2", "text": "They could make you buy things you don't need, believe things that aren't true, and even doubt your own memories.", "rate": "-4%", "pause": 0.7},
+          {"id": "h3", "text": "And the scariest part?", "rate": "-10%", "pause": 1.0},
+          {"id": "h4", "text": "You might think all those decisions were yours.", "rate": "-10%", "pause": 0.9},
+          {"id": "h5", "text": "Welcome to the hidden world of psychological manipulation.", "rate": "-6%", "pause": 4.2}
+        ]},
+        {"id": "setup", "music": "suspense", "lines": [
+          {"id": "s1", "text": "Let's try a little experiment.", "pause": 0.5},
+          {"id": "s2", "text": "Imagine you're walking into a room.", "pause": 0.4},
+          {"id": "s3", "text": "There are ten people inside.", "pause": 0.4},
+          {"id": "s4", "text": "They all point towards a completely ordinary object and confidently tell you it's something different.", "pause": 0.6},
+          {"id": "s5", "text": "You know they're wrong.", "pause": 0.5},
+          {"id": "s6", "text": "But suddenly, you start questioning yourself.", "pause": 0.7},
+          {"id": "s7", "text": "Why?", "pause": 0.8},
+          {"id": "s8", "text": "Because your brain doesn't just want to be correct.", "pause": 0.3},
+          {"id": "s9", "text": "It also wants to belong.", "pause": 0.6},
+          {"id": "s10", "text": "And that's where the first psychological trick begins.", "pause": 0.9}
+        ]},
+        {"id": "conformity", "music": "suspense", "leadIn": 1.8, "lines": [
+          {"id": "c1", "text": "Humans are social creatures.", "pause": 0.4},
+          {"id": "c2", "text": "We naturally observe other people to understand how we should behave.", "pause": 0.5},
+          {"id": "c3", "text": "In the famous Asch conformity experiments, participants sometimes gave incorrect answers about the lengths of lines simply because other people in the group had already given those answers.", "pause": 0.6},
+          {"id": "c4", "text": "Think about that.", "rate": "-6%", "pause": 0.6},
+          {"id": "c5", "text": "The correct answer was right in front of them.", "pause": 0.4},
+          {"id": "c6", "text": "Yet social pressure influenced their responses.", "pause": 0.6},
+          {"id": "c7", "text": "This is called conformity.", "rate": "-4%", "pause": 0.8},
+          {"id": "c8", "text": "And it happens in everyday life.", "pause": 0.4},
+          {"id": "c9", "text": "Fashion trends. Social media opinions. Popular beliefs.", "pause": 0.6},
+          {"id": "c10", "text": "Sometimes, we don't follow something because we genuinely like it.", "pause": 0.3},
+          {"id": "c11", "text": "We follow it because everyone else seems to.", "pause": 0.9}
+        ]},
+        {"id": "illusory", "music": "pulse", "leadIn": 1.8, "lines": [
+          {"id": "i1", "text": "Now imagine hearing the same statement every single day.", "pause": 0.4},
+          {"id": "i2", "text": "At first, you don't believe it.", "pause": 0.4},
+          {"id": "i3", "text": "But after hearing it hundreds of times, it starts sounding familiar.", "pause": 0.5},
+          {"id": "i4", "text": "And strangely, familiar information can sometimes feel more believable.", "pause": 0.6},
+          {"id": "i5", "text": "Psychologists call this the Illusory Truth Effect.", "pause": 0.8},
+          {"id": "i6", "text": "It's one reason repetition is so powerful in advertising and misinformation.", "pause": 0.6},
+          {"id": "i7", "text": "But remember:", "pause": 0.3},
+          {"id": "i8", "text": "Hearing something a thousand times doesn't make it true.", "pause": 0.4},
+          {"id": "i9", "text": "It only makes it familiar.", "rate": "-6%", "pause": 0.9}
+        ]},
+        {"id": "emotion", "music": "tense", "leadIn": 1.8, "lines": [
+          {"id": "e1", "text": "Here's another way people influence your decisions.", "pause": 0.4},
+          {"id": "e2", "text": "They don't attack your logic.", "pause": 0.3},
+          {"id": "e3", "text": "They target your emotions.", "pause": 0.7},
+          {"id": "e4", "text": "Imagine someone makes you feel guilty whenever you disagree with them.", "pause": 0.5},
+          {"id": "e5", "text": "Or makes you afraid of losing them whenever you set a boundary.", "pause": 0.6},
+          {"id": "e6", "text": "Eventually, you might start doing things just to avoid feeling guilty or afraid.", "pause": 0.6},
+          {"id": "e7", "text": "This is emotional manipulation.", "pause": 0.7},
+          {"id": "e8", "text": "Fear, guilt, insecurity and even excitement can influence how we make decisions.", "pause": 0.4},
+          {"id": "e9", "text": "And when someone understands which emotions affect you most, they may use those emotions to pressure you.", "pause": 0.9}
+        ]},
+        {"id": "gaslighting", "music": "tense", "leadIn": 1.8, "lines": [
+          {"id": "g1", "text": "Now comes one of the most damaging forms of manipulation.", "rate": "-6%", "pause": 0.6},
+          {"id": "g2", "text": "Gaslighting.", "rate": "-12%", "pause": 1.0},
+          {"id": "g3", "text": "Imagine someone repeatedly denies things they said or did.", "rate": "-5%", "pause": 0.4},
+          {"id": "g4", "text": "They tell you that you're remembering everything incorrectly.", "rate": "-5%", "pause": 0.4},
+          {"id": "g5", "text": "They make you question your own experiences.", "rate": "-5%", "pause": 0.4},
+          {"id": "g6", "text": "And slowly, you begin trusting their version of events more than your own memory.", "rate": "-5%", "pause": 0.7},
+          {"id": "g7", "text": "That's why gaslighting can be so harmful.", "rate": "-5%", "pause": 0.3},
+          {"id": "g8", "text": "It doesn't just create confusion.", "rate": "-5%", "pause": 0.3},
+          {"id": "g9", "text": "It can damage your confidence in your own judgment.", "rate": "-5%", "pause": 0.7},
+          {"id": "g10", "text": "But remember, one disagreement or different memory isn't automatically gaslighting.", "pause": 0.3},
+          {"id": "g11", "text": "It's the repeated pattern of manipulation that matters.", "pause": 1.0}
+        ]},
+        {"id": "reveal", "music": "build", "lines": [
+          {"id": "r1", "text": "So, can someone actually control your mind?", "rate": "-6%", "pause": 0.9},
+          {"id": "r2", "text": "Not like a remote control.", "pause": 0.4},
+          {"id": "r3", "text": "But they can influence what you notice, what you believe, how you feel and sometimes what you decide.", "pause": 0.6},
+          {"id": "r4", "text": "And here's the interesting part.", "pause": 0.3},
+          {"id": "r5", "text": "You don't need a mysterious hypnotist or a master manipulator for this to happen.", "pause": 0.4},
+          {"id": "r6", "text": "Advertising, social pressure, online trends and everyday relationships can all influence human behaviour.", "pause": 0.6},
+          {"id": "r7", "text": "Sometimes, the strongest manipulation doesn't look like control.", "rate": "-6%", "pause": 0.5},
+          {"id": "r8", "text": "It looks like your own choice.", "rate": "-8%", "pause": 2.6}
+        ]},
+        {"id": "ending", "music": "inspire", "lines": [
+          {"id": "n1", "text": "So how do you protect yourself?", "pause": 0.6},
+          {"id": "n2", "text": "Pause before making emotional decisions.", "pause": 0.4},
+          {"id": "n3", "text": "Question information, even when everyone agrees with it.", "pause": 0.4},
+          {"id": "n4", "text": "Look for evidence instead of blindly trusting repetition.", "pause": 0.4},
+          {"id": "n5", "text": "And never let someone make you feel guilty for thinking independently.", "pause": 0.8},
+          {"id": "n6", "text": "Because the moment you stop questioning your decisions...", "rate": "-6%", "pause": 0.5},
+          {"id": "n7", "text": "Is the moment someone else can start making them for you.", "rate": "-6%", "pause": 1.2},
+          {"id": "n8", "text": "This is FACTMAN.", "say": "This is Fact Man.", "rate": "-4%", "pause": 0.5},
+          {"id": "n9", "text": "Stay curious. Question everything.", "rate": "-6%", "pause": 0.0}
+        ]}
+      ],
+      "beats": {
+        "walkStart":      {"line": "h1", "offset": -0.6},
+        "shadowAppear":   {"line": "h1", "word": "touching", "sfx": "riser", "dur": 1.2, "endAt": true, "gain": 0.5},
+        "shadowHit":      {"line": "h1", "word": "touching", "offset": 0.0, "sfx": "boom", "gain": 0.7},
+        "stringsDrop":    {"line": "h1", "word": "speaking", "sfx": "twang", "gain": 0.7},
+        "walkStop":       {"line": "h1", "word": "speaking", "offset": 0.1},
+        "adBuy":          {"line": "h2", "word": "buy", "sfx": "pop", "gain": 0.6},
+        "adBelieve":      {"line": "h2", "word": "believe", "sfx": "glitch", "gain": 0.5},
+        "adDoubt":        {"line": "h2", "word": "doubt", "sfx": "glitch", "gain": 0.6},
+        "freeze":         {"line": "h3", "offset": -0.15, "sfx": "whoosh_rev", "gain": 0.5},
+        "heart1":         {"line": "h3", "anchor": "end", "offset": 0.1, "sfx": "heartbeat", "count": 4, "gain": 0.7},
+        "eyeZoom":        {"line": "h4", "offset": 0.0, "sfx": "whoosh", "gain": 0.5},
+        "welcome":        {"line": "h5", "offset": 0.0},
+        "titleRiser":     {"line": "h5", "anchor": "end", "offset": 0.35, "sfx": "riser", "dur": 2.0, "endAt": true, "gain": 0.6},
+        "titleHit":       {"line": "h5", "anchor": "end", "offset": 0.35, "sfx": "impact", "gain": 1.0},
+        "subtitleHit":    {"line": "h5", "anchor": "end", "offset": 1.4, "sfx": "whoosh", "gain": 0.4},
+
+        "roomWalk":       {"line": "s2", "offset": 0.0, "sfx": "door", "gain": 0.5},
+        "crowdPop":       {"line": "s3", "word": "ten", "sfx": "crowd", "dur": 3.0, "gain": 0.35},
+        "crowdPoint":     {"line": "s4", "word": "point", "sfx": "whoosh", "gain": 0.4},
+        "crowdSay":       {"line": "s4", "word": "confidently", "sfx": "pop", "gain": 0.5},
+        "knowWrong":      {"line": "s5", "offset": 0.0, "sfx": "ding", "gain": 0.4},
+        "doubtStart":     {"line": "s6", "word": "suddenly", "sfx": "heartbeat", "count": 4, "gain": 0.55},
+        "crowdClose":     {"line": "s6", "offset": 0.0},
+        "why":            {"line": "s7", "offset": 0.0, "sfx": "impact_small", "gain": 0.8},
+        "brainCorrect":   {"line": "s8", "word": "correct", "sfx": "ding", "gain": 0.4},
+        "brainBelong":    {"line": "s9", "word": "belong", "sfx": "boom", "gain": 0.6},
+        "trick1Riser":    {"line": "s10", "anchor": "end", "offset": 0.9, "sfx": "riser", "dur": 1.4, "endAt": true, "gain": 0.45},
+
+        "ch1":            {"line": "c1", "offset": -1.8, "sfx": "impact", "gain": 0.8},
+        "observe":        {"line": "c2", "word": "observe", "sfx": "whoosh", "gain": 0.3},
+        "aschIn":         {"line": "c3", "offset": 0.0, "sfx": "whoosh", "gain": 0.5},
+        "aschLines":      {"line": "c3", "word": "lengths", "sfx": "tick", "gain": 0.5},
+        "aschWrong":      {"line": "c3", "word": "incorrect"},
+        "aschCrowd":      {"line": "c3", "word": "because", "sfx": "ticks", "count": 6, "spacing": 0.32, "gain": 0.45},
+        "thinkAbout":     {"line": "c4", "offset": 0.0, "sfx": "heartbeat", "count": 3, "gain": 0.6},
+        "correctGlow":    {"line": "c5", "word": "correct", "sfx": "ding", "gain": 0.5},
+        "pressure":       {"line": "c6", "word": "pressure", "sfx": "riser", "dur": 1.6, "gain": 0.4},
+        "hesitate":       {"line": "c6", "anchor": "end", "offset": 0.0},
+        "conformityHit":  {"line": "c7", "word": "conformity", "sfx": "impact", "gain": 0.9},
+        "fashion":        {"line": "c9", "word": "Fashion", "sfx": "pop", "gain": 0.5},
+        "social":         {"line": "c9", "word": "Social", "sfx": "pop", "gain": 0.5},
+        "popular":        {"line": "c9", "word": "Popular", "sfx": "pop", "gain": 0.5},
+        "follow":         {"line": "c10", "offset": 0.0, "sfx": "whoosh", "gain": 0.4},
+
+        "ch2":            {"line": "i1", "offset": -1.8, "sfx": "impact", "gain": 0.8},
+        "screen1":        {"line": "i1", "word": "statement", "sfx": "tv_on", "gain": 0.5},
+        "skeptic":        {"line": "i2", "offset": 0.0},
+        "multiply":       {"line": "i3", "word": "hundreds", "sfx": "glitch", "gain": 0.6},
+        "multiply2":      {"line": "i3", "word": "familiar", "sfx": "glitch", "gain": 0.5},
+        "believe":        {"line": "i4", "word": "believable", "sfx": "swell", "gain": 0.4},
+        "itEffect":       {"line": "i5", "word": "Illusory", "sfx": "impact", "gain": 0.9},
+        "itGlitch":       {"line": "i5", "word": "Effect", "sfx": "glitch", "gain": 0.5},
+        "adWall":         {"line": "i6", "word": "advertising", "sfx": "pop", "gain": 0.5},
+        "misinfo":        {"line": "i6", "word": "misinformation", "sfx": "glitch", "gain": 0.5},
+        "powerDown":      {"line": "i8", "word": "true", "sfx": "power_down", "gain": 0.6},
+        "neqTruth":       {"line": "i9", "word": "familiar", "sfx": "impact_small", "gain": 0.7},
+
+        "ch3":            {"line": "e1", "offset": -1.8, "sfx": "impact", "gain": 0.8},
+        "logicShield":    {"line": "e2", "word": "logic", "sfx": "ding", "gain": 0.4},
+        "targetHeart":    {"line": "e3", "word": "emotions", "sfx": "lock", "gain": 0.6},
+        "convo":          {"line": "e4", "offset": 0.0, "sfx": "whoosh", "gain": 0.4},
+        "guiltHit":       {"line": "e4", "word": "guilty", "sfx": "boom", "gain": 0.7},
+        "boundary":       {"line": "e5", "word": "boundary", "sfx": "chalk", "gain": 0.6},
+        "fearHit":        {"line": "e5", "word": "afraid", "sfx": "heartbeat", "count": 3, "gain": 0.7},
+        "eraseBoundary":  {"line": "e6", "word": "avoid", "sfx": "chalk", "gain": 0.4},
+        "emoManip":       {"line": "e7", "word": "manipulation", "sfx": "impact", "gain": 0.9},
+        "emFear":         {"line": "e8", "word": "Fear", "sfx": "pop", "gain": 0.5},
+        "emGuilt":        {"line": "e8", "word": "guilt", "sfx": "pop", "gain": 0.5},
+        "emInsecurity":   {"line": "e8", "word": "insecurity", "sfx": "pop", "gain": 0.5},
+        "emExcitement":   {"line": "e8", "word": "excitement", "sfx": "pop", "gain": 0.5},
+        "emStrings":      {"line": "e9", "word": "pressure", "sfx": "twang", "gain": 0.6},
+
+        "ch4":            {"line": "g1", "offset": -1.8, "sfx": "impact", "gain": 0.8},
+        "gasTitle":       {"line": "g2", "offset": 0.0, "sfx": "impact", "gain": 1.0},
+        "bubble1":        {"line": "g3", "offset": 0.0, "sfx": "pop", "gain": 0.4},
+        "erase":          {"line": "g3", "word": "denies", "sfx": "eraser", "gain": 0.7},
+        "rewrite":        {"line": "g3", "word": "said", "sfx": "scribble", "gain": 0.6},
+        "wrongMem":       {"line": "g4", "word": "incorrectly", "sfx": "glitch", "gain": 0.6},
+        "questionMarks":  {"line": "g5", "word": "question", "sfx": "shimmer", "gain": 0.4},
+        "versions":       {"line": "g6", "word": "version", "sfx": "whoosh", "gain": 0.4},
+        "mirror":         {"line": "g7", "offset": 0.0, "sfx": "shimmer", "gain": 0.5},
+        "mirrorCrack":    {"line": "g9", "word": "damage", "sfx": "crack", "gain": 0.8},
+        "calm":           {"line": "g10", "offset": 0.0, "sfx": "swell", "gain": 0.35},
+        "pattern":        {"line": "g11", "word": "repeated", "sfx": "ticks", "count": 5, "spacing": 0.18, "gain": 0.5},
+
+        "revealQ":        {"line": "r1", "word": "control", "sfx": "boom", "gain": 0.7},
+        "remote":         {"line": "r2", "word": "remote", "sfx": "click", "gain": 0.7},
+        "remoteX":        {"line": "r2", "anchor": "end", "offset": 0.1, "sfx": "impact_small", "gain": 0.6},
+        "rNotice":        {"line": "r3", "word": "notice", "sfx": "pop", "gain": 0.45},
+        "rBelieve":       {"line": "r3", "word": "believe", "sfx": "pop", "gain": 0.45},
+        "rFeel":          {"line": "r3", "word": "feel", "sfx": "pop", "gain": 0.45},
+        "rDecide":        {"line": "r3", "word": "decide", "sfx": "pop", "gain": 0.45},
+        "montage":        {"line": "r4", "offset": 0.0, "sfx": "glitch", "gain": 0.6},
+        "hypnotist":      {"line": "r5", "word": "hypnotist", "sfx": "shimmer", "gain": 0.4},
+        "hypnoX":         {"line": "r5", "word": "happen", "sfx": "impact_small", "gain": 0.6},
+        "nAds":           {"line": "r6", "word": "Advertising", "sfx": "twang", "gain": 0.5},
+        "nSocial":        {"line": "r6", "word": "social", "sfx": "twang", "gain": 0.5},
+        "nOnline":        {"line": "r6", "word": "online", "sfx": "twang", "gain": 0.5},
+        "nRel":           {"line": "r6", "word": "relationships", "sfx": "twang", "gain": 0.5},
+        "invisible":      {"line": "r7", "offset": 0.0},
+        "ownChoice":      {"line": "r8", "word": "choice", "sfx": "riser", "dur": 1.6, "gain": 0.5},
+        "breakStrings":   {"line": "r8", "anchor": "end", "offset": 1.1, "sfx": "snap", "gain": 1.0},
+        "breakBoom":      {"line": "r8", "anchor": "end", "offset": 1.1, "sfx": "impact", "gain": 0.8},
+
+        "protect":        {"line": "n1", "word": "protect", "sfx": "swell", "gain": 0.5},
+        "tip1":           {"line": "n2", "word": "Pause", "sfx": "pop", "gain": 0.5},
+        "tip2":           {"line": "n3", "word": "Question", "sfx": "pop", "gain": 0.5},
+        "tip3":           {"line": "n4", "word": "evidence", "sfx": "pop", "gain": 0.5},
+        "tip4":           {"line": "n5", "word": "independently", "sfx": "pop", "gain": 0.5},
+        "momentShadow":   {"line": "n7", "word": "someone", "sfx": "boom", "gain": 0.5},
+        "final1":         {"line": "n7", "anchor": "end", "offset": 0.1, "sfx": "impact", "gain": 0.8},
+        "final2":         {"line": "n7", "anchor": "end", "offset": 0.55, "sfx": "impact_small", "gain": 0.7},
+        "final3":         {"line": "n7", "anchor": "end", "offset": 1.0, "sfx": "impact_small", "gain": 0.7},
+        "logo":           {"line": "n8", "offset": -0.1, "sfx": "logo_sting", "gain": 0.9},
+        "slogan":         {"line": "n9", "offset": 0.0}
+      }
+    },
+
+    "short1": {
+      "title": "THE POWER OF THE CROWD",
+      "leadIn": 0.15,
+      "tail": 2.2,
+      "highlights": {
+        "red": ["wrong", "secretly", "alone", "crowd"],
+        "yellow": ["Asch", "obvious", "experiment", "reference", "group", "Many", "right", "everyone"]
+      },
+      "scenes": [
+        {"id": "s1main", "music": "suspense", "lines": [
+          {"id": "a1", "text": "Would you give the wrong answer just because everyone else did?", "pause": 0.4},
+          {"id": "a2", "text": "In the 1950s, psychologist Solomon Asch ran a simple experiment.", "say": "In the nineteen fifties, psychologist Solomon Asch ran a simple experiment.", "pause": 0.3},
+          {"id": "a3", "text": "Which line matches the reference line?", "pause": 0.4},
+          {"id": "a4", "text": "The answer was obvious.", "pause": 0.3},
+          {"id": "a5", "text": "But everyone else in the room was secretly working with the researcher.", "pause": 0.3},
+          {"id": "a6", "text": "And one by one, they all gave the same wrong answer.", "pause": 0.5},
+          {"id": "a7", "text": "So what did the real participants do?", "pause": 0.5},
+          {"id": "a8", "text": "Many of them went along with the group at least once.", "pause": 0.3},
+          {"id": "a9", "text": "Not because they couldn't see the answer.", "pause": 0.2},
+          {"id": "a10", "text": "Because they didn't want to stand alone.", "pause": 0.7},
+          {"id": "a11", "text": "Sometimes, the crowd isn't right.", "rate": "-6%", "pause": 0.3},
+          {"id": "a12", "text": "It's just the crowd.", "rate": "-8%", "pause": 0.0}
+        ]}
+      ],
+      "beats": {
+        "hook":      {"line": "a1", "offset": 0.0, "sfx": "impact", "gain": 0.9},
+        "wrongWord": {"line": "a1", "word": "wrong", "sfx": "glitch", "gain": 0.4},
+        "asch":      {"line": "a2", "word": "Asch", "sfx": "whoosh", "gain": 0.5},
+        "lines":     {"line": "a3", "word": "line", "sfx": "tick", "gain": 0.5},
+        "obvious":   {"line": "a4", "word": "obvious", "sfx": "ding", "gain": 0.5},
+        "secret":    {"line": "a5", "word": "secretly", "sfx": "boom", "gain": 0.6},
+        "oneByOne":  {"line": "a6", "word": "one", "sfx": "ticks", "count": 6, "spacing": 0.28, "gain": 0.5},
+        "realQ":     {"line": "a7", "offset": 0.0, "sfx": "heartbeat", "count": 3, "gain": 0.6},
+        "many":      {"line": "a8", "word": "Many", "sfx": "impact_small", "gain": 0.7},
+        "alone":     {"line": "a10", "word": "alone", "sfx": "swell", "gain": 0.4},
+        "end":       {"line": "a11", "offset": 0.0, "sfx": "riser", "dur": 1.6, "gain": 0.4},
+        "endHit":    {"line": "a12", "offset": 0.0, "sfx": "impact", "gain": 0.9}
+      }
+    },
+
+    "short2": {
+      "title": "THE LIE THAT BECOMES THE TRUTH",
+      "leadIn": 0.15,
+      "tail": 2.2,
+      "highlights": {
+        "red": ["lie", "misinformation", "proof", "mistaken"],
+        "yellow": ["true", "truth", "familiar", "Illusory", "Truth", "Effect", "repetition", "hundredth", "familiarity", "why", "doubt"]
+      },
+      "scenes": [
+        {"id": "s2main", "music": "pulse", "lines": [
+          {"id": "b1", "text": "What if hearing a lie repeatedly makes it feel true?", "pause": 0.4},
+          {"id": "b2", "text": "The first time you hear a claim, you might doubt it.", "pause": 0.3},
+          {"id": "b3", "text": "The second time, it sounds a little familiar.", "pause": 0.3},
+          {"id": "b4", "text": "By the hundredth time, your brain processes it more easily.", "pause": 0.2},
+          {"id": "b5", "text": "And that easy, familiar feeling can be mistaken for truth.", "pause": 0.5},
+          {"id": "b6", "text": "Psychologists call this the Illusory Truth Effect.", "pause": 0.5},
+          {"id": "b7", "text": "It's one reason repetition is so powerful in advertising and misinformation.", "pause": 0.3},
+          {"id": "b8", "text": "Research suggests it can even affect people who already know the correct answer.", "pause": 0.6},
+          {"id": "b9", "text": "So next time something feels true, ask yourself why.", "pause": 0.4},
+          {"id": "b10", "text": "Remember, familiarity is not proof.", "rate": "-8%", "pause": 0.0}
+        ]}
+      ],
+      "beats": {
+        "hook":      {"line": "b1", "offset": 0.0, "sfx": "impact", "gain": 0.9},
+        "lieWord":   {"line": "b1", "word": "repeatedly", "sfx": "glitch", "gain": 0.5},
+        "first":     {"line": "b2", "offset": 0.0, "sfx": "tv_on", "gain": 0.5},
+        "second":    {"line": "b3", "offset": 0.0, "sfx": "tv_on", "gain": 0.5},
+        "hundred":   {"line": "b4", "word": "hundredth", "sfx": "glitch", "gain": 0.7},
+        "truthFeel": {"line": "b5", "word": "truth", "sfx": "swell", "gain": 0.4},
+        "effect":    {"line": "b6", "word": "Illusory", "sfx": "impact", "gain": 0.9},
+        "ads":       {"line": "b7", "word": "advertising", "sfx": "pop", "gain": 0.5},
+        "mis":       {"line": "b7", "word": "misinformation", "sfx": "glitch", "gain": 0.5},
+        "research":  {"line": "b8", "offset": 0.0, "sfx": "whoosh", "gain": 0.4},
+        "ask":       {"line": "b9", "word": "why", "sfx": "ding", "gain": 0.5},
+        "endOff":    {"line": "b10", "offset": -0.2, "sfx": "power_down", "gain": 0.6},
+        "endHit":    {"line": "b10", "word": "proof", "sfx": "impact", "gain": 0.9}
+      }
+    },
+
+    "short3": {
+      "title": "THE MOST DANGEROUS FORM OF MANIPULATION",
+      "leadIn": 0.15,
+      "tail": 2.2,
+      "highlights": {
+        "red": ["gaslighting", "never", "damage", "wrong"],
+        "yellow": ["memories", "pattern", "confidence", "judgment", "truth", "trust", "version", "Write"]
+      },
+      "scenes": [
+        {"id": "s3main", "music": "tense", "lines": [
+          {"id": "d1", "text": "What if someone slowly made you doubt your own memories?", "rate": "-4%", "pause": 0.4},
+          {"id": "d2", "text": "It's called gaslighting.", "rate": "-6%", "pause": 0.4},
+          {"id": "d3", "text": "It starts small.", "pause": 0.3},
+          {"id": "d4", "text": "\"I never said that.\"", "voice": "manipulator", "pause": 0.25},
+          {"id": "d5", "text": "\"That never happened.\"", "voice": "manipulator", "pause": 0.25},
+          {"id": "d6", "text": "\"You're remembering it wrong.\"", "voice": "manipulator", "pause": 0.5},
+          {"id": "d7", "text": "Again and again, until you start trusting their version more than your own.", "pause": 0.5},
+          {"id": "d8", "text": "It doesn't just create confusion.", "pause": 0.2},
+          {"id": "d9", "text": "It can damage your confidence in your own judgment.", "pause": 0.5},
+          {"id": "d10", "text": "One disagreement isn't gaslighting. The repeated pattern is what matters.", "pause": 0.4},
+          {"id": "d11", "text": "Write things down. Talk to people you trust.", "pause": 0.5},
+          {"id": "d12", "text": "And never let someone else become the only source of truth about yourself.", "rate": "-6%", "pause": 0.0}
+        ]}
+      ],
+      "beats": {
+        "hook":      {"line": "d1", "offset": 0.0, "sfx": "impact", "gain": 0.9},
+        "doubt":     {"line": "d1", "word": "doubt", "sfx": "glitch", "gain": 0.5},
+        "title":     {"line": "d2", "word": "gaslighting", "sfx": "impact", "gain": 0.9},
+        "small":     {"line": "d3", "offset": 0.0, "sfx": "pop", "gain": 0.4},
+        "q1":        {"line": "d4", "offset": 0.0, "sfx": "eraser", "gain": 0.6},
+        "q2":        {"line": "d5", "offset": 0.0, "sfx": "eraser", "gain": 0.6},
+        "q3":        {"line": "d6", "offset": 0.0, "sfx": "glitch", "gain": 0.6},
+        "again":     {"line": "d7", "offset": 0.0, "sfx": "heartbeat", "count": 4, "gain": 0.6},
+        "mirror":    {"line": "d8", "offset": 0.0, "sfx": "shimmer", "gain": 0.5},
+        "crack":     {"line": "d9", "word": "damage", "sfx": "crack", "gain": 0.8},
+        "pattern":   {"line": "d10", "word": "repeated", "sfx": "ticks", "count": 5, "spacing": 0.16, "gain": 0.5},
+        "write":     {"line": "d11", "offset": 0.0, "sfx": "scribble", "gain": 0.5},
+        "trust":     {"line": "d11", "word": "Talk", "sfx": "swell", "gain": 0.4},
+        "endHit":    {"line": "d12", "word": "truth", "sfx": "impact", "gain": 0.9}
+      }
+    }
+  }
+}

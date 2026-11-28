@@ -1,0 +1,81 @@
+{
+ "key": "e2d984c999d7",
+ "say": "You don't need a mysterious hypnotist or a master manipulator for this to happen.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "You",
+   "start": 0.1,
+   "end": 0.2625
+  },
+  {
+   "text": "don't",
+   "start": 0.275,
+   "end": 0.475
+  },
+  {
+   "text": "need",
+   "start": 0.4875,
+   "end": 0.6375
+  },
+  {
+   "text": "a",
+   "start": 0.65,
+   "end": 0.6875
+  },
+  {
+   "text": "mysterious",
+   "start": 0.7,
+   "end": 1.35
+  },
+  {
+   "text": "hypnotist",
+   "start": 1.3625,
+   "end": 1.925
+  },
+  {
+   "text": "or",
+   "start": 2.075,
+   "end": 2.2125
+  },
+  {
+   "text": "a",
+   "start": 2.225,
+   "end": 2.2625
+  },
+  {
+   "text": "master",
+   "start": 2.275,
+   "end": 2.75
+  },
+  {
+   "text": "manipulator",
+   "start": 2.7625,
+   "end": 3.3875
+  },
+  {
+   "text": "for",
+   "start": 3.4,
+   "end": 3.525
+  },
+  {
+   "text": "this",
+   "start": 3.5375,
+   "end": 3.675
+  },
+  {
+   "text": "to",
+   "start": 3.6875,
+   "end": 3.7625
+  },
+  {
+   "text": "happen",
+   "start": 3.775,
+   "end": 4.15
+  }
+ ]
+}

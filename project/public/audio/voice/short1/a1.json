@@ -1,0 +1,66 @@
+{
+ "key": "b8ceafc89f48",
+ "say": "Would you give the wrong answer just because everyone else did?",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Would",
+   "start": 0.1,
+   "end": 0.3125
+  },
+  {
+   "text": "you",
+   "start": 0.325,
+   "end": 0.3875
+  },
+  {
+   "text": "give",
+   "start": 0.4,
+   "end": 0.575
+  },
+  {
+   "text": "the",
+   "start": 0.5875,
+   "end": 0.6625
+  },
+  {
+   "text": "wrong",
+   "start": 0.675,
+   "end": 0.975
+  },
+  {
+   "text": "answer",
+   "start": 0.9875,
+   "end": 1.2625
+  },
+  {
+   "text": "just",
+   "start": 1.275,
+   "end": 1.475
+  },
+  {
+   "text": "because",
+   "start": 1.4875,
+   "end": 1.775
+  },
+  {
+   "text": "everyone",
+   "start": 1.7875,
+   "end": 2.1
+  },
+  {
+   "text": "else",
+   "start": 2.1125,
+   "end": 2.2875
+  },
+  {
+   "text": "did",
+   "start": 2.3,
+   "end": 2.6
+  }
+ ]
+}

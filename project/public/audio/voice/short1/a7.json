@@ -1,0 +1,46 @@
+{
+ "key": "9bc894cd4356",
+ "say": "So what did the real participants do?",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "So",
+   "start": 0.1,
+   "end": 0.35
+  },
+  {
+   "text": "what",
+   "start": 0.3625,
+   "end": 0.475
+  },
+  {
+   "text": "did",
+   "start": 0.4875,
+   "end": 0.6
+  },
+  {
+   "text": "the",
+   "start": 0.6125,
+   "end": 0.6875
+  },
+  {
+   "text": "real",
+   "start": 0.7,
+   "end": 0.925
+  },
+  {
+   "text": "participants",
+   "start": 0.9375,
+   "end": 1.525
+  },
+  {
+   "text": "do",
+   "start": 1.5375,
+   "end": 1.8125
+  }
+ ]
+}

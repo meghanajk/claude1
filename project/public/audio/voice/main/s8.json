@@ -1,0 +1,56 @@
+{
+ "key": "5d93edaec2bc",
+ "say": "Because your brain doesn't just want to be correct.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "Because",
+   "start": 0.1,
+   "end": 0.4375
+  },
+  {
+   "text": "your",
+   "start": 0.45,
+   "end": 0.5375
+  },
+  {
+   "text": "brain",
+   "start": 0.55,
+   "end": 0.8875
+  },
+  {
+   "text": "doesn't",
+   "start": 0.9,
+   "end": 1.1875
+  },
+  {
+   "text": "just",
+   "start": 1.2,
+   "end": 1.375
+  },
+  {
+   "text": "want",
+   "start": 1.3875,
+   "end": 1.5
+  },
+  {
+   "text": "to",
+   "start": 1.5125,
+   "end": 1.5625
+  },
+  {
+   "text": "be",
+   "start": 1.575,
+   "end": 1.6875
+  },
+  {
+   "text": "correct",
+   "start": 1.7,
+   "end": 2.175
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "key": "c106071f10f3",
+ "say": "The answer was obvious.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "The",
+   "start": 0.1,
+   "end": 0.2875
+  },
+  {
+   "text": "answer",
+   "start": 0.3,
+   "end": 0.65
+  },
+  {
+   "text": "was",
+   "start": 0.6625,
+   "end": 0.8125
+  },
+  {
+   "text": "obvious",
+   "start": 0.825,
+   "end": 1.45
+  }
+ ]
+}

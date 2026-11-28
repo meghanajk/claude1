@@ -1,0 +1,66 @@
+{
+ "key": "a4aca3c68046",
+ "say": "But after hearing it hundreds of times, it starts sounding familiar.",
+ "voice": {
+  "name": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
+ "words": [
+  {
+   "text": "But",
+   "start": 0.1,
+   "end": 0.2875
+  },
+  {
+   "text": "after",
+   "start": 0.3,
+   "end": 0.55
+  },
+  {
+   "text": "hearing",
+   "start": 0.5625,
+   "end": 0.875
+  },
+  {
+   "text": "it",
+   "start": 0.8875,
+   "end": 0.9625
+  },
+  {
+   "text": "hundreds",
+   "start": 0.975,
+   "end": 1.375
+  },
+  {
+   "text": "of",
+   "start": 1.3875,
+   "end": 1.475
+  },
+  {
+   "text": "times",
+   "start": 1.4875,
+   "end": 2.0
+  },
+  {
+   "text": "it",
+   "start": 2.1375,
+   "end": 2.2
+  },
+  {
+   "text": "starts",
+   "start": 2.2125,
+   "end": 2.5375
+  },
+  {
+   "text": "sounding",
+   "start": 2.55,
+   "end": 2.875
+  },
+  {
+   "text": "familiar",
+   "start": 2.8875,
+   "end": 3.3875
+  }
+ ]
+}
